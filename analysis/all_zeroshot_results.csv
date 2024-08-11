@@ -1,0 +1,955 @@
+rule_id,visual,correctness_gemini,correctness_gpt,correctness_llavanext,correctness_instructblip,correctness_idefics2,correctness_idefics3,class,length,script,parse_depth
+5,circle,False,True,True,False,True,True,specific,48,Avestan,6
+5,color,False,True,True,False,True,True,specific,48,Avestan,6
+5,leftright,False,True,False,False,True,True,specific,48,Avestan,6
+6,circle,True,False,True,True,True,False,enclosed,42,Avestan,4
+6,color,True,True,False,True,False,True,enclosed,42,Avestan,4
+6,leftright,False,False,False,False,False,False,enclosed,42,Avestan,4
+7,circle,True,False,False,True,False,False,none,75,Avestan,7
+7,color,True,False,False,True,False,False,none,75,Avestan,7
+7,leftright,False,True,False,True,False,False,none,75,Avestan,7
+8,circle,True,True,False,True,True,True,specific,82,Avestan,5
+8,color,True,True,True,False,True,True,specific,82,Avestan,5
+8,leftright,True,True,True,True,True,False,specific,82,Avestan,5
+9,circle,False,False,False,False,False,False,symmetry,30,Avestan,5
+9,color,False,False,False,False,False,False,symmetry,30,Avestan,5
+9,leftright,False,False,False,False,False,False,symmetry,30,Avestan,5
+10,circle,False,False,False,True,False,False,none,51,Avestan,5
+10,color,False,False,False,False,False,False,none,51,Avestan,5
+10,leftright,False,False,False,False,False,False,none,51,Avestan,5
+11,circle,False,False,False,False,False,False,stroke,38,Avestan,4
+11,color,False,True,False,False,False,False,stroke,38,Avestan,4
+11,leftright,True,True,True,False,False,True,stroke,38,Avestan,4
+12,circle,True,True,True,False,True,False,none,65,Adlam,5
+12,color,True,True,True,True,False,True,none,65,Adlam,5
+12,leftright,False,True,True,False,False,True,none,65,Adlam,5
+13,circle,False,False,False,True,True,False,none,79,Adlam,5
+13,color,False,False,True,False,False,False,none,79,Adlam,5
+13,leftright,False,True,True,False,False,True,none,79,Adlam,5
+14,circle,False,False,False,False,True,False,symmetry,26,Adlam,3
+14,color,False,False,False,False,False,False,symmetry,26,Adlam,3
+14,leftright,False,True,False,False,True,False,symmetry,26,Adlam,3
+15,circle,False,True,False,False,False,False,cross,32,Adlam,5
+15,color,False,False,False,False,False,False,cross,32,Adlam,5
+15,leftright,False,True,False,False,False,False,cross,32,Adlam,5
+16,circle,True,True,True,False,True,True,enclosed,40,Adlam,5
+16,color,False,False,True,False,True,False,enclosed,40,Adlam,5
+16,leftright,True,False,True,True,False,True,enclosed,40,Adlam,5
+17,circle,False,False,False,True,False,False,none,80,Adlam,9
+17,color,False,False,False,True,False,False,none,80,Adlam,9
+17,leftright,True,True,False,False,False,True,none,80,Adlam,9
+18,circle,False,True,False,False,False,False,specific,38,Batak,6
+18,color,True,True,False,True,False,False,specific,38,Batak,6
+18,leftright,True,True,False,False,False,False,specific,38,Batak,6
+19,circle,False,True,False,False,False,False,horizontal,27,Batak,3
+19,color,True,True,False,False,False,True,horizontal,27,Batak,3
+19,leftright,False,True,False,False,False,False,horizontal,27,Batak,3
+20,circle,False,False,False,False,True,False,symmetry,24,Batak,3
+20,color,True,True,False,False,False,False,symmetry,24,Batak,3
+20,leftright,True,False,False,True,False,False,symmetry,24,Batak,3
+21,circle,False,False,False,True,False,False,symmetry,58,Batak,7
+21,color,False,False,True,False,False,False,symmetry,58,Batak,7
+21,leftright,False,False,True,False,False,False,symmetry,58,Batak,7
+22,circle,False,True,False,False,False,False,stroke,41,Batak,3
+22,color,False,False,False,False,False,False,stroke,41,Batak,3
+22,leftright,False,True,False,False,False,False,stroke,41,Batak,3
+23,circle,False,True,True,False,False,True,stroke,74,Batak,5
+23,color,False,True,False,False,False,False,stroke,74,Batak,5
+23,leftright,False,False,False,False,False,False,stroke,74,Batak,5
+24,circle,False,False,False,False,False,False,stroke,72,Batak,6
+24,color,False,True,False,True,False,False,stroke,72,Batak,6
+24,leftright,False,False,True,False,False,False,stroke,72,Batak,6
+25,circle,True,True,True,False,False,True,stroke,74,Batak,6
+25,color,True,True,True,False,False,True,stroke,74,Batak,6
+25,leftright,True,True,True,False,False,True,stroke,74,Batak,6
+26,circle,False,False,False,False,False,False,none,88,Kayah Li,8
+26,color,True,False,False,False,False,True,none,88,Kayah Li,8
+26,leftright,False,True,False,True,False,False,none,88,Kayah Li,8
+27,circle,False,False,False,False,False,False,symmetry,70,Kayah Li,6
+27,color,True,True,False,False,False,False,symmetry,70,Kayah Li,6
+27,leftright,False,False,False,False,True,True,symmetry,70,Kayah Li,6
+28,circle,True,False,True,False,False,True,enclosed,36,Kayah Li,3
+28,color,True,False,False,False,False,False,enclosed,36,Kayah Li,3
+28,leftright,True,False,False,True,False,False,enclosed,36,Kayah Li,3
+29,circle,False,False,False,False,True,False,symmetry,56,Kayah Li,5
+29,color,False,False,False,False,False,False,symmetry,56,Kayah Li,5
+29,leftright,False,False,True,False,False,True,symmetry,56,Kayah Li,5
+30,circle,True,True,True,False,True,True,specific,26,Kayah Li,4
+30,color,True,True,True,False,True,True,specific,26,Kayah Li,4
+30,leftright,True,True,True,True,True,True,specific,26,Kayah Li,4
+31,circle,True,True,False,False,False,True,none,65,Kayah Li,7
+31,color,True,True,False,True,False,False,none,65,Kayah Li,7
+31,leftright,True,True,False,False,True,False,none,65,Kayah Li,7
+32,circle,False,True,False,False,False,False,horizontal,66,Kayah Li,7
+32,color,False,False,False,False,False,False,horizontal,66,Kayah Li,7
+32,leftright,False,True,False,False,False,False,horizontal,66,Kayah Li,7
+33,circle,False,False,False,True,True,False,vertical,40,Kayah Li,5
+33,color,False,False,True,False,False,True,vertical,40,Kayah Li,5
+33,leftright,True,True,False,False,True,False,vertical,40,Kayah Li,5
+34,circle,True,True,True,False,False,False,enclosed,67,Kayah Li,6
+34,color,False,True,False,False,False,False,enclosed,67,Kayah Li,6
+34,leftright,False,False,True,False,False,True,enclosed,67,Kayah Li,6
+35,circle,True,True,False,True,False,False,none,50,Ogham,5
+35,color,True,True,True,False,False,True,none,50,Ogham,5
+35,leftright,True,True,False,False,False,True,none,50,Ogham,5
+36,circle,False,True,False,False,False,False,diagonal,52,Ogham,6
+36,color,True,True,False,False,False,True,diagonal,52,Ogham,6
+36,leftright,False,True,False,True,False,False,diagonal,52,Ogham,6
+37,circle,False,True,False,False,True,False,diagonal,34,Ogham,5
+37,color,False,True,True,False,True,True,diagonal,34,Ogham,5
+37,leftright,True,True,False,False,False,False,diagonal,34,Ogham,5
+38,circle,False,True,True,False,False,False,vertical,53,Ogham,6
+38,color,True,True,True,False,False,False,vertical,53,Ogham,6
+38,leftright,True,True,False,False,False,False,vertical,53,Ogham,6
+39,circle,True,True,False,False,True,True,vertical,36,Ogham,3
+39,color,True,True,True,True,True,True,vertical,36,Ogham,3
+39,leftright,True,True,True,False,False,True,vertical,36,Ogham,3
+40,circle,False,False,False,True,True,False,vertical,38,Ogham,3
+40,color,False,False,False,False,True,False,vertical,38,Ogham,3
+40,leftright,False,False,False,False,True,False,vertical,38,Ogham,3
+41,circle,False,True,False,False,False,True,vertical,36,Ogham,4
+41,color,False,False,True,False,False,True,vertical,36,Ogham,4
+41,leftright,False,False,True,False,False,True,vertical,36,Ogham,4
+42,circle,False,True,False,True,False,True,none,33,Cherokee,4
+42,color,False,True,False,False,True,False,none,33,Cherokee,4
+42,leftright,False,False,False,False,False,True,none,33,Cherokee,4
+43,circle,True,True,False,False,False,True,specific,45,Cherokee,5
+43,color,True,True,False,False,False,True,specific,45,Cherokee,5
+43,leftright,True,True,False,False,True,True,specific,45,Cherokee,5
+44,circle,True,True,True,False,True,True,enclosed,41,Cherokee,4
+44,color,True,True,True,True,True,False,enclosed,41,Cherokee,4
+44,leftright,True,False,False,False,False,True,enclosed,41,Cherokee,4
+45,circle,False,True,True,False,True,True,specific,60,Cherokee,7
+45,color,False,True,True,False,False,True,specific,60,Cherokee,7
+45,leftright,True,True,True,False,True,True,specific,60,Cherokee,7
+46,circle,True,True,True,True,True,True,specific,51,Cherokee,4
+46,color,False,True,True,False,True,True,specific,51,Cherokee,4
+46,leftright,True,True,True,False,True,True,specific,51,Cherokee,4
+47,circle,True,True,True,False,False,False,specific,82,Cherokee,5
+47,color,True,True,True,False,False,True,specific,82,Cherokee,5
+47,leftright,True,True,False,False,False,True,specific,82,Cherokee,5
+48,circle,False,True,False,False,False,False,enclosed,29,Cherokee,3
+48,color,False,True,False,False,False,False,enclosed,29,Cherokee,3
+48,leftright,False,True,True,False,False,True,enclosed,29,Cherokee,3
+49,circle,True,True,False,False,False,True,none,34,Cherokee,4
+49,color,True,True,False,False,False,False,none,34,Cherokee,4
+49,leftright,True,False,False,False,False,False,none,34,Cherokee,4
+50,circle,True,True,True,False,True,True,enclosed,49,Cherokee,5
+50,color,True,True,True,False,True,True,enclosed,49,Cherokee,5
+50,leftright,True,True,True,True,False,True,enclosed,49,Cherokee,5
+51,circle,False,True,False,False,True,False,none,91,Bamum,9
+51,color,False,False,False,True,False,False,none,91,Bamum,9
+51,leftright,False,False,True,False,False,False,none,91,Bamum,9
+52,circle,False,True,False,False,False,False,cross,18,Bamum,2
+52,color,False,True,False,False,False,False,cross,18,Bamum,2
+52,leftright,False,True,False,False,False,False,cross,18,Bamum,2
+53,circle,False,False,False,False,True,False,none,19,Bamum,3
+53,color,True,True,False,True,False,False,none,19,Bamum,3
+53,leftright,False,False,False,False,False,False,none,19,Bamum,3
+54,circle,False,False,True,False,False,False,none,12,Bamum,3
+54,color,True,False,False,True,False,False,none,12,Bamum,3
+54,leftright,False,False,True,False,False,False,none,12,Bamum,3
+55,circle,False,True,False,True,False,False,none,21,Bamum,4
+55,color,True,True,True,False,False,True,none,21,Bamum,4
+55,leftright,False,True,False,False,False,False,none,21,Bamum,4
+56,circle,False,False,False,False,False,True,none,24,Bassa Vah,3
+56,color,True,True,False,False,False,True,none,24,Bassa Vah,3
+56,leftright,False,True,True,False,False,True,none,24,Bassa Vah,3
+57,circle,True,True,False,False,True,True,enclosed,20,Bassa Vah,3
+57,color,True,True,False,False,True,False,enclosed,20,Bassa Vah,3
+57,leftright,True,True,False,False,True,False,enclosed,20,Bassa Vah,3
+58,circle,True,True,False,False,False,False,diagonal,36,Bassa Vah,4
+58,color,True,True,False,False,True,True,diagonal,36,Bassa Vah,4
+58,leftright,True,True,False,False,False,False,diagonal,36,Bassa Vah,4
+59,circle,True,True,False,False,True,False,none,47,Bassa Vah,4
+59,color,True,True,False,False,False,False,none,47,Bassa Vah,4
+59,leftright,True,True,False,False,False,False,none,47,Bassa Vah,4
+60,circle,False,False,False,False,False,False,none,44,Bassa Vah,5
+60,color,False,True,True,False,False,True,none,44,Bassa Vah,5
+60,leftright,False,True,True,False,False,True,none,44,Bassa Vah,5
+61,circle,False,True,False,False,False,False,none,94,Bassa Vah,5
+61,color,True,False,False,True,False,False,none,94,Bassa Vah,5
+61,leftright,False,True,False,True,False,False,none,94,Bassa Vah,5
+62,circle,False,False,False,True,False,False,none,18,Bassa Vah,3
+62,color,False,True,False,False,False,False,none,18,Bassa Vah,3
+62,leftright,False,True,False,False,False,False,none,18,Bassa Vah,3
+63,circle,False,False,False,False,False,False,horizontal,36,Bassa Vah,5
+63,color,False,False,False,False,False,False,horizontal,36,Bassa Vah,5
+63,leftright,True,False,False,False,False,False,horizontal,36,Bassa Vah,5
+64,circle,True,False,False,True,False,True,none,49,Buginese,4
+64,color,True,False,False,True,False,True,none,49,Buginese,4
+64,leftright,False,False,False,True,False,True,none,49,Buginese,4
+65,circle,True,True,True,True,False,True,none,44,Buginese,4
+65,color,True,True,True,True,True,True,none,44,Buginese,4
+65,leftright,True,True,True,True,True,True,none,44,Buginese,4
+66,circle,False,False,False,False,False,False,none,47,Buginese,5
+66,color,False,True,False,False,True,False,none,47,Buginese,5
+66,leftright,True,True,True,False,False,False,none,47,Buginese,5
+67,circle,False,True,False,False,True,False,symmetry,22,Gothic,3
+67,color,False,True,False,False,False,False,symmetry,22,Gothic,3
+67,leftright,True,True,False,False,False,False,symmetry,22,Gothic,3
+68,circle,False,True,False,False,False,False,none,27,Gothic,3
+68,color,False,False,False,True,False,False,none,27,Gothic,3
+68,leftright,False,False,False,False,False,False,none,27,Gothic,3
+69,circle,False,False,False,False,False,True,horizontal,30,Gothic,3
+69,color,False,True,False,False,True,True,horizontal,30,Gothic,3
+69,leftright,True,False,False,False,True,False,horizontal,30,Gothic,3
+70,circle,False,True,False,False,False,False,stroke,28,Gothic,4
+70,color,False,False,False,False,False,False,stroke,28,Gothic,4
+70,leftright,False,False,False,False,False,False,stroke,28,Gothic,4
+71,circle,False,False,False,False,True,False,vertical,46,Grantha,5
+71,color,False,False,False,True,False,False,vertical,46,Grantha,5
+71,leftright,True,False,False,True,False,False,vertical,46,Grantha,5
+72,circle,True,False,True,False,False,False,enclosed,41,Grantha,3
+72,color,False,False,False,True,False,False,enclosed,41,Grantha,3
+72,leftright,False,False,True,False,False,False,enclosed,41,Grantha,3
+73,circle,False,False,False,False,False,False,none,141,Grantha,12
+73,color,False,False,False,True,False,False,none,141,Grantha,12
+73,leftright,True,True,False,False,False,False,none,141,Grantha,12
+74,circle,False,False,True,False,False,True,vertical,38,Grantha,5
+74,color,True,False,False,False,True,False,vertical,38,Grantha,5
+74,leftright,True,False,False,False,False,False,vertical,38,Grantha,5
+75,circle,False,True,False,False,False,False,specific,20,Grantha,4
+75,color,False,True,True,False,True,False,specific,20,Grantha,4
+75,leftright,False,True,True,False,True,False,specific,20,Grantha,4
+76,circle,False,False,True,False,False,True,symmetry,26,Grantha,3
+76,color,False,False,False,False,False,False,symmetry,26,Grantha,3
+76,leftright,False,False,False,False,False,False,symmetry,26,Grantha,3
+77,circle,False,False,False,True,True,True,specific,107,Grantha,8
+77,color,False,False,True,False,True,True,specific,107,Grantha,8
+77,leftright,True,False,False,False,True,True,specific,107,Grantha,8
+78,circle,False,False,False,False,True,False,specific,44,Grantha,5
+78,color,False,False,True,False,True,True,specific,44,Grantha,5
+78,leftright,False,False,True,False,False,False,specific,44,Grantha,5
+79,circle,False,False,False,False,False,False,specific,24,Grantha,3
+79,color,False,False,False,False,True,False,specific,24,Grantha,3
+79,leftright,False,False,False,False,True,False,specific,24,Grantha,3
+80,circle,False,True,False,False,False,False,stroke,50,Grantha,4
+80,color,False,False,False,False,False,True,stroke,50,Grantha,4
+80,leftright,False,False,True,False,False,True,stroke,50,Grantha,4
+81,circle,True,False,True,False,False,False,none,31,Grantha,3
+81,color,False,False,False,False,False,False,none,31,Grantha,3
+81,leftright,False,False,False,False,False,False,none,31,Grantha,3
+82,circle,True,False,False,True,False,False,none,69,Grantha,9
+82,color,True,True,False,False,False,True,none,69,Grantha,9
+82,leftright,False,False,False,True,False,False,none,69,Grantha,9
+83,circle,False,False,False,True,True,False,none,79,Grantha,7
+83,color,False,False,False,False,False,True,none,79,Grantha,7
+83,leftright,False,False,False,True,False,False,none,79,Grantha,7
+84,circle,False,True,True,False,False,True,enclosed,80,Grantha,7
+84,color,False,True,False,False,False,False,enclosed,80,Grantha,7
+84,leftright,True,True,True,False,False,True,enclosed,80,Grantha,7
+85,circle,True,True,False,True,False,True,specific,49,Hangul,5
+85,color,True,True,True,False,True,False,specific,49,Hangul,5
+85,leftright,True,True,False,False,True,True,specific,49,Hangul,5
+86,circle,True,True,False,False,False,True,vertical,41,Hangul,3
+86,color,True,True,True,False,True,True,vertical,41,Hangul,3
+86,leftright,True,True,False,True,True,False,vertical,41,Hangul,3
+87,circle,True,False,False,False,True,True,vertical,49,Hangul,4
+87,color,False,True,True,True,True,True,vertical,49,Hangul,4
+87,leftright,False,True,False,False,False,True,vertical,49,Hangul,4
+88,circle,False,True,True,False,False,False,none,26,Hangul,3
+88,color,True,True,False,False,False,False,none,26,Hangul,3
+88,leftright,True,True,False,False,False,False,none,26,Hangul,3
+89,circle,False,False,False,False,False,False,none,46,Hangul,4
+89,color,False,False,False,False,True,False,none,46,Hangul,4
+89,leftright,False,True,False,False,True,False,none,46,Hangul,4
+90,circle,False,False,False,False,True,False,stroke,48,Hangul,4
+90,color,True,False,True,False,True,False,stroke,48,Hangul,4
+90,leftright,True,True,False,False,False,True,stroke,48,Hangul,4
+91,circle,False,False,False,False,False,True,none,64,Hangul,8
+91,color,True,True,False,False,False,False,none,64,Hangul,8
+91,leftright,True,True,False,True,False,False,none,64,Hangul,8
+92,circle,False,True,False,False,False,False,none,25,Hangul,3
+92,color,False,True,False,False,False,False,none,25,Hangul,3
+92,leftright,False,False,False,False,False,False,none,25,Hangul,3
+93,circle,False,False,False,False,False,False,none,22,Khudawadi,3
+93,color,False,True,False,False,False,True,none,22,Khudawadi,3
+93,leftright,False,False,False,True,False,False,none,22,Khudawadi,3
+94,circle,False,True,False,False,True,False,none,70,Khudawadi,6
+94,color,True,True,False,True,False,False,none,70,Khudawadi,6
+94,leftright,False,True,True,False,True,True,none,70,Khudawadi,6
+95,circle,True,True,False,True,False,True,enclosed,54,Khudawadi,5
+95,color,False,False,True,False,False,False,enclosed,54,Khudawadi,5
+95,leftright,True,True,False,False,True,False,enclosed,54,Khudawadi,5
+96,circle,False,True,True,False,True,False,specific,35,Khudawadi,5
+96,color,False,True,False,False,True,True,specific,35,Khudawadi,5
+96,leftright,True,True,True,True,False,True,specific,35,Khudawadi,5
+97,circle,False,False,False,True,False,False,specific,36,Lao,6
+97,color,True,True,True,False,True,True,specific,36,Lao,6
+97,leftright,True,True,True,False,True,False,specific,36,Lao,6
+98,circle,False,True,True,False,True,True,specific,75,Lao,7
+98,color,True,True,True,False,True,True,specific,75,Lao,7
+98,leftright,True,True,False,True,True,True,specific,75,Lao,7
+99,circle,True,True,False,False,True,True,none,140,Lao,7
+99,color,True,True,True,False,True,True,none,140,Lao,7
+99,leftright,True,True,True,False,True,True,none,140,Lao,7
+100,circle,True,True,True,False,True,False,enclosed,39,Lao,4
+100,color,True,True,True,False,False,False,enclosed,39,Lao,4
+100,leftright,True,True,False,False,False,False,enclosed,39,Lao,4
+101,circle,False,True,True,False,True,True,specific,51,Lao,4
+101,color,True,True,True,False,True,True,specific,51,Lao,4
+101,leftright,True,True,True,True,True,True,specific,51,Lao,4
+102,circle,True,False,False,False,True,False,symmetry,38,Lao,4
+102,color,False,False,False,False,False,False,symmetry,38,Lao,4
+102,leftright,True,False,False,False,False,False,symmetry,38,Lao,4
+103,circle,False,False,True,True,True,True,specific,28,Lao,4
+103,color,False,False,True,True,True,True,specific,28,Lao,4
+103,leftright,False,True,True,True,True,True,specific,28,Lao,4
+104,circle,False,True,True,False,True,True,specific,49,Lao,5
+104,color,True,True,True,False,True,True,specific,49,Lao,5
+104,leftright,True,True,True,False,True,True,specific,49,Lao,5
+105,circle,False,False,True,False,False,False,none,63,Lao,5
+105,color,False,False,True,False,False,True,none,63,Lao,5
+105,leftright,False,False,False,False,False,False,none,63,Lao,5
+106,circle,True,False,False,True,True,True,specific,69,Lao,6
+106,color,False,True,False,False,True,False,specific,69,Lao,6
+106,leftright,False,False,False,False,True,True,specific,69,Lao,6
+107,circle,True,True,True,False,True,False,specific,41,Lao,4
+107,color,True,True,True,False,True,True,specific,41,Lao,4
+107,leftright,True,True,True,False,True,True,specific,41,Lao,4
+108,circle,False,False,False,False,False,False,stroke,49,Lao,5
+108,color,False,False,False,False,True,True,stroke,49,Lao,5
+108,leftright,False,False,False,False,False,False,stroke,49,Lao,5
+109,circle,False,True,False,True,False,False,specific,27,Linear B,3
+109,color,False,True,True,False,False,True,specific,27,Linear B,3
+109,leftright,False,True,False,False,False,False,specific,27,Linear B,3
+110,circle,False,True,True,False,True,False,enclosed,39,Linear B,3
+110,color,False,True,True,False,False,False,enclosed,39,Linear B,3
+110,leftright,False,True,False,False,False,False,enclosed,39,Linear B,3
+111,circle,False,False,True,False,False,True,stroke,63,Linear B,5
+111,color,False,False,False,True,False,False,stroke,63,Linear B,5
+111,leftright,False,True,False,False,False,False,stroke,63,Linear B,5
+112,circle,False,False,False,True,False,False,none,112,Linear B,11
+112,color,True,True,False,True,True,False,none,112,Linear B,11
+112,leftright,True,True,False,True,False,False,none,112,Linear B,11
+113,circle,False,False,False,False,True,False,symmetry,24,Linear B,3
+113,color,False,False,False,False,False,False,symmetry,24,Linear B,3
+113,leftright,True,False,False,True,True,False,symmetry,24,Linear B,3
+114,circle,True,False,False,False,False,False,stroke,90,Linear B,6
+114,color,False,False,False,False,False,False,stroke,90,Linear B,6
+114,leftright,True,False,True,False,False,True,stroke,90,Linear B,6
+115,circle,True,True,False,True,True,False,none,86,Linear B,8
+115,color,True,True,True,False,True,True,none,86,Linear B,8
+115,leftright,True,True,False,True,False,False,none,86,Linear B,8
+116,circle,True,False,False,False,False,False,enclosed,37,Linear B,4
+116,color,False,True,False,False,False,False,enclosed,37,Linear B,4
+116,leftright,False,True,False,True,False,False,enclosed,37,Linear B,4
+117,circle,True,True,False,False,False,False,none,104,Linear B,8
+117,color,True,True,False,False,False,False,none,104,Linear B,8
+117,leftright,False,True,True,False,False,True,none,104,Linear B,8
+118,circle,True,True,True,True,True,True,enclosed,127,Meetei Mayek,8
+118,color,True,True,False,True,True,True,enclosed,127,Meetei Mayek,8
+118,leftright,True,True,False,True,False,False,enclosed,127,Meetei Mayek,8
+119,circle,True,False,False,True,True,False,none,179,Meetei Mayek,13
+119,color,True,True,True,False,True,False,none,179,Meetei Mayek,13
+119,leftright,False,True,True,False,False,True,none,179,Meetei Mayek,13
+120,circle,True,True,False,False,True,False,none,81,Meetei Mayek,8
+120,color,True,True,True,False,False,True,none,81,Meetei Mayek,8
+120,leftright,False,True,False,False,False,True,none,81,Meetei Mayek,8
+121,circle,False,False,False,False,True,False,none,57,Meetei Mayek,5
+121,color,False,False,True,False,False,False,none,57,Meetei Mayek,5
+121,leftright,False,False,False,False,True,False,none,57,Meetei Mayek,5
+122,circle,True,False,False,True,False,False,stroke,65,Meetei Mayek,5
+122,color,False,False,False,True,False,False,stroke,65,Meetei Mayek,5
+122,leftright,True,True,False,False,True,False,stroke,65,Meetei Mayek,5
+123,circle,True,True,False,False,True,False,symmetry,37,Meetei Mayek,4
+123,color,False,False,False,False,False,False,symmetry,37,Meetei Mayek,4
+123,leftright,False,False,False,False,False,True,symmetry,37,Meetei Mayek,4
+124,circle,False,False,False,True,False,False,none,27,Meetei Mayek,3
+124,color,True,False,False,True,False,False,none,27,Meetei Mayek,3
+124,leftright,False,True,False,False,True,False,none,27,Meetei Mayek,3
+125,circle,False,True,True,False,True,True,none,94,Meetei Mayek,6
+125,color,True,True,True,False,False,False,none,94,Meetei Mayek,6
+125,leftright,True,False,True,False,False,False,none,94,Meetei Mayek,6
+126,circle,True,False,False,False,False,False,cross,18,Meetei Mayek,2
+126,color,False,True,False,False,False,False,cross,18,Meetei Mayek,2
+126,leftright,False,False,False,False,False,True,cross,18,Meetei Mayek,2
+127,circle,True,True,True,True,True,False,enclosed,27,Meetei Mayek,3
+127,color,False,True,True,False,False,True,enclosed,27,Meetei Mayek,3
+127,leftright,False,False,True,False,False,True,enclosed,27,Meetei Mayek,3
+128,circle,True,True,False,False,True,True,vertical,55,Meetei Mayek,4
+128,color,True,True,False,False,True,False,vertical,55,Meetei Mayek,4
+128,leftright,True,True,True,False,True,False,vertical,55,Meetei Mayek,4
+129,circle,True,False,True,True,False,True,none,46,Meetei Mayek,5
+129,color,False,False,True,True,False,True,none,46,Meetei Mayek,5
+129,leftright,True,True,True,True,True,False,none,46,Meetei Mayek,5
+130,circle,False,False,False,False,False,False,enclosed,27,Meroitic Cursive,4
+130,color,False,False,False,True,True,False,enclosed,27,Meroitic Cursive,4
+130,leftright,False,False,False,True,False,False,enclosed,27,Meroitic Cursive,4
+131,circle,True,False,True,True,True,False,enclosed,39,Meroitic Cursive,4
+131,color,False,False,True,False,False,False,enclosed,39,Meroitic Cursive,4
+131,leftright,True,False,True,False,False,True,enclosed,39,Meroitic Cursive,4
+132,circle,True,False,False,False,False,False,stroke,32,Meroitic Cursive,4
+132,color,True,False,False,False,True,False,stroke,32,Meroitic Cursive,4
+132,leftright,False,False,False,False,False,True,stroke,32,Meroitic Cursive,4
+146,circle,False,True,False,False,False,False,none,9,Mro,2
+146,color,True,True,False,False,False,True,none,9,Mro,2
+146,leftright,True,True,False,False,False,False,none,9,Mro,2
+147,circle,True,False,False,False,False,False,mirror,41,Mro,4
+147,color,True,True,True,False,True,False,mirror,41,Mro,4
+147,leftright,False,True,False,False,False,False,mirror,41,Mro,4
+148,circle,False,True,False,False,False,False,none,59,Mro,5
+148,color,False,False,False,False,False,False,none,59,Mro,5
+148,leftright,True,True,False,False,True,False,none,59,Mro,5
+149,circle,True,False,False,False,False,False,stroke,81,Mro,9
+149,color,False,False,False,False,False,False,stroke,81,Mro,9
+149,leftright,True,True,False,False,False,False,stroke,81,Mro,9
+150,circle,True,True,True,True,True,False,enclosed,88,Mro,5
+150,color,True,True,True,False,False,True,enclosed,88,Mro,5
+150,leftright,False,True,False,True,True,False,enclosed,88,Mro,5
+151,circle,False,True,False,False,True,False,symmetry,38,Mro,5
+151,color,False,True,False,False,False,False,symmetry,38,Mro,5
+151,leftright,False,False,True,False,False,False,symmetry,38,Mro,5
+152,circle,False,True,True,False,True,True,mirror,118,Mro,7
+152,color,False,False,True,False,True,False,mirror,118,Mro,7
+152,leftright,True,False,True,True,False,False,mirror,118,Mro,7
+153,circle,True,False,False,False,False,False,stroke,62,Mro,4
+153,color,False,False,False,False,False,False,stroke,62,Mro,4
+153,leftright,True,True,False,False,False,False,stroke,62,Mro,4
+154,circle,False,True,True,False,True,True,specific,21,Nabataean,3
+154,color,False,True,True,False,True,True,specific,21,Nabataean,3
+154,leftright,True,True,True,True,True,True,specific,21,Nabataean,3
+155,circle,True,False,False,True,False,False,none,89,Nabataean,6
+155,color,True,False,False,True,True,False,none,89,Nabataean,6
+155,leftright,True,False,False,True,False,False,none,89,Nabataean,6
+156,circle,False,False,False,True,True,True,specific,78,Nabataean,7
+156,color,True,True,True,False,True,True,specific,78,Nabataean,7
+156,leftright,False,True,False,True,False,False,specific,78,Nabataean,7
+157,circle,False,True,False,False,False,False,vertical,63,Nabataean,8
+157,color,True,False,False,True,False,False,vertical,63,Nabataean,8
+157,leftright,True,True,False,False,True,True,vertical,63,Nabataean,8
+158,circle,True,True,True,False,True,False,enclosed,65,Nabataean,5
+158,color,True,True,True,False,False,True,enclosed,65,Nabataean,5
+158,leftright,True,True,False,False,False,False,enclosed,65,Nabataean,5
+159,circle,False,False,False,False,False,False,cross,49,Nabataean,5
+159,color,False,True,True,False,False,False,cross,49,Nabataean,5
+159,leftright,False,False,True,False,False,True,cross,49,Nabataean,5
+160,circle,False,True,False,False,True,False,stroke,88,Nabataean,7
+160,color,False,False,False,False,False,False,stroke,88,Nabataean,7
+160,leftright,True,False,True,False,False,False,stroke,88,Nabataean,7
+161,circle,False,False,False,True,True,False,specific,58,Ol Chiki,6
+161,color,False,False,True,True,False,False,specific,58,Ol Chiki,6
+161,leftright,False,False,True,True,True,False,specific,58,Ol Chiki,6
+162,circle,False,True,False,False,False,True,none,72,Ol Chiki,6
+162,color,True,True,True,False,False,False,none,72,Ol Chiki,6
+162,leftright,True,True,False,False,False,False,none,72,Ol Chiki,6
+163,circle,False,False,False,False,False,True,none,20,Ol Chiki,3
+163,color,False,False,False,False,False,False,none,20,Ol Chiki,3
+163,leftright,False,False,False,False,False,False,none,20,Ol Chiki,3
+164,circle,True,True,False,True,True,False,specific,59,Ol Chiki,6
+164,color,True,True,True,True,True,True,specific,59,Ol Chiki,6
+164,leftright,True,True,True,False,True,True,specific,59,Ol Chiki,6
+165,circle,True,False,False,False,False,False,stroke,47,Ol Chiki,4
+165,color,True,True,True,False,False,True,stroke,47,Ol Chiki,4
+165,leftright,True,False,True,False,False,True,stroke,47,Ol Chiki,4
+166,circle,True,False,False,True,False,False,none,136,Ol Chiki,10
+166,color,True,True,True,False,True,True,none,136,Ol Chiki,10
+166,leftright,True,True,False,False,True,False,none,136,Ol Chiki,10
+167,circle,True,True,True,True,True,False,enclosed,118,Ol Chiki,9
+167,color,True,True,True,False,True,True,enclosed,118,Ol Chiki,9
+167,leftright,True,True,False,False,False,False,enclosed,118,Ol Chiki,9
+168,circle,False,True,False,False,False,False,none,24,Osmanya,5
+168,color,True,True,True,False,False,False,none,24,Osmanya,5
+168,leftright,False,False,False,False,False,False,none,24,Osmanya,5
+169,circle,False,False,False,False,False,False,none,33,Osmanya,4
+169,color,False,True,False,False,False,False,none,33,Osmanya,4
+169,leftright,True,True,False,False,True,False,none,33,Osmanya,4
+170,circle,False,False,False,False,False,False,specific,20,Phoenician,3
+170,color,True,True,False,True,False,True,specific,20,Phoenician,3
+170,leftright,True,True,True,True,False,False,specific,20,Phoenician,3
+171,circle,True,True,False,False,False,False,specific,79,Phoenician,6
+171,color,True,True,False,False,True,False,specific,79,Phoenician,6
+171,leftright,True,True,True,False,True,True,specific,79,Phoenician,6
+172,circle,False,False,False,True,False,False,none,63,Phoenician,8
+172,color,False,False,False,False,False,False,none,63,Phoenician,8
+172,leftright,False,True,False,False,True,False,none,63,Phoenician,8
+173,circle,False,True,False,False,False,False,none,41,Phoenician,3
+173,color,True,True,True,False,False,True,none,41,Phoenician,3
+173,leftright,True,True,False,False,False,False,none,41,Phoenician,3
+174,circle,True,True,False,False,False,False,enclosed,90,Phoenician,5
+174,color,True,False,False,False,False,True,enclosed,90,Phoenician,5
+174,leftright,True,True,False,True,False,False,enclosed,90,Phoenician,5
+175,circle,False,False,False,True,True,False,none,101,Shavian,9
+175,color,True,False,False,True,False,False,none,101,Shavian,9
+175,leftright,False,False,True,False,True,True,none,101,Shavian,9
+176,circle,True,True,False,False,False,False,none,34,Shavian,5
+176,color,True,True,False,False,False,False,none,34,Shavian,5
+176,leftright,False,True,False,False,False,False,none,34,Shavian,5
+177,circle,False,False,False,False,False,False,none,63,Shavian,8
+177,color,False,False,False,False,False,False,none,63,Shavian,8
+177,leftright,False,False,False,True,False,False,none,63,Shavian,8
+178,circle,False,True,False,False,False,False,none,33,Shavian,4
+178,color,False,True,True,False,True,True,none,33,Shavian,4
+178,leftright,False,False,False,False,False,False,none,33,Shavian,4
+179,circle,False,False,False,False,False,False,none,52,Shavian,6
+179,color,False,False,False,True,False,False,none,52,Shavian,6
+179,leftright,False,False,False,True,True,False,none,52,Shavian,6
+180,circle,True,True,False,False,True,False,none,73,Shavian,8
+180,color,True,True,True,False,True,True,none,73,Shavian,8
+180,leftright,True,True,True,False,True,True,none,73,Shavian,8
+181,circle,False,True,True,True,True,False,symmetry,32,Shavian,3
+181,color,False,True,False,True,False,False,symmetry,32,Shavian,3
+181,leftright,False,True,True,False,False,False,symmetry,32,Shavian,3
+182,circle,True,True,True,False,True,False,enclosed,33,Shavian,3
+182,color,False,False,False,False,True,True,enclosed,33,Shavian,3
+182,leftright,True,True,True,False,False,True,enclosed,33,Shavian,3
+183,circle,False,False,False,False,False,False,none,67,Soyombo,5
+183,color,True,False,False,False,True,False,none,67,Soyombo,5
+183,leftright,False,False,False,False,True,False,none,67,Soyombo,5
+184,circle,False,False,False,False,False,False,none,20,Soyombo,3
+184,color,False,False,False,False,True,False,none,20,Soyombo,3
+184,leftright,True,False,False,True,False,False,none,20,Soyombo,3
+185,circle,False,True,False,False,False,False,enclosed,27,Soyombo,3
+185,color,True,True,False,False,False,False,enclosed,27,Soyombo,3
+185,leftright,False,False,False,False,False,False,enclosed,27,Soyombo,3
+186,circle,False,True,False,False,False,True,none,108,Soyombo,8
+186,color,True,True,True,False,True,True,none,108,Soyombo,8
+186,leftright,False,False,False,True,True,False,none,108,Soyombo,8
+187,circle,False,False,False,False,False,False,none,72,Soyombo,7
+187,color,True,True,False,False,False,True,none,72,Soyombo,7
+187,leftright,False,True,False,False,False,False,none,72,Soyombo,7
+188,circle,False,False,False,False,False,False,diagonal,22,Soyombo,3
+188,color,False,True,False,False,False,False,diagonal,22,Soyombo,3
+188,leftright,False,True,False,False,False,False,diagonal,22,Soyombo,3
+189,circle,False,False,False,False,True,False,none,63,Soyombo,5
+189,color,True,False,False,False,False,False,none,63,Soyombo,5
+189,leftright,False,False,False,False,True,True,none,63,Soyombo,5
+190,circle,False,False,False,False,False,False,none,99,Soyombo,8
+190,color,False,False,False,True,False,True,none,99,Soyombo,8
+190,leftright,True,True,False,False,False,False,none,99,Soyombo,8
+191,circle,False,False,False,False,False,False,specific,87,Soyombo,6
+191,color,True,True,True,False,True,True,specific,87,Soyombo,6
+191,leftright,False,True,False,True,False,False,specific,87,Soyombo,6
+192,circle,True,True,False,True,False,False,none,100,Soyombo,7
+192,color,True,True,False,False,True,True,none,100,Soyombo,7
+192,leftright,True,False,False,True,True,False,none,100,Soyombo,7
+193,circle,False,False,False,False,False,False,none,70,Soyombo,6
+193,color,False,False,False,True,False,False,none,70,Soyombo,6
+193,leftright,False,False,False,False,False,False,none,70,Soyombo,6
+194,circle,True,False,False,True,False,False,specific,59,Soyombo,4
+194,color,True,False,False,True,False,False,specific,59,Soyombo,4
+194,leftright,True,False,False,True,False,False,specific,59,Soyombo,4
+195,circle,False,False,False,False,False,False,stroke,128,Soyombo,10
+195,color,True,False,False,False,False,False,stroke,128,Soyombo,10
+195,leftright,False,True,False,False,False,False,stroke,128,Soyombo,10
+196,circle,True,True,False,False,False,False,enclosed,18,Psalter Pahlavi,3
+196,color,False,True,True,False,False,False,enclosed,18,Psalter Pahlavi,3
+196,leftright,True,True,False,True,False,False,enclosed,18,Psalter Pahlavi,3
+197,circle,True,True,True,False,True,True,specific,45,Psalter Pahlavi,4
+197,color,True,True,True,False,True,True,specific,45,Psalter Pahlavi,4
+197,leftright,True,True,True,False,False,True,specific,45,Psalter Pahlavi,4
+198,circle,True,True,True,True,True,True,none,60,Psalter Pahlavi,7
+198,color,True,True,True,False,False,False,none,60,Psalter Pahlavi,7
+198,leftright,True,True,True,True,True,False,none,60,Psalter Pahlavi,7
+199,circle,False,False,False,False,False,False,none,29,Psalter Pahlavi,3
+199,color,True,False,False,True,False,False,none,29,Psalter Pahlavi,3
+199,leftright,False,False,False,False,False,False,none,29,Psalter Pahlavi,3
+200,circle,False,False,False,False,False,False,none,38,Psalter Pahlavi,3
+200,color,True,True,False,False,False,False,none,38,Psalter Pahlavi,3
+200,leftright,True,True,False,True,False,False,none,38,Psalter Pahlavi,3
+201,circle,False,True,False,True,False,False,enclosed,39,Warang Citi,4
+201,color,True,True,True,False,True,True,enclosed,39,Warang Citi,4
+201,leftright,True,True,False,True,False,False,enclosed,39,Warang Citi,4
+202,circle,True,True,True,True,True,True,none,86,Warang Citi,6
+202,color,True,True,False,False,False,True,none,86,Warang Citi,6
+202,leftright,True,True,False,False,False,False,none,86,Warang Citi,6
+203,circle,True,True,True,False,True,True,enclosed,47,Warang Citi,4
+203,color,True,True,True,False,False,True,enclosed,47,Warang Citi,4
+203,leftright,True,True,False,False,False,True,enclosed,47,Warang Citi,4
+204,circle,False,False,False,False,True,False,symmetry,40,Warang Citi,4
+204,color,False,False,False,False,False,False,symmetry,40,Warang Citi,4
+204,leftright,False,False,True,False,False,True,symmetry,40,Warang Citi,4
+205,circle,False,True,False,False,True,False,symmetry,38,Warang Citi,4
+205,color,False,False,False,False,True,False,symmetry,38,Warang Citi,4
+205,leftright,False,False,True,False,False,True,symmetry,38,Warang Citi,4
+206,circle,True,True,True,False,True,True,symmetry,55,Warang Citi,5
+206,color,False,False,False,False,False,False,symmetry,55,Warang Citi,5
+206,leftright,True,True,True,False,True,True,symmetry,55,Warang Citi,5
+207,circle,True,True,True,True,False,False,enclosed,62,Tagbanwa,6
+207,color,True,True,False,False,False,False,enclosed,62,Tagbanwa,6
+207,leftright,True,True,False,False,False,False,enclosed,62,Tagbanwa,6
+208,circle,False,False,False,False,False,False,none,35,Tagbanwa,4
+208,color,True,False,True,False,False,True,none,35,Tagbanwa,4
+208,leftright,True,True,False,False,False,False,none,35,Tagbanwa,4
+209,circle,True,True,True,False,False,False,stroke,77,Tagbanwa,5
+209,color,True,True,True,False,False,False,stroke,77,Tagbanwa,5
+209,leftright,True,True,False,False,False,False,stroke,77,Tagbanwa,5
+210,circle,True,True,True,False,False,True,none,29,Tagbanwa,4
+210,color,True,True,False,True,False,False,none,29,Tagbanwa,4
+210,leftright,True,True,False,False,False,False,none,29,Tagbanwa,4
+211,circle,True,False,False,False,True,True,none,30,Tagbanwa,3
+211,color,True,False,False,False,True,False,none,30,Tagbanwa,3
+211,leftright,True,False,False,False,True,False,none,30,Tagbanwa,3
+212,circle,False,True,False,False,False,True,none,110,Nyiakeng Puachue Hmong,6
+212,color,False,True,True,False,False,True,none,110,Nyiakeng Puachue Hmong,6
+212,leftright,False,True,False,False,True,False,none,110,Nyiakeng Puachue Hmong,6
+213,circle,True,True,True,False,True,True,specific,63,Nyiakeng Puachue Hmong,5
+213,color,True,True,True,False,True,True,specific,63,Nyiakeng Puachue Hmong,5
+213,leftright,True,True,True,True,True,True,specific,63,Nyiakeng Puachue Hmong,5
+214,circle,False,False,False,False,False,False,none,41,Nyiakeng Puachue Hmong,3
+214,color,False,False,False,False,False,False,none,41,Nyiakeng Puachue Hmong,3
+214,leftright,False,False,False,False,False,False,none,41,Nyiakeng Puachue Hmong,3
+215,circle,True,True,True,False,True,True,enclosed,35,Nyiakeng Puachue Hmong,4
+215,color,True,True,True,False,True,False,enclosed,35,Nyiakeng Puachue Hmong,4
+215,leftright,True,False,True,False,False,True,enclosed,35,Nyiakeng Puachue Hmong,4
+216,circle,True,False,False,False,False,False,none,75,Nyiakeng Puachue Hmong,6
+216,color,False,True,True,False,False,False,none,75,Nyiakeng Puachue Hmong,6
+216,leftright,True,False,True,False,False,True,none,75,Nyiakeng Puachue Hmong,6
+217,circle,False,False,True,False,False,False,horizontal,33,Nyiakeng Puachue Hmong,5
+217,color,False,False,False,False,False,False,horizontal,33,Nyiakeng Puachue Hmong,5
+217,leftright,False,False,False,True,False,False,horizontal,33,Nyiakeng Puachue Hmong,5
+218,circle,False,False,False,False,False,True,none,61,Nyiakeng Puachue Hmong,8
+218,color,True,False,False,False,False,True,none,61,Nyiakeng Puachue Hmong,8
+218,leftright,False,True,False,True,False,True,none,61,Nyiakeng Puachue Hmong,8
+219,circle,False,False,False,False,False,False,none,62,Multani,4
+219,color,True,True,False,False,False,False,none,62,Multani,4
+219,leftright,False,True,True,False,False,True,none,62,Multani,4
+220,circle,True,False,False,True,False,True,none,90,Multani,10
+220,color,False,True,False,False,False,False,none,90,Multani,10
+220,leftright,False,True,False,True,False,False,none,90,Multani,10
+221,circle,False,True,True,False,False,False,enclosed,58,Multani,5
+221,color,False,False,False,False,False,False,enclosed,58,Multani,5
+221,leftright,True,False,False,True,False,False,enclosed,58,Multani,5
+222,circle,True,True,True,False,False,False,stroke,80,Multani,6
+222,color,True,True,False,True,False,False,stroke,80,Multani,6
+222,leftright,True,True,False,True,False,False,stroke,80,Multani,6
+223,circle,False,False,False,True,False,False,horizontal,40,Multani,5
+223,color,True,False,False,False,False,False,horizontal,40,Multani,5
+223,leftright,False,True,False,False,False,False,horizontal,40,Multani,5
+224,circle,False,False,False,False,False,False,none,31,Multani,4
+224,color,False,False,False,False,False,True,none,31,Multani,4
+224,leftright,False,False,False,False,False,False,none,31,Multani,4
+225,circle,True,False,False,True,False,False,none,36,Multani,5
+225,color,True,True,False,False,True,True,none,36,Multani,5
+225,leftright,True,False,False,False,False,False,none,36,Multani,5
+226,circle,False,True,True,False,False,True,specific,61,Multani,5
+226,color,False,True,True,True,True,True,specific,61,Multani,5
+226,leftright,True,True,True,True,True,False,specific,61,Multani,5
+227,circle,False,False,False,False,False,True,none,58,Multani,5
+227,color,True,True,False,False,False,True,none,58,Multani,5
+227,leftright,False,True,False,False,False,True,none,58,Multani,5
+228,circle,True,True,False,False,False,False,none,59,Multani,6
+228,color,True,True,False,True,False,False,none,59,Multani,6
+228,leftright,False,True,True,False,False,True,none,59,Multani,6
+229,circle,False,False,False,False,False,True,cross,18,Pau Cin Hau,2
+229,color,False,False,False,False,False,False,cross,18,Pau Cin Hau,2
+229,leftright,False,True,False,False,True,False,cross,18,Pau Cin Hau,2
+230,circle,False,True,False,False,False,False,none,38,Pau Cin Hau,4
+230,color,True,False,False,False,False,False,none,38,Pau Cin Hau,4
+230,leftright,False,False,False,False,False,False,none,38,Pau Cin Hau,4
+231,circle,False,True,True,False,False,True,diagonal,29,Pau Cin Hau,3
+231,color,True,True,True,False,False,True,diagonal,29,Pau Cin Hau,3
+231,leftright,True,True,False,False,True,False,diagonal,29,Pau Cin Hau,3
+232,circle,True,True,True,True,True,False,symmetry,27,Pau Cin Hau,4
+232,color,True,True,False,False,False,False,symmetry,27,Pau Cin Hau,4
+232,leftright,False,False,False,False,False,False,symmetry,27,Pau Cin Hau,4
+233,circle,False,False,False,False,False,False,symmetry,22,Pau Cin Hau,3
+233,color,False,False,False,False,False,False,symmetry,22,Pau Cin Hau,3
+233,leftright,True,True,True,True,True,False,symmetry,22,Pau Cin Hau,3
+234,circle,False,True,False,False,True,True,specific,31,Pau Cin Hau,5
+234,color,True,True,False,True,False,False,specific,31,Pau Cin Hau,5
+234,leftright,True,True,False,False,False,True,specific,31,Pau Cin Hau,5
+235,circle,True,True,True,False,True,True,specific,32,Pau Cin Hau,5
+235,color,True,True,True,True,True,True,specific,32,Pau Cin Hau,5
+235,leftright,True,True,True,False,True,False,specific,32,Pau Cin Hau,5
+236,circle,False,True,True,False,False,True,none,26,Pau Cin Hau,3
+236,color,True,True,False,True,False,True,none,26,Pau Cin Hau,3
+236,leftright,True,True,True,False,False,True,none,26,Pau Cin Hau,3
+237,circle,False,False,False,True,False,False,none,22,Pau Cin Hau,3
+237,color,True,False,False,False,False,False,none,22,Pau Cin Hau,3
+237,leftright,True,True,False,False,False,True,none,22,Pau Cin Hau,3
+238,circle,False,False,False,False,False,False,symmetry,44,Pau Cin Hau,4
+238,color,False,False,False,False,False,False,symmetry,44,Pau Cin Hau,4
+238,leftright,False,False,False,False,False,True,symmetry,44,Pau Cin Hau,4
+239,circle,False,False,False,False,False,False,enclosed,27,Pau Cin Hau,3
+239,color,False,False,False,False,False,False,enclosed,27,Pau Cin Hau,3
+239,leftright,False,False,False,False,False,False,enclosed,27,Pau Cin Hau,3
+240,circle,True,True,False,True,False,False,enclosed,41,Pau Cin Hau,4
+240,color,True,True,True,False,False,True,enclosed,41,Pau Cin Hau,4
+240,leftright,True,True,True,False,False,False,enclosed,41,Pau Cin Hau,4
+241,circle,False,False,False,True,True,True,none,86,Pracalit,8
+241,color,True,False,False,True,True,True,none,86,Pracalit,8
+241,leftright,True,False,False,True,False,False,none,86,Pracalit,8
+242,circle,True,False,False,True,False,False,stroke,83,Pracalit,6
+242,color,True,False,False,False,False,False,stroke,83,Pracalit,6
+242,leftright,True,False,False,True,False,False,stroke,83,Pracalit,6
+243,circle,False,False,False,False,False,False,none,72,Pracalit,7
+243,color,True,False,False,False,False,True,none,72,Pracalit,7
+243,leftright,False,False,False,True,False,False,none,72,Pracalit,7
+244,circle,True,True,True,False,False,True,enclosed,66,Pracalit,5
+244,color,False,True,False,False,False,True,enclosed,66,Pracalit,5
+244,leftright,False,True,False,False,False,False,enclosed,66,Pracalit,5
+245,circle,False,False,False,False,False,False,horizontal,48,Pracalit,3
+245,color,False,False,True,False,False,False,horizontal,48,Pracalit,3
+245,leftright,False,False,False,False,True,False,horizontal,48,Pracalit,3
+246,circle,True,True,True,False,False,False,enclosed,33,Pracalit,4
+246,color,False,True,True,False,False,True,enclosed,33,Pracalit,4
+246,leftright,False,True,True,False,False,True,enclosed,33,Pracalit,4
+247,circle,False,False,True,False,False,False,none,88,Pracalit,6
+247,color,True,False,False,True,False,False,none,88,Pracalit,6
+247,leftright,False,False,True,False,True,True,none,88,Pracalit,6
+248,circle,False,False,False,False,False,False,none,18,Pracalit,3
+248,color,False,False,False,False,False,False,none,18,Pracalit,3
+248,leftright,False,False,False,False,True,False,none,18,Pracalit,3
+249,circle,True,True,True,False,True,True,none,85,Pracalit,5
+249,color,True,False,True,True,False,True,none,85,Pracalit,5
+249,leftright,False,True,False,True,False,False,none,85,Pracalit,5
+250,circle,True,False,False,True,False,False,none,88,Old Permic,7
+250,color,False,True,True,False,False,True,none,88,Old Permic,7
+250,leftright,True,False,True,False,True,False,none,88,Old Permic,7
+251,circle,False,True,False,False,False,False,none,41,Old Permic,5
+251,color,True,True,False,False,True,False,none,41,Old Permic,5
+251,leftright,True,False,False,False,True,True,none,41,Old Permic,5
+252,circle,True,True,False,False,False,False,vertical,42,Old Permic,4
+252,color,True,True,False,False,False,False,vertical,42,Old Permic,4
+252,leftright,True,True,True,False,False,True,vertical,42,Old Permic,4
+253,circle,True,True,False,False,True,True,none,64,Old Permic,5
+253,color,True,False,False,False,True,False,none,64,Old Permic,5
+253,leftright,True,True,False,True,False,False,none,64,Old Permic,5
+254,circle,False,False,True,False,False,False,specific,22,Old Permic,3
+254,color,False,True,True,False,True,True,specific,22,Old Permic,3
+254,leftright,False,True,True,True,True,False,specific,22,Old Permic,3
+255,circle,False,False,False,True,False,False,specific,84,Old Permic,9
+255,color,False,True,True,True,False,False,specific,84,Old Permic,9
+255,leftright,False,True,False,True,False,False,specific,84,Old Permic,9
+256,circle,False,True,True,False,False,False,none,39,Old Permic,5
+256,color,False,False,False,False,False,True,none,39,Old Permic,5
+256,leftright,True,False,False,True,False,False,none,39,Old Permic,5
+257,circle,False,False,False,False,True,False,enclosed,30,Old Permic,4
+257,color,False,False,False,False,False,False,enclosed,30,Old Permic,4
+257,leftright,True,False,False,False,False,False,enclosed,30,Old Permic,4
+258,circle,True,True,True,False,True,True,enclosed,71,Old Permic,6
+258,color,True,False,True,True,False,True,enclosed,71,Old Permic,6
+258,leftright,True,True,True,False,True,False,enclosed,71,Old Permic,6
+259,circle,True,True,True,False,True,False,symmetry,69,Old Permic,5
+259,color,False,True,False,False,False,False,symmetry,69,Old Permic,5
+259,leftright,False,False,True,False,False,True,symmetry,69,Old Permic,5
+260,circle,False,False,True,False,False,False,none,61,Old Permic,6
+260,color,True,False,True,False,False,False,none,61,Old Permic,6
+260,leftright,True,True,True,False,False,True,none,61,Old Permic,6
+261,circle,False,True,False,True,True,True,specific,82,Mandaic,5
+261,color,True,True,True,False,True,False,specific,82,Mandaic,5
+261,leftright,True,True,True,False,True,True,specific,82,Mandaic,5
+262,circle,True,False,False,False,True,True,specific,61,Mandaic,8
+262,color,True,True,False,False,True,True,specific,61,Mandaic,8
+262,leftright,True,True,True,False,True,True,specific,61,Mandaic,8
+263,circle,False,True,False,False,False,False,none,68,Mandaic,5
+263,color,False,False,False,True,False,False,none,68,Mandaic,5
+263,leftright,True,True,False,False,False,False,none,68,Mandaic,5
+264,circle,False,False,False,False,False,False,none,57,Mandaic,7
+264,color,False,False,False,True,False,False,none,57,Mandaic,7
+264,leftright,True,True,False,True,False,False,none,57,Mandaic,7
+265,circle,False,False,False,False,False,False,none,19,Mandaic,3
+265,color,False,False,False,False,False,True,none,19,Mandaic,3
+265,leftright,False,False,False,False,False,False,none,19,Mandaic,3
+266,circle,True,True,False,True,False,False,vertical,43,Mandaic,5
+266,color,True,True,False,True,False,False,vertical,43,Mandaic,5
+266,leftright,True,False,False,False,True,False,vertical,43,Mandaic,5
+267,circle,False,False,False,False,False,False,horizontal,45,Mandaic,5
+267,color,False,True,False,False,False,False,horizontal,45,Mandaic,5
+267,leftright,True,False,True,False,False,True,horizontal,45,Mandaic,5
+268,circle,False,False,False,True,False,False,none,49,Mandaic,4
+268,color,False,True,False,False,True,False,none,49,Mandaic,4
+268,leftright,False,False,False,False,True,True,none,49,Mandaic,4
+269,circle,True,True,True,False,True,True,symmetry,24,Lepcha,3
+269,color,False,True,False,False,False,False,symmetry,24,Lepcha,3
+269,leftright,False,True,False,False,False,False,symmetry,24,Lepcha,3
+270,circle,True,True,True,False,True,True,none,102,Lepcha,8
+270,color,True,True,True,True,False,True,none,102,Lepcha,8
+270,leftright,False,True,True,False,False,True,none,102,Lepcha,8
+271,circle,True,True,False,False,False,False,none,61,Lepcha,4
+271,color,True,True,True,False,False,False,none,61,Lepcha,4
+271,leftright,True,True,False,True,False,False,none,61,Lepcha,4
+272,circle,True,True,False,True,False,False,symmetry,34,Lepcha,4
+272,color,False,True,False,True,False,False,symmetry,34,Lepcha,4
+272,leftright,True,True,True,False,False,True,symmetry,34,Lepcha,4
+273,circle,True,False,False,False,False,False,enclosed,31,Lepcha,4
+273,color,False,True,True,False,True,False,enclosed,31,Lepcha,4
+273,leftright,True,True,True,False,False,False,enclosed,31,Lepcha,4
+274,circle,True,True,True,False,False,False,enclosed,20,Lepcha,2
+274,color,False,True,False,False,False,False,enclosed,20,Lepcha,2
+274,leftright,True,True,False,True,False,False,enclosed,20,Lepcha,2
+275,circle,True,True,True,False,True,False,stroke,33,Lepcha,4
+275,color,True,True,False,False,False,False,stroke,33,Lepcha,4
+275,leftright,True,False,False,True,False,False,stroke,33,Lepcha,4
+276,circle,False,False,False,False,False,False,none,33,Lepcha,5
+276,color,False,False,False,False,False,False,none,33,Lepcha,5
+276,leftright,False,False,False,False,False,False,none,33,Lepcha,5
+277,circle,True,True,True,False,True,True,none,96,New Tai Lue,5
+277,color,False,True,False,False,True,True,none,96,New Tai Lue,5
+277,leftright,False,True,False,True,False,False,none,96,New Tai Lue,5
+278,circle,True,True,False,False,True,True,none,108,New Tai Lue,8
+278,color,True,True,True,False,True,True,none,108,New Tai Lue,8
+278,leftright,False,False,False,True,False,False,none,108,New Tai Lue,8
+279,circle,False,True,True,False,False,True,none,67,New Tai Lue,7
+279,color,True,False,True,True,False,False,none,67,New Tai Lue,7
+279,leftright,True,True,False,False,True,False,none,67,New Tai Lue,7
+280,circle,True,False,True,True,True,False,none,57,New Tai Lue,4
+280,color,True,True,False,True,False,True,none,57,New Tai Lue,4
+280,leftright,True,True,False,False,False,False,none,57,New Tai Lue,4
+281,circle,True,True,True,False,True,True,enclosed,59,New Tai Lue,5
+281,color,True,True,True,False,True,True,enclosed,59,New Tai Lue,5
+281,leftright,True,True,True,True,True,False,enclosed,59,New Tai Lue,5
+282,circle,True,True,False,False,False,True,none,33,New Tai Lue,3
+282,color,True,True,False,False,False,True,none,33,New Tai Lue,3
+282,leftright,True,True,False,False,False,False,none,33,New Tai Lue,3
+283,circle,False,True,False,False,False,False,none,29,Tai Viet,4
+283,color,False,False,False,True,False,False,none,29,Tai Viet,4
+283,leftright,False,True,False,False,False,False,none,29,Tai Viet,4
+284,circle,True,True,False,False,False,False,enclosed,33,Tai Viet,3
+284,color,True,False,False,False,False,False,enclosed,33,Tai Viet,3
+284,leftright,False,False,False,False,False,False,enclosed,33,Tai Viet,3
+285,circle,False,True,False,False,True,True,specific,17,Tai Viet,3
+285,color,True,True,True,True,True,True,specific,17,Tai Viet,3
+285,leftright,True,True,True,False,True,True,specific,17,Tai Viet,3
+286,circle,True,True,True,True,True,True,specific,24,Tai Viet,5
+286,color,False,True,True,False,True,True,specific,24,Tai Viet,5
+286,leftright,True,True,True,True,True,True,specific,24,Tai Viet,5
+287,circle,True,False,False,False,False,False,none,52,Tai Viet,6
+287,color,True,False,False,False,False,True,none,52,Tai Viet,6
+287,leftright,False,False,True,False,False,True,none,52,Tai Viet,6
+288,circle,True,True,True,False,True,True,enclosed,40,Tai Viet,4
+288,color,False,True,True,False,False,True,enclosed,40,Tai Viet,4
+288,leftright,False,True,True,False,False,True,enclosed,40,Tai Viet,4
+289,circle,False,True,False,False,False,False,cross,39,Tai Viet,5
+289,color,False,True,False,False,True,False,cross,39,Tai Viet,5
+289,leftright,False,False,False,False,False,False,cross,39,Tai Viet,5
+290,circle,False,True,True,False,True,True,specific,107,Zanabazar Square,7
+290,color,True,True,True,True,False,True,specific,107,Zanabazar Square,7
+290,leftright,True,True,True,False,True,True,specific,107,Zanabazar Square,7
+291,circle,True,False,False,False,False,True,none,45,Zanabazar Square,6
+291,color,True,True,False,False,True,False,none,45,Zanabazar Square,6
+291,leftright,False,True,True,False,True,False,none,45,Zanabazar Square,6
+292,circle,False,True,False,False,False,False,none,53,Zanabazar Square,4
+292,color,False,True,False,False,True,True,none,53,Zanabazar Square,4
+292,leftright,False,True,False,False,False,False,none,53,Zanabazar Square,4
+293,circle,False,True,True,False,True,True,specific,80,Zanabazar Square,5
+293,color,True,True,True,True,True,True,specific,80,Zanabazar Square,5
+293,leftright,True,True,True,True,True,True,specific,80,Zanabazar Square,5
+294,circle,False,False,False,False,False,True,none,32,Zanabazar Square,3
+294,color,False,False,False,False,False,False,none,32,Zanabazar Square,3
+294,leftright,False,False,False,False,False,True,none,32,Zanabazar Square,3
+295,circle,True,False,True,False,False,False,horizontal,43,Zanabazar Square,4
+295,color,True,False,False,False,False,False,horizontal,43,Zanabazar Square,4
+295,leftright,True,False,False,False,False,False,horizontal,43,Zanabazar Square,4
+296,circle,False,True,True,True,True,False,symmetry,35,Zanabazar Square,4
+296,color,True,False,False,True,False,False,symmetry,35,Zanabazar Square,4
+296,leftright,False,True,False,True,False,False,symmetry,35,Zanabazar Square,4
+297,circle,False,False,True,False,False,False,horizontal,65,Zanabazar Square,6
+297,color,True,False,False,False,True,False,horizontal,65,Zanabazar Square,6
+297,leftright,False,False,True,False,False,True,horizontal,65,Zanabazar Square,6
+298,circle,True,True,False,False,True,False,none,39,Zanabazar Square,5
+298,color,True,True,True,True,True,False,none,39,Zanabazar Square,5
+298,leftright,True,True,True,False,True,False,none,39,Zanabazar Square,5
+299,circle,True,False,True,True,False,False,enclosed,31,Zanabazar Square,4
+299,color,False,True,True,False,False,True,enclosed,31,Zanabazar Square,4
+299,leftright,False,False,True,False,False,False,enclosed,31,Zanabazar Square,4
+300,circle,True,False,True,False,True,False,enclosed,44,Zanabazar Square,5
+300,color,False,True,True,True,True,False,enclosed,44,Zanabazar Square,5
+300,leftright,True,True,True,False,True,True,enclosed,44,Zanabazar Square,5
+301,circle,True,False,False,False,False,False,none,27,Zanabazar Square,4
+301,color,True,False,True,False,False,False,none,27,Zanabazar Square,4
+301,leftright,True,False,False,False,False,False,none,27,Zanabazar Square,4
+302,circle,False,True,False,False,True,False,symmetry,22,Zanabazar Square,3
+302,color,False,False,False,False,False,False,symmetry,22,Zanabazar Square,3
+302,leftright,False,False,False,False,False,False,symmetry,22,Zanabazar Square,3
+303,circle,True,True,True,False,False,True,none,26,Sora Sompeng,3
+303,color,True,True,True,False,False,False,none,26,Sora Sompeng,3
+303,leftright,True,True,False,False,True,False,none,26,Sora Sompeng,3
+304,circle,False,False,False,False,False,False,horizontal,36,Sora Sompeng,5
+304,color,False,False,False,False,False,True,horizontal,36,Sora Sompeng,5
+304,leftright,True,False,False,False,False,True,horizontal,36,Sora Sompeng,5
+305,circle,False,False,False,False,False,False,enclosed,67,Sora Sompeng,6
+305,color,True,False,False,False,False,False,enclosed,67,Sora Sompeng,6
+305,leftright,True,False,False,True,False,False,enclosed,67,Sora Sompeng,6
+306,circle,False,False,False,False,False,False,none,40,Sora Sompeng,5
+306,color,False,False,False,False,False,False,none,40,Sora Sompeng,5
+306,leftright,False,False,False,False,False,False,none,40,Sora Sompeng,5
+307,circle,False,False,False,False,False,False,none,36,Sora Sompeng,5
+307,color,False,False,False,False,False,False,none,36,Sora Sompeng,5
+307,leftright,False,False,False,False,True,False,none,36,Sora Sompeng,5
+308,circle,False,False,False,False,True,False,none,32,Sora Sompeng,5
+308,color,False,True,False,False,True,False,none,32,Sora Sompeng,5
+308,leftright,False,False,True,False,False,False,none,32,Sora Sompeng,5
+309,circle,True,False,False,False,True,False,none,30,Sora Sompeng,5
+309,color,True,True,False,True,False,True,none,30,Sora Sompeng,5
+309,leftright,False,False,True,False,False,True,none,30,Sora Sompeng,5
+310,circle,False,False,False,True,True,True,specific,51,Sora Sompeng,5
+310,color,True,True,True,False,True,False,specific,51,Sora Sompeng,5
+310,leftright,True,True,False,True,True,False,specific,51,Sora Sompeng,5
+311,circle,False,True,False,False,False,False,enclosed,35,Sora Sompeng,3
+311,color,True,True,False,False,False,False,enclosed,35,Sora Sompeng,3
+311,leftright,False,True,False,False,False,True,enclosed,35,Sora Sompeng,3
+312,circle,True,True,False,True,False,False,enclosed,35,Sora Sompeng,3
+312,color,True,True,False,False,False,False,enclosed,35,Sora Sompeng,3
+312,leftright,False,True,True,False,False,True,enclosed,35,Sora Sompeng,3
+313,circle,False,False,False,False,False,False,enclosed,25,Sora Sompeng,4
+313,color,True,True,False,False,False,False,enclosed,25,Sora Sompeng,4
+313,leftright,False,False,False,False,False,True,enclosed,25,Sora Sompeng,4
+314,circle,False,False,False,False,False,False,stroke,37,Syloti Nagri,4
+314,color,False,False,False,False,True,True,stroke,37,Syloti Nagri,4
+314,leftright,False,False,False,False,False,False,stroke,37,Syloti Nagri,4
+315,circle,True,True,False,False,False,False,none,34,Syloti Nagri,4
+315,color,True,True,False,False,False,False,none,34,Syloti Nagri,4
+315,leftright,False,False,False,False,True,False,none,34,Syloti Nagri,4
+316,circle,False,False,False,False,False,True,none,36,Syloti Nagri,4
+316,color,False,False,False,False,False,False,none,36,Syloti Nagri,4
+316,leftright,True,False,False,False,True,False,none,36,Syloti Nagri,4
+317,circle,True,True,True,False,False,True,enclosed,26,Syloti Nagri,3
+317,color,True,True,False,False,False,False,enclosed,26,Syloti Nagri,3
+317,leftright,False,False,False,True,False,False,enclosed,26,Syloti Nagri,3
+318,circle,False,True,True,False,False,False,none,72,Syloti Nagri,5
+318,color,False,True,False,True,False,False,none,72,Syloti Nagri,5
+318,leftright,False,False,True,False,False,True,none,72,Syloti Nagri,5
+319,circle,False,False,False,False,False,False,none,40,Syloti Nagri,4
+319,color,False,False,False,False,True,False,none,40,Syloti Nagri,4
+319,leftright,False,False,False,False,True,False,none,40,Syloti Nagri,4
+320,circle,False,False,False,False,True,False,none,74,Syloti Nagri,5
+320,color,False,False,False,False,True,False,none,74,Syloti Nagri,5
+320,leftright,False,False,False,False,False,False,none,74,Syloti Nagri,5
+321,circle,True,False,False,True,False,False,diagonal,60,Syloti Nagri,5
+321,color,True,True,True,False,True,True,diagonal,60,Syloti Nagri,5
+321,leftright,True,True,False,False,False,False,diagonal,60,Syloti Nagri,5
+322,circle,False,False,False,False,False,False,horizontal,72,Syloti Nagri,8
+322,color,False,False,False,True,False,False,horizontal,72,Syloti Nagri,8
+322,leftright,True,False,False,True,False,False,horizontal,72,Syloti Nagri,8
+323,circle,False,True,False,False,True,True,vertical,92,Runic,7
+323,color,True,True,False,False,True,False,vertical,92,Runic,7
+323,leftright,True,True,False,True,False,True,vertical,92,Runic,7
+324,circle,False,False,True,False,False,False,none,37,Runic,5
+324,color,False,True,True,True,True,False,none,37,Runic,5
+324,leftright,False,False,False,False,False,False,none,37,Runic,5
+325,circle,True,True,True,False,False,False,none,20,Runic,5
+325,color,True,False,True,False,False,True,none,20,Runic,5
+325,leftright,True,True,False,True,False,False,none,20,Runic,5
+326,circle,False,True,False,False,False,False,none,30,Runic,5
+326,color,True,False,False,False,False,False,none,30,Runic,5
+326,leftright,False,True,False,False,False,False,none,30,Runic,5
+327,circle,False,True,False,False,False,True,specific,117,Runic,8
+327,color,False,True,False,True,True,True,specific,117,Runic,8
+327,leftright,True,True,False,True,False,True,specific,117,Runic,8
+328,circle,True,True,False,True,False,False,enclosed,36,Runic,5
+328,color,False,True,False,False,False,True,enclosed,36,Runic,5
+328,leftright,False,True,False,False,False,False,enclosed,36,Runic,5
+329,circle,False,True,True,False,True,False,symmetry,44,Runic,4
+329,color,False,False,False,False,False,False,symmetry,44,Runic,4
+329,leftright,False,False,False,False,True,False,symmetry,44,Runic,4
+330,circle,False,False,False,False,False,False,none,65,Runic,6
+330,color,False,True,True,False,False,True,none,65,Runic,6
+330,leftright,True,True,False,False,False,True,none,65,Runic,6
+331,circle,False,True,True,False,False,True,none,44,Runic,5
+331,color,True,True,False,False,False,True,none,44,Runic,5
+331,leftright,False,True,False,True,False,True,none,44,Runic,5
+332,circle,False,False,False,False,False,False,stroke,35,Runic,3
+332,color,False,False,False,False,False,False,stroke,35,Runic,3
+332,leftright,False,False,False,False,False,False,stroke,35,Runic,3
+333,circle,False,False,False,False,False,False,none,36,Runic,6
+333,color,True,False,False,True,False,True,none,36,Runic,6
+333,leftright,False,True,False,True,False,False,none,36,Runic,6
+334,circle,True,False,True,False,False,True,none,29,Runic,5
+334,color,False,False,False,True,False,True,none,29,Runic,5
+334,leftright,False,False,False,False,True,False,none,29,Runic,5
+335,circle,False,False,False,False,False,False,none,52,Runic,6
+335,color,False,False,False,True,False,True,none,52,Runic,6
+335,leftright,True,True,True,False,True,True,none,52,Runic,6

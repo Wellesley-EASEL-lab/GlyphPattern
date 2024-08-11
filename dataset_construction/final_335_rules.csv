@@ -5,7 +5,7 @@ ID,script,description,RuleBinary,Class
 4,Afaka,are made up of only straight lines,1000001000001001000000000000100100010001000000000000000,straight
 5,Avestan,have a left-side loop shaped like a lower case e,000000000000000000000000000000110100000000000000001001,specific
 6,Avestan,have fully enclosed spaces or closed loops,000000000000000010000010010101110100000011000010001101,enclosed
-7,Avestan,"a long, horizontal, serpentine curve at the bottom ending on the right side",000000000100000000100000100001000000000000000000000000,none
+7,Avestan,"have a long, horizontal, serpentine curve at the bottom ending on the right side",000000000100000000100000100001000000000000000000000000,none
 8,Avestan,resemble the number three or its mirror image or have stacked or mirrored c shapes,000000110000000000000000000000000010100000000000000000,specific
 9,Avestan,are reflections of one another,000000110000000000000000000000000010101000000000100000,symmetry
 10,Avestan,have a horizontal cross stroke creating 4 quadrants,000001000000000000000000000000000000000100000000000000,none

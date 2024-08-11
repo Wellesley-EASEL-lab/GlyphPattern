@@ -1,0 +1,152 @@
+---
+title: "glyph"
+output: html_document
+date: '2024-07-18'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(stringr)
+library(lme4)
+library(lmerTest)
+library(stargazer)
+```
+
+```{r}
+data = read.csv('zeroshot_summary_results.csv',header=TRUE,stringsAsFactors=TRUE)
+dataAll <- data %>% mutate(both = paste(Model,ImageStyle,sep="-"))
+```
+
+```{r}
+ggplot(data=subset(dataAll,Model!="random"),aes(x=Model,y=Accuracy,fill=both)) + geom_col(position="dodge2",color="white") + theme(text=element_text(size=20)) + xlab("Model") + ylab("Accuracy") + scale_fill_discrete(name = "Presentation",breaks=c("Answers-Only-circle","Answers-Only-color","Answers-Only-leftright"),labels=c("Circle","Color","LeftRight"),type=c("#FFFFF0","#696969","#000000","#f768a1","#DC267F","#980043","#FFB000","#fd8d3c","#fc4e2a","#90EE90","#3CB371","#006400","#b5fbf2","#36e4ce","#0b7265","#b5e0f9","#319fdf","#1769b8","#d7cafb","#9c7cc0","#483D8B")) + geom_hline(yintercept=0.25,linetype = "dashed",color="black") + guides(fill = guide_legend(override.aes = list(color = "black"))) + ylim(0,0.66)
+ggsave("figures/style.pdf",height=4,width=16)
+```
+
+```{r}
+catdata = read.csv('mean_category_results.csv',header=TRUE,stringsAsFactors=TRUE)
+
+sum <- catdata %>% group_by(class) %>% summarize(sd = sd(correctness),
+                                                 total = sum(correctness),
+                                                 counts = mean(correctness),
+                                                 len = n(),
+                                                 min = prop.test(total, len, conf.level=0.95, correct = FALSE)$conf.int[[1]],
+                                                 max = prop.test(total, len, conf.level=0.95, correct = FALSE)$conf.int[[2]],
+                                                 min1 = counts-(sd/2),
+                                                 max1 = counts+(sd/2),
+                                                 name = paste0(str_to_title(class),"\n(n=",len,")"))
+```
+
+```{r}
+sum$name<- reorder(sum$name,sum$counts)
+ggplot(data=subset(sum,class!="mirror"),aes(y=counts,x=name)) + geom_col(position = position_dodge(0.8),aes(fill=class)) +geom_errorbar(aes(ymin = min1, ymax = max1, group = class), width = 0.2, position = position_dodge(0.8)) + ylab("Mean Accuracy") + xlab("Category") + geom_hline(yintercept=0.25,linetype = "dashed",color="black") + theme(text=element_text(size=24),legend.position="none")
+ggsave("figures/classes.pdf",height=8,width=12)
+```
+
+```{r}
+all <- read.csv('all_zeroshot_results.csv',header=TRUE,stringsAsFactors=TRUE)
+
+all <- all %>% mutate(gemini = ifelse(correctness_gemini=="False",0,1),
+               gpt = ifelse(correctness_gpt=="False",0,1),
+               blip = ifelse(correctness_instructblip=="False",0,1),
+               llava = ifelse(correctness_llavanext=="False",0,1),
+               idefics2 = ifelse(correctness_idefics2=="False",0,1),
+               idefics3 = ifelse(correctness_idefics3=="False",0,1))
+```
+
+```{r}
+model <- lmer(gpt~visual+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+gpt.model <- lmer(gpt~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(gpt.model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+gemini.model <- lmer(gemini~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(gemini.model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+llava.model <- lmer(llava~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(llava.model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+blip.model <- lmer(blip~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(blip.model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+idefics2.model <- lmer(idefics2~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(idefics2.model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+idefics3.model <- lmer(idefics3~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(idefics3.model)
+```
+
+```{r}
+cor(all$gemini,all$length)
+cor(all$gpt,all$length)
+```
+
+```{r}
+long <- all %>% pivot_longer(cols=8:9,names_to="model",values_to="score")
+means <- long %>% group_by(model,rule_id,script) %>% summarize(correctness=mean(score),
+                                                        class = unique(class),
+                                                        l = unique(length),
+                                                        script = gsub("Nyiakeng Puachue Hmong","Nyiakeng\nPuachue Hmong",script))
+sum1 <- means %>% group_by(model,class) %>% summarize(sd = sd(correctness),
+                                                 total = sum(correctness),
+                                                 counts = mean(correctness),
+                                                 len = n(),
+                                                 min = prop.test(total, len, conf.level=0.95, correct = FALSE)$conf.int[[1]],
+                                                 max = prop.test(total, len, conf.level=0.95, correct = FALSE)$conf.int[[2]],
+                                                 min1 = counts-(sd/2),
+                                                 max1 = counts+(sd/2),
+                                                 name = paste0(str_to_title(class),"\n(n=",len,")"),
+                                                 g = paste0(model,class))
+sum <- unique(sum1)
+```
+
+```{r}
+sum$name<- reorder(sum$name,sum$total)
+ggplot(data=subset(sum,class!="mirror"),aes(y=counts,x=fct_reorder(name,counts),fill=model)) + geom_col(position = position_dodge(0.8)) +geom_errorbar(aes(ymin = min1, ymax = max1, group = g), width = 0.2, position = position_dodge(0.8)) + ylab("Mean Accuracy") + xlab("Category") + geom_hline(yintercept=0.25,linetype = "dashed",color="black") + theme(text=element_text(size=26),legend.position="bottom") + scale_fill_discrete(name = "Model",labels=c("Gemini","GPT-4"))
+ggsave("figures/classes.pdf",height=10,width=12)
+```
+
+```{r}
+ggplot(data=means,aes(fill=model)) + geom_bar(aes(script,correctness),position = position_dodge(0.9), stat = "summary", fun.y = "mean")  + xlab("Script") + ylab("Mean Accuracy") + geom_hline(yintercept=0.25,linetype = "dashed",color="black") + theme(text=element_text(size=16),legend.position="right",axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_fill_discrete(name = "Model",labels=c("Gemini","GPT-4"))
+ggsave("figures/scripts.pdf",height=4,width=12)
+```
