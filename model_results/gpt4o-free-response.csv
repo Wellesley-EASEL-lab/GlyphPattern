@@ -1,0 +1,955 @@
+rule_id,visual,model_output,groundtruth
+100,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,contain a closed loop or enclosed space
+100,color,Characters colored red in the image are characters that have a loop or enclosed area.,contain a closed loop or enclosed space
+100,leftright,Characters on the right side in the image are characters that have a loop or enclosed area.,contain a closed loop or enclosed space
+101,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,are shaped like the letter S or have an S influence
+101,color,Characters colored red in the image are characters that have a small loop or circle at the top.,are shaped like the letter S or have an S influence
+101,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,are shaped like the letter S or have an S influence
+102,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,are symmetrical around a vertical axis
+102,color,Characters colored red in the image are characters that have a loop at the bottom.,are symmetrical around a vertical axis
+102,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,are symmetrical around a vertical axis
+103,circle,Characters inside the circle in the image are characters that have a vertical line.,represent the letter U or W 
+103,color,Characters colored red in the image are characters that have a loop or circular shape as part of their structure.,represent the letter U or W 
+103,leftright,Characters on the right side in the image are characters that contain a loop.,represent the letter U or W 
+104,circle,Characters inside the circle in the image are characters that contain a loop.,have a base shape of M or W or resemble an M or W
+104,color,Characters colored red in the image are characters that contain a loop or circle.,have a base shape of M or W or resemble an M or W
+104,leftright,Characters on the right side in the image are characters that have a loop or a closed curve.,have a base shape of M or W or resemble an M or W
+105,circle,Characters inside the circle in the image are characters that have a vertical line.,are larger than most others or extend beyond the central square
+105,color,Characters colored red in the image are characters that have a loop or enclosed area.,are larger than most others or extend beyond the central square
+105,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,are larger than most others or extend beyond the central square
+106,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,"are shaped like an approximate B, 3, or E shape, which may be flipped"
+106,color,Characters colored red in the image are characters that have a loop or enclosed area at the top.,"are shaped like an approximate B, 3, or E shape, which may be flipped"
+106,leftright,Characters on the right side in the image are characters that contain a loop.,"are shaped like an approximate B, 3, or E shape, which may be flipped"
+107,circle,Characters inside the circle in the image are characters that have a vertical line.,resemble a lowercase N or have an N shape
+107,color,Characters colored red in the image are characters that have a vertical line on the right side.,resemble a lowercase N or have an N shape
+107,leftright,Characters on the right side in the image are characters that have a loop or enclosed area at the top.,resemble a lowercase N or have an N shape
+108,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,require multiple strokes of the pen to be written
+108,color,Characters colored red in the image are characters that have a loop or enclosed area.,require multiple strokes of the pen to be written
+108,leftright,Characters on the right side in the image are characters that have a loop or circle at the top.,require multiple strokes of the pen to be written
+109,circle,Characters inside the circle in the image are characters that contain a circle.,resemble a phallus or penis
+109,color,Characters colored red in the image are characters that contain a heart shape.,resemble a phallus or penis
+109,leftright,Characters on the right side in the image are characters that contain a vertical line intersecting a circle.,resemble a phallus or penis
+10,circle,Characters inside the circle in the image are characters that contain a vertical line.,have a horizontal cross stroke creating 4 quadrants
+10,color,Characters colored red in the image are characters that contain a cross or plus sign.,have a horizontal cross stroke creating 4 quadrants
+10,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have a horizontal cross stroke creating 4 quadrants
+110,circle,Characters inside the circle in the image are characters that contain a circle with a cross inside it.,have circular shapes or contain circles
+110,color,Characters colored red in the image are characters that contain a circle with a cross inside it.,have circular shapes or contain circles
+110,leftright,Characters on the right side in the image are characters that contain a circle with a cross inside.,have circular shapes or contain circles
+111,circle,Characters inside the circle in the image are characters that contain horizontal lines.,are composed of three or more separate pieces that do not touch
+111,color,"Characters colored red in the image are characters that contain an ""X"" shape.",are composed of three or more separate pieces that do not touch
+111,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,are composed of three or more separate pieces that do not touch
+112,circle,"Characters inside the circle in the image are characters that contain an ""X"" shape.","have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character"
+112,color,"Characters colored red in the image are characters that contain three consecutive ""V"" shapes stacked vertically.","have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character"
+112,leftright,"Characters on the right side in the image are characters that contain a double ""X"" shape.","have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character"
+113,circle,Characters inside the circle in the image are characters that contain a cross or plus sign.,have horizontal symmetry
+113,color,Characters colored red in the image are characters that contain a cross or plus sign.,have horizontal symmetry
+113,leftright,Characters on the right side in the image are characters that contain a circle.,have horizontal symmetry
+114,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"have separated or disconnected parts, with spaces or breaks between the different elements"
+114,color,Characters colored red in the image are characters that contain at least one horizontal line.,"have separated or disconnected parts, with spaces or breaks between the different elements"
+114,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,"have separated or disconnected parts, with spaces or breaks between the different elements"
+115,circle,Characters inside the circle in the image are characters that contain a caret (^) shape.,are hidden under a curved arc or dome shape spanning the entire length of the characters
+115,color,Characters colored red in the image are characters that contain an arch shape.,are hidden under a curved arc or dome shape spanning the entire length of the characters
+115,leftright,Characters on the right side in the image are characters that contain an arch shape.,are hidden under a curved arc or dome shape spanning the entire length of the characters
+116,circle,Characters inside the circle in the image are characters that contain a circle.,have multiple loops or enclosed areas
+116,color,"Characters colored red in the image are characters that contain at least one enclosed shape (such as a circle, rectangle, or heart).",have multiple loops or enclosed areas
+116,leftright,Characters on the right side in the image are characters that contain a circle.,have multiple loops or enclosed areas
+117,circle,Characters inside the circle in the image are characters that contain a horizontal line.,are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles
+117,color,Characters colored red in the image are characters that contain at least one horizontal line.,are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles
+117,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles
+118,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself"
+118,color,Characters colored red in the image are characters that contain a horizontal line at the top.,"have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself"
+118,leftright,Characters on the right side in the image are characters that contain a small circle or dot.,"have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself"
+119,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character"
+119,color,Characters colored red in the image are characters that contain a curved line.,"have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character"
+119,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character"
+11,circle,Characters inside the circle in the image are characters that contain at least one closed loop.,require lifting the pen during drawing
+11,color,Characters colored red in the image are characters that contain a horizontal line.,require lifting the pen during drawing
+11,leftright,Characters on the right side in the image are characters that contain at least one loop or circular shape.,require lifting the pen during drawing
+120,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,have concave sides and are bounded by opposing curved lines on the left and right
+120,color,Characters colored red in the image are characters that have a horizontal line at the top.,have concave sides and are bounded by opposing curved lines on the left and right
+120,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,have concave sides and are bounded by opposing curved lines on the left and right
+121,circle,Characters inside the circle in the image are characters that contain a horizontal line.,do not have a top horizontal line or flat line on the top
+121,color,Characters colored red in the image are characters that contain a loop or circular shape.,do not have a top horizontal line or flat line on the top
+121,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,do not have a top horizontal line or flat line on the top
+122,circle,Characters inside the circle in the image are characters that contain a horizontal line.,can be written in one stroke without lifting the pen or retracing
+122,color,Characters colored red in the image are characters that contain a curved line.,can be written in one stroke without lifting the pen or retracing
+122,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,can be written in one stroke without lifting the pen or retracing
+123,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have vertical and horizontal symmetry
+123,color,Characters colored red in the image are characters that contain a vertical line with a horizontal line on each side.,have vertical and horizontal symmetry
+123,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,have vertical and horizontal symmetry
+124,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,contain straight lines only
+124,color,Characters colored red in the image are characters that contain multiple vertical lines enclosed within a rectangular shape.,contain straight lines only
+124,leftright,Characters on the right side in the image are characters that contain a rectangular grid pattern.,contain straight lines only
+125,circle,Characters inside the circle in the image are characters that contain a vertical line.,"have a straight horizontal stroke at the bottom or a flat bottom, or are used in font encoding"
+125,color,Characters colored red in the image are characters that contain multiple vertical lines within an enclosed shape.,"have a straight horizontal stroke at the bottom or a flat bottom, or are used in font encoding"
+125,leftright,Characters on the right side in the image are characters that contain a vertical line with a horizontal line crossing it near the top.,"have a straight horizontal stroke at the bottom or a flat bottom, or are used in font encoding"
+126,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have crossed lines
+126,color,Characters colored red in the image are characters that contain at least one horizontal line.,have crossed lines
+126,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,have crossed lines
+127,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have an enclosed space/loop
+127,color,Characters colored red in the image are characters that contain at least one horizontal line.,have an enclosed space/loop
+127,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have an enclosed space/loop
+128,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have parallel vertical lines or multiple vertical lines
+128,color,Characters colored red in the image are characters that contain multiple vertical lines.,have parallel vertical lines or multiple vertical lines
+128,leftright,Characters on the right side in the image are characters that contain vertical parallel lines.,have parallel vertical lines or multiple vertical lines
+129,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have at least one vertical line or right angle
+129,color,Characters colored red in the image are characters that contain horizontal parallel lines.,have at least one vertical line or right angle
+129,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have at least one vertical line or right angle
+12,circle,Characters inside the circle in the image are characters that contain a vertical line.,have roughly the shape of an m and may have reflectional symmetry
+12,color,Characters colored red in the image are characters that contain a loop or enclosed area.,have roughly the shape of an m and may have reflectional symmetry
+12,leftright,Characters on the right side in the image are characters that contain a loop or closed curve.,have roughly the shape of an m and may have reflectional symmetry
+130,circle,Characters inside the circle in the image are characters that are Greek letters.,have exactly one closed end
+130,color,Characters colored red in the image are characters that contain a closed loop.,have exactly one closed end
+130,leftright,Characters on the right side in the image are characters that have a loop or circular shape.,have exactly one closed end
+131,circle,Characters inside the circle in the image are characters that are Greek letters.,contain a closed loop or enclosed space
+131,color,Characters colored red in the image are characters that contain a closed loop.,contain a closed loop or enclosed space
+131,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,contain a closed loop or enclosed space
+132,circle,Characters inside the circle in the image are characters that contain at least one straight line.,have more than one distinct part
+132,color,Characters colored red in the image are characters that contain at least one straight vertical line.,have more than one distinct part
+132,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have more than one distinct part
+13,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have a horizontal line at the top and bottom and may have reflectional symmetry
+13,color,Characters colored red in the image are characters that contain a horizontal line.,have a horizontal line at the top and bottom and may have reflectional symmetry
+13,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a horizontal line at the top and bottom and may have reflectional symmetry
+146,circle,Characters inside the circle in the image are characters that contain a diacritical mark.,have dots
+146,color,Characters colored red in the image are characters that contain at least one small circle or dot.,have dots
+146,leftright,Characters on the right side in the image are characters that contain a circle.,have dots
+147,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,do not have a mirrored or rotated version
+147,color,Characters colored red in the image are characters that contain a curved line.,do not have a mirrored or rotated version
+147,leftright,Characters on the right side in the image are characters that contain at least one curved line.,do not have a mirrored or rotated version
+148,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have a flat top or are capped by a horizontal straight line
+148,color,Characters colored red in the image are characters that contain a horizontal line.,have a flat top or are capped by a horizontal straight line
+148,leftright,Characters on the right side in the image are characters that contain a right angle (90-degree angle).,have a flat top or are capped by a horizontal straight line
+149,circle,Characters inside the circle in the image are characters that contain a vertical line.,cannot be drawn in a single stroke or without going over part of an existing line
+149,color,Characters colored red in the image are characters that have a vertical line.,cannot be drawn in a single stroke or without going over part of an existing line
+149,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,cannot be drawn in a single stroke or without going over part of an existing line
+14,circle,Characters inside the circle in the image are characters that have a vertical line.,have reflectional symmetry
+14,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,have reflectional symmetry
+14,leftright,Characters on the right side in the image are characters that have a curved line.,have reflectional symmetry
+150,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,enclose at least one space completely and may contain one or more closed loops or curves
+150,color,Characters colored red in the image are characters that contain a curved line.,enclose at least one space completely and may contain one or more closed loops or curves
+150,leftright,Characters on the right side in the image are characters that contain a curved line.,enclose at least one space completely and may contain one or more closed loops or curves
+151,circle,Characters inside the circle in the image are characters that contain at least one straight line.,have reflectional symmetry on any axis
+151,color,Characters colored red in the image are characters that contain at least one horizontal line.,have reflectional symmetry on any axis
+151,leftright,Characters on the right side in the image are characters that contain at least one straight vertical line.,have reflectional symmetry on any axis
+152,circle,Characters inside the circle in the image are characters that contain at least one right angle.,"can be placed in pairs of horizontal mirror images, with one letter being the same as the other reversed left to right"
+152,color,Characters colored red in the image are characters that contain at least one horizontal line.,"can be placed in pairs of horizontal mirror images, with one letter being the same as the other reversed left to right"
+152,leftright,Characters on the right side in the image are characters that contain at least one curved line.,"can be placed in pairs of horizontal mirror images, with one letter being the same as the other reversed left to right"
+153,circle,Characters inside the circle in the image are characters that contain at least one straight line.,"are made with a single stroke, without backtracking or looping"
+153,color,Characters colored red in the image are characters that contain at least one right angle.,"are made with a single stroke, without backtracking or looping"
+153,leftright,Characters on the right side in the image are characters that contain at least one right angle.,"are made with a single stroke, without backtracking or looping"
+154,circle,Characters inside the circle in the image are characters that contain a loop.,resemble the letter p
+154,color,Characters colored red in the image are characters that contain a small circle.,resemble the letter p
+154,leftright,Characters on the right side in the image are characters that contain a loop.,resemble the letter p
+155,circle,Characters inside the circle in the image are characters that contain a closed loop.,"have a complete downward loop and are closed at the top, like an irregular U-shaped curve"
+155,color,Characters colored red in the image are characters that contain a closed loop.,"have a complete downward loop and are closed at the top, like an irregular U-shaped curve"
+155,leftright,Characters on the right side in the image are characters that contain a small loop.,"have a complete downward loop and are closed at the top, like an irregular U-shaped curve"
+156,circle,Characters inside the circle in the image are characters that contain a vertical line.,are either 7s or have a small horizontal line at the top and a vertical stroke
+156,color,Characters colored red in the image are characters that have a small horizontal line at the top.,are either 7s or have a small horizontal line at the top and a vertical stroke
+156,leftright,Characters on the right side in the image are characters that have a small hook or curve at the top.,are either 7s or have a small horizontal line at the top and a vertical stroke
+157,circle,Characters inside the circle in the image are characters that have a vertical line.,are a straight vertical line with no base or hook at the bottom
+157,color,Characters colored red in the image are characters that have a small horizontal line at the top.,are a straight vertical line with no base or hook at the bottom
+157,leftright,Characters on the right side in the image are characters that contain a vertical line.,are a straight vertical line with no base or hook at the bottom
+158,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain a closed loop or enclosed space in the character or graph
+158,color,Characters colored red in the image are characters that contain a loop or enclosed area.,contain a closed loop or enclosed space in the character or graph
+158,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,contain a closed loop or enclosed space in the character or graph
+159,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain crossing lines or a four-way intersection
+159,color,Characters colored red in the image are characters that contain a loop.,contain crossing lines or a four-way intersection
+159,leftright,Characters on the right side in the image are characters that contain a loop.,contain crossing lines or a four-way intersection
+15,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have lines that cross each other
+15,color,Characters colored red in the image are characters that contain a loop or circular shape.,have lines that cross each other
+15,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have lines that cross each other
+160,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain multiple lines or require lifting the pen or backtracking to write the character
+160,color,Characters colored red in the image are characters that contain a curved line.,contain multiple lines or require lifting the pen or backtracking to write the character
+160,leftright,Characters on the right side in the image are characters that contain at least one diagonal line.,contain multiple lines or require lifting the pen or backtracking to write the character
+161,circle,Characters inside the circle in the image are characters that are symmetrical along a vertical axis.,resemble letters in the Latin alphabet or Western alphabet
+161,color,Characters colored red in the image are characters that contain a closed loop or circle.,resemble letters in the Latin alphabet or Western alphabet
+161,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,resemble letters in the Latin alphabet or Western alphabet
+162,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain only curved lines without any straight lines; may look like eyes
+162,color,Characters colored red in the image are characters that contain a closed loop or circle.,contain only curved lines without any straight lines; may look like eyes
+162,leftright,Characters on the right side in the image are characters that contain a closed loop.,contain only curved lines without any straight lines; may look like eyes
+163,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,have a curved bottom
+163,color,Characters colored red in the image are characters that contain a closed loop or circle.,have a curved bottom
+163,leftright,Characters on the right side in the image are characters that contain at least one closed loop.,have a curved bottom
+164,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,resemble a letter 'w' or have two sharp elbows on the floor
+164,color,"Characters colored red in the image are characters that contain a ""W"" shape.",resemble a letter 'w' or have two sharp elbows on the floor
+164,leftright,"Characters on the right side in the image are characters that contain a ""W"" shape.",resemble a letter 'w' or have two sharp elbows on the floor
+165,circle,Characters inside the circle in the image are characters that contain a loop.,contain non-joined segments or separated shapes
+165,color,Characters colored red in the image are characters that contain a horizontal line.,contain non-joined segments or separated shapes
+165,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,contain non-joined segments or separated shapes
+166,circle,Characters inside the circle in the image are characters that contain a loop.,contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment
+166,color,Characters colored red in the image are characters that contain a small circle or dot.,contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment
+166,leftright,Characters on the right side in the image are characters that contain a loop.,contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment
+167,circle,Characters inside the circle in the image are characters that have a closed loop or circle.,"have at least one fully enclosed shape, including closed loops, enclosed spaces, and fully or partially closed figures"
+167,color,Characters colored red in the image are characters that contain a closed loop or circle.,"have at least one fully enclosed shape, including closed loops, enclosed spaces, and fully or partially closed figures"
+167,leftright,Characters on the right side in the image are characters that contain a closed loop or circle.,"have at least one fully enclosed shape, including closed loops, enclosed spaces, and fully or partially closed figures"
+168,circle,Characters inside the circle in the image are characters that contain a loop.,have at least one bridge
+168,color,Characters colored red in the image are characters that contain a loop.,have at least one bridge
+168,leftright,Characters on the right side in the image are characters that contain a loop.,have at least one bridge
+169,circle,Characters inside the circle in the image are characters that contain a straight vertical line.,have straight lines and no curves
+169,color,Characters colored red in the image are characters that consist of a single straight line.,have straight lines and no curves
+169,leftright,Characters on the right side in the image are characters that consist of only straight lines.,have straight lines and no curves
+16,circle,Characters inside the circle in the image are characters that contain a vertical line.,have at least one enclosed space or loop
+16,color,Characters colored red in the image are characters that have a loop or enclosed area.,have at least one enclosed space or loop
+16,leftright,Characters on the right side in the image are characters that have a loop or enclosed area.,have at least one enclosed space or loop
+170,circle,Characters inside the circle in the image are characters that contain curved lines.,contain a w-squiggle
+170,color,"Characters colored red in the image are characters that contain a ""W"" shape.",contain a w-squiggle
+170,leftright,"Characters on the right side in the image are characters that contain a ""W"" shape.",contain a w-squiggle
+171,circle,Characters inside the circle in the image are characters that contain a straight vertical line.,"are made of one stroke with one acute angle, resembling a 7 or a rotation of it"
+171,color,Characters colored red in the image are characters that have a single continuous stroke without any breaks.,"are made of one stroke with one acute angle, resembling a 7 or a rotation of it"
+171,leftright,Characters on the right side in the image are characters that consist of a single continuous line without any intersections or enclosed areas.,"are made of one stroke with one acute angle, resembling a 7 or a rotation of it"
+172,circle,Characters inside the circle in the image are characters that have a closed loop or circle.,have a triangle shape at the top connected to a descending line
+172,color,Characters colored red in the image are characters that contain a closed loop.,have a triangle shape at the top connected to a descending line
+172,leftright,Characters on the right side in the image are characters that contain a small loop or circle.,have a triangle shape at the top connected to a descending line
+173,circle,Characters inside the circle in the image are characters that have a closed loop or circle.,have a rough triangle pointing lower-left
+173,color,Characters colored red in the image are characters that contain a closed triangular shape.,have a rough triangle pointing lower-left
+173,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,have a rough triangle pointing lower-left
+174,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,"contain at least one enclosed shape, such as a circle or triangle, that can be coloured in"
+174,color,Characters colored red in the image are characters that contain a closed loop or circle.,"contain at least one enclosed shape, such as a circle or triangle, that can be coloured in"
+174,leftright,Characters on the right side in the image are characters that contain a closed loop or circle.,"contain at least one enclosed shape, such as a circle or triangle, that can be coloured in"
+175,circle,Characters inside the circle in the image are characters that contain a closed loop.,"have two parts touching the floor, with straight or curved lines ending at the same level at the base"
+175,color,Characters colored red in the image are characters that contain a loop or closed curve.,"have two parts touching the floor, with straight or curved lines ending at the same level at the base"
+175,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have two parts touching the floor, with straight or curved lines ending at the same level at the base"
+176,circle,Characters inside the circle in the image are characters that consist of a single straight line.,are made of only one straight line
+176,color,Characters colored red in the image are characters that contain a straight vertical or diagonal line.,are made of only one straight line
+176,leftright,Characters on the right side in the image are characters that consist of a single straight line.,are made of only one straight line
+177,circle,Characters inside the circle in the image are characters that contain a curve.,exceed the average size of the character set in height or width
+177,color,Characters colored red in the image are characters that contain at least one sharp angle.,exceed the average size of the character set in height or width
+177,leftright,Characters on the right side in the image are characters that contain at least one straight line.,exceed the average size of the character set in height or width
+178,circle,Characters inside the circle in the image are characters that have a closed loop.,have a vertical loop-shaped cross
+178,color,Characters colored red in the image are characters that contain a loop.,have a vertical loop-shaped cross
+178,leftright,Characters on the right side in the image are characters that have a loop or circular shape.,have a vertical loop-shaped cross
+179,circle,Characters inside the circle in the image are characters that have a closed loop.,are composed of three lines forming two acute angles
+179,color,Characters colored red in the image are characters that have a sharp angle or corner.,are composed of three lines forming two acute angles
+179,leftright,Characters on the right side in the image are characters that contain a horizontal line.,are composed of three lines forming two acute angles
+17,circle,Characters inside the circle in the image are characters that contain a vertical line.,have a vertical line with a right angle at the bottom pointing towards the right
+17,color,Characters colored red in the image are characters that have a vertical line intersecting a horizontal line.,have a vertical line with a right angle at the bottom pointing towards the right
+17,leftright,Characters on the right side in the image are characters that contain a vertical line on the left side.,have a vertical line with a right angle at the bottom pointing towards the right
+180,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain a horizontal line and a descending curve from one end of the line
+180,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,contain a horizontal line and a descending curve from one end of the line
+180,leftright,Characters on the right side in the image are characters that have a small loop or circle at the top.,contain a horizontal line and a descending curve from one end of the line
+181,circle,Characters inside the circle in the image are characters that do not have a curve.,contain a vertical symmetry axis
+181,color,Characters colored red in the image are characters that do not contain any curves.,contain a vertical symmetry axis
+181,leftright,Characters on the right side in the image are characters that contain a closed loop.,contain a vertical symmetry axis
+182,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain an enclosed space or loop
+182,color,Characters colored red in the image are characters that contain a closed loop.,contain an enclosed space or loop
+182,leftright,Characters on the right side in the image are characters that contain a closed loop.,contain an enclosed space or loop
+183,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,contain a square shape with a diagonal line and two enclosed spaces
+183,color,Characters colored red in the image are characters that have a small diagonal line extending from the top right.,contain a square shape with a diagonal line and two enclosed spaces
+183,leftright,Characters on the right side in the image are characters that contain a vertical line with a small horizontal line at the top.,contain a square shape with a diagonal line and two enclosed spaces
+184,circle,Characters inside the circle in the image are characters that have a vertical line intersecting a horizontal line.,contain a hook shape
+184,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,contain a hook shape
+184,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain a hook shape
+185,circle,Characters inside the circle in the image are characters that have a vertical line.,contain a circle or circles
+185,color,Characters colored red in the image are characters that have a small circle or dot above them.,contain a circle or circles
+185,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain a circle or circles
+186,circle,Characters inside the circle in the image are characters that have a vertical line.,have two parallel vertical straight lines with small filled-in triangles connected to the left vertical line
+186,color,Characters colored red in the image are characters that have a vertical line on the right side.,have two parallel vertical straight lines with small filled-in triangles connected to the left vertical line
+186,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,have two parallel vertical straight lines with small filled-in triangles connected to the left vertical line
+187,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,"contain something like a diamond, rhomboid or square shape in the middle"
+187,color,Characters colored red in the image are characters that contain a small triangle.,"contain something like a diamond, rhomboid or square shape in the middle"
+187,leftright,Characters on the right side in the image are characters that have a diagonal line.,"contain something like a diamond, rhomboid or square shape in the middle"
+188,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,contain diagonal lines
+188,color,Characters colored red in the image are characters that contain a vertical line with a small horizontal line at the top.,contain diagonal lines
+188,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain diagonal lines
+189,circle,Characters inside the circle in the image are characters that contain a vertical line.,have no curves and consist of only straight lines and triangles
+189,color,Characters colored red in the image are characters that have a vertical line on the right side.,have no curves and consist of only straight lines and triangles
+189,leftright,Characters on the right side in the image are characters that contain a diagonal line.,have no curves and consist of only straight lines and triangles
+18,circle,Characters inside the circle in the image are characters that contain three horizontal lines.,look like symbols for Spotify and WiFi
+18,color,Characters colored red in the image are characters that contain multiple horizontal lines stacked vertically.,look like symbols for Spotify and WiFi
+18,leftright,Characters on the right side in the image are characters that contain three horizontal lines.,look like symbols for Spotify and WiFi
+190,circle,Characters inside the circle in the image are characters that have a vertical line on the left side.,have a right vertical that does not touch the top triangle and a short side-bar with a diagonal top
+190,color,Characters colored red in the image are characters that have a vertical line on the right side.,have a right vertical that does not touch the top triangle and a short side-bar with a diagonal top
+190,leftright,Characters on the right side in the image are characters that have a vertical line extending below the main body of the character.,have a right vertical that does not touch the top triangle and a short side-bar with a diagonal top
+191,circle,Characters inside the circle in the image are characters that have a vertical line on the right side.,have a horizontal line connecting two or more vertical legs and contain an H-like shape
+191,color,Characters colored red in the image are characters that have a vertical line on the right side.,have a horizontal line connecting two or more vertical legs and contain an H-like shape
+191,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,have a horizontal line connecting two or more vertical legs and contain an H-like shape
+192,circle,Characters inside the circle in the image are characters that have a vertical line on the left side.,have a top triangle that is not independent and is linked to the character below at the bottom point
+192,color,Characters colored red in the image are characters that have a vertical line on the right side.,have a top triangle that is not independent and is linked to the character below at the bottom point
+192,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,have a top triangle that is not independent and is linked to the character below at the bottom point
+193,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,contain two separate inner elements and a variety of other decorations
+193,color,Characters colored red in the image are characters that have a small horizontal line at the bottom.,contain two separate inner elements and a variety of other decorations
+193,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain two separate inner elements and a variety of other decorations
+194,circle,Characters inside the circle in the image are characters that have a vertical line on the left side.,contain a horizontal Nike swoosh shape or similar variation
+194,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,contain a horizontal Nike swoosh shape or similar variation
+194,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain a horizontal Nike swoosh shape or similar variation
+195,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,"contain elements that are not connected to the main character, including separate elements, floating bits, and detached elements"
+195,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,"contain elements that are not connected to the main character, including separate elements, floating bits, and detached elements"
+195,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,"contain elements that are not connected to the main character, including separate elements, floating bits, and detached elements"
+196,circle,Characters inside the circle in the image are characters that contain a loop.,have a closed loop
+196,color,Characters colored red in the image are characters that contain a small circle or dot.,have a closed loop
+196,leftright,Characters on the right side in the image are characters that contain a loop or circle.,have a closed loop
+197,circle,Characters inside the circle in the image are characters that have a single vertical line.,resemble an L (right-side up and upside down)
+197,color,Characters colored red in the image are characters that have a single curved line.,resemble an L (right-side up and upside down)
+197,leftright,Characters on the right side in the image are characters that have a single continuous curve without any sharp angles.,resemble an L (right-side up and upside down)
+198,circle,Characters inside the circle in the image are characters that do not have a loop.,consist of one smooth line with a single change of direction
+198,color,Characters colored red in the image are characters that contain a single curved line.,consist of one smooth line with a single change of direction
+198,leftright,Characters on the right side in the image are characters that have a single continuous curve.,consist of one smooth line with a single change of direction
+199,circle,Characters inside the circle in the image are characters that have a vertical line.,have one end pointing upwards
+199,color,Characters colored red in the image are characters that have a curved line that is open on one end.,have one end pointing upwards
+199,leftright,Characters on the right side in the image are characters that have a vertical line.,have one end pointing upwards
+19,circle,Characters inside the circle in the image are characters that contain three horizontal lines.,have three horizontal lines
+19,color,Characters colored red in the image are characters that contain three horizontal lines.,have three horizontal lines
+19,leftright,Characters on the right side in the image are characters that contain three horizontal lines.,have three horizontal lines
+200,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,have duplicated elements in succession
+200,color,Characters colored red in the image are characters that contain two small loops.,have duplicated elements in succession
+200,leftright,Characters on the right side in the image are characters that contain a loop or a closed curve.,have duplicated elements in succession
+201,circle,Characters inside the circle in the image are characters that contain a closed loop.,have two closed loops or enclosed areas
+201,color,Characters colored red in the image are characters that contain a figure-eight shape.,have two closed loops or enclosed areas
+201,leftright,Characters on the right side in the image are characters that contain a small circle.,have two closed loops or enclosed areas
+202,circle,"Characters inside the circle in the image are characters that contain a closed shape (such as a circle, diamond, or triangle).","have no ends, are topologically equivalent to a circle, or have a single enclosed area"
+202,color,"Characters colored red in the image are characters that contain a single enclosed shape (circle, diamond, or triangle).","have no ends, are topologically equivalent to a circle, or have a single enclosed area"
+202,leftright,"Characters on the right side in the image are characters that contain a closed shape (such as a circle, diamond, or triangle).","have no ends, are topologically equivalent to a circle, or have a single enclosed area"
+203,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,have one or more closed loops or enclosed areas
+203,color,"Characters colored red in the image are characters that contain at least one closed shape (such as a circle, square, or diamond).",have one or more closed loops or enclosed areas
+203,leftright,Characters on the right side in the image are characters that contain at least one closed loop or circle.,have one or more closed loops or enclosed areas
+204,circle,"Characters inside the circle in the image are characters that contain at least one enclosed shape (like a circle, square, or diamond).",are symmetrical around a horizontal axis
+204,color,Characters colored red in the image are characters that contain at least one closed loop or enclosed shape.,are symmetrical around a horizontal axis
+204,leftright,Characters on the right side in the image are characters that contain a closed loop or enclosed area.,are symmetrical around a horizontal axis
+205,circle,"Characters inside the circle in the image are characters that contain a closed shape (such as a circle, diamond, or triangle).",are symmetrical around a vertical axis
+205,color,Characters colored red in the image are characters that contain at least one closed loop or enclosed shape.,are symmetrical around a vertical axis
+205,leftright,Characters on the right side in the image are characters that contain a closed loop or circle.,are symmetrical around a vertical axis
+206,circle,Characters inside the circle in the image are characters that have at least one enclosed area.,"have an axis of symmetry, either vertical or horizontal"
+206,color,Characters colored red in the image are characters that contain at least one closed loop or enclosed shape.,"have an axis of symmetry, either vertical or horizontal"
+206,leftright,Characters on the right side in the image are characters that contain at least one closed loop.,"have an axis of symmetry, either vertical or horizontal"
+207,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,"contain a closed loop, enclosed space, or fully enclosed space"
+207,color,Characters colored red in the image are characters that contain a closed loop or circle.,"contain a closed loop, enclosed space, or fully enclosed space"
+207,leftright,Characters on the right side in the image are characters that are closed shapes.,"contain a closed loop, enclosed space, or fully enclosed space"
+208,circle,Characters inside the circle in the image are characters that contain a wavy or zigzag line.,have a hook shape on the right side
+208,color,Characters colored red in the image are characters that contain a wavy or zigzag line.,have a hook shape on the right side
+208,leftright,Characters on the right side in the image are characters that contain a loop or a closed curve.,have a hook shape on the right side
+209,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,can be drawn with one continuous line without lifting the pen or backtracking
+209,color,Characters colored red in the image are characters that contain a closed loop.,can be drawn with one continuous line without lifting the pen or backtracking
+209,leftright,Characters on the right side in the image are characters that do not contain a vertical line.,can be drawn with one continuous line without lifting the pen or backtracking
+20,circle,Characters inside the circle in the image are characters that contain a single straight line.,have horizontal symmetry
+20,color,Characters colored red in the image are characters that contain a closed circle.,have horizontal symmetry
+20,leftright,"Characters on the right side in the image are characters that can be drawn without lifting the pen (i.e., they are single continuous strokes).",have horizontal symmetry
+210,circle,Characters inside the circle in the image are characters that contain a vertical line.,contain a wavy or zigzag line
+210,color,Characters colored red in the image are characters that contain a wavy or squiggly line.,contain a wavy or zigzag line
+210,leftright,Characters on the right side in the image are characters that contain a wavy or zigzag line.,contain a wavy or zigzag line
+211,circle,Characters inside the circle in the image are characters that contain a vertical line.,have a vertical line or zigzag
+211,color,Characters colored red in the image are characters that contain a vertical wavy line.,have a vertical line or zigzag
+211,leftright,Characters on the right side in the image are characters that contain a vertical line.,have a vertical line or zigzag
+212,circle,Characters inside the circle in the image are characters that contain a vertical line.,"include a vertical ellipse, capsules, a long O, a curved line that is closed like a rounded vertical rectangle"
+212,color,Characters colored red in the image are characters that contain a small loop or circle.,"include a vertical ellipse, capsules, a long O, a curved line that is closed like a rounded vertical rectangle"
+212,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,"include a vertical ellipse, capsules, a long O, a curved line that is closed like a rounded vertical rectangle"
+213,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,"look like the number 3 or upside down 3, with or without serifs"
+213,color,Characters colored red in the image are characters that contain a loop.,"look like the number 3 or upside down 3, with or without serifs"
+213,leftright,Characters on the right side in the image are characters that contain a loop.,"look like the number 3 or upside down 3, with or without serifs"
+214,circle,Characters inside the circle in the image are characters that contain a horizontal line.,contain an elongated closed vertical oval
+214,color,Characters colored red in the image are characters that contain a loop or enclosed area.,contain an elongated closed vertical oval
+214,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,contain an elongated closed vertical oval
+215,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain an enclosed space or a loop
+215,color,Characters colored red in the image are characters that contain a loop.,contain an enclosed space or a loop
+215,leftright,Characters on the right side in the image are characters that contain a horizontal line.,contain an enclosed space or a loop
+216,circle,Characters inside the circle in the image are characters that have a horizontal line.,have a vertical line on the right side and everything happening on the left
+216,color,Characters colored red in the image are characters that have a loop or enclosed area.,have a vertical line on the right side and everything happening on the left
+216,leftright,Characters on the right side in the image are characters that contain a loop.,have a vertical line on the right side and everything happening on the left
+217,circle,Characters inside the circle in the image are characters that contain a vertical line.,have a horizontal line at the top
+217,color,Characters colored red in the image are characters that contain a loop.,have a horizontal line at the top
+217,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have a horizontal line at the top
+218,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,"have a loop at the bottom, which may be referred to as a hook"
+218,color,Characters colored red in the image are characters that contain a loop or a closed curve.,"have a loop at the bottom, which may be referred to as a hook"
+218,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have a loop at the bottom, which may be referred to as a hook"
+219,circle,Characters inside the circle in the image are characters that contain at least one vertical line.,"are made of distinct parallel lines, resembling combs or claws"
+219,color,Characters colored red in the image are characters that contain multiple parallel lines.,"are made of distinct parallel lines, resembling combs or claws"
+219,leftright,Characters on the right side in the image are characters that contain three vertical lines.,"are made of distinct parallel lines, resembling combs or claws"
+21,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"have vertical symmetry, including with an axis of symmetry"
+21,color,Characters colored red in the image are characters that contain at least one horizontal line.,"have vertical symmetry, including with an axis of symmetry"
+21,leftright,Characters on the right side in the image are characters that contain at least one dot.,"have vertical symmetry, including with an axis of symmetry"
+220,circle,Characters inside the circle in the image are characters that contain a diagonal line.,"have both a loop and a cross, with a dangly loop or a loop in the shape of a knot or gamma"
+220,color,Characters colored red in the image are characters that contain a small circle.,"have both a loop and a cross, with a dangly loop or a loop in the shape of a knot or gamma"
+220,leftright,Characters on the right side in the image are characters that contain a cross or intersecting lines.,"have both a loop and a cross, with a dangly loop or a loop in the shape of a knot or gamma"
+221,circle,Characters inside the circle in the image are characters that contain a loop.,have at least one completely enclosed space or closed loop
+221,color,Characters colored red in the image are characters that contain a loop.,have at least one completely enclosed space or closed loop
+221,leftright,Characters on the right side in the image are characters that contain a loop or closed curve.,have at least one completely enclosed space or closed loop
+222,circle,Characters inside the circle in the image are characters that contain at least one vertical line.,represent a series of disconnected or separate elements in a symbol or character
+222,color,Characters colored red in the image are characters that contain at least one vertical line.,represent a series of disconnected or separate elements in a symbol or character
+222,leftright,Characters on the right side in the image are characters that contain three vertical lines.,represent a series of disconnected or separate elements in a symbol or character
+223,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have a horizontal line or bar at the top
+223,color,Characters colored red in the image are characters that contain a straight vertical line.,have a horizontal line or bar at the top
+223,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a horizontal line or bar at the top
+224,circle,Characters inside the circle in the image are characters that contain a vertical line.,have one or more straight lines
+224,color,Characters colored red in the image are characters that contain a diagonal line.,have one or more straight lines
+224,leftright,Characters on the right side in the image are characters that contain a diagonal line.,have one or more straight lines
+225,circle,Characters inside the circle in the image are characters that contain a loop.,have a small flat loop at the bottom
+225,color,Characters colored red in the image are characters that contain a diagonal line.,have a small flat loop at the bottom
+225,leftright,Characters on the right side in the image are characters that contain a loop.,have a small flat loop at the bottom
+226,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,include a 3-shaped element or the number 3 in any orientation
+226,color,Characters colored red in the image are characters that contain a loop.,include a 3-shaped element or the number 3 in any orientation
+226,leftright,Characters on the right side in the image are characters that contain at least one loop.,include a 3-shaped element or the number 3 in any orientation
+227,circle,Characters inside the circle in the image are characters that contain a closed loop.,"have a large, open, vertical circle curve on the left side"
+227,color,Characters colored red in the image are characters that contain a loop or circular shape.,"have a large, open, vertical circle curve on the left side"
+227,leftright,Characters on the right side in the image are characters that contain a curved line.,"have a large, open, vertical circle curve on the left side"
+228,circle,Characters inside the circle in the image are characters that contain a curved line.,have a downward curve that resembles a bridge with two feet
+228,color,Characters colored red in the image are characters that contain a horizontal line.,have a downward curve that resembles a bridge with two feet
+228,leftright,Characters on the right side in the image are characters that contain a curved line.,have a downward curve that resembles a bridge with two feet
+229,circle,Characters inside the circle in the image are characters that contain a vertical line.,have crossed lines
+229,color,Characters colored red in the image are characters that contain a vertical line intersecting a loop.,have crossed lines
+229,leftright,Characters on the right side in the image are characters that contain a vertical line with a small horizontal line crossing it.,have crossed lines
+22,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have two disconnected elements or strokes
+22,color,Characters colored red in the image are characters that contain at least one horizontal line.,have two disconnected elements or strokes
+22,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have two disconnected elements or strokes
+230,circle,Characters inside the circle in the image are characters that consist of straight lines only.,have only straight lines and no curves
+230,color,Characters colored red in the image are characters that have at least one straight vertical line.,have only straight lines and no curves
+230,leftright,Characters on the right side in the image are characters that contain at least one straight line segment.,have only straight lines and no curves
+231,circle,Characters inside the circle in the image are characters that have at least one straight line.,have a diagonal straight line
+231,color,Characters colored red in the image are characters that have at least one diagonal line.,have a diagonal straight line
+231,leftright,Characters on the right side in the image are characters that contain at least one diagonal line.,have a diagonal straight line
+232,circle,Characters inside the circle in the image are characters that have a single enclosed area.,have 180° rotation symmetry
+232,color,Characters colored red in the image are characters that have a straight vertical line.,have 180° rotation symmetry
+232,leftright,Characters on the right side in the image are characters that consist of straight lines only.,have 180° rotation symmetry
+233,circle,Characters inside the circle in the image are characters that have straight lines only.,have vertical symmetry
+233,color,Characters colored red in the image are characters that have a closed loop or circle.,have vertical symmetry
+233,leftright,Characters on the right side in the image are characters that have at least one straight line.,have vertical symmetry
+234,circle,Characters inside the circle in the image are characters that consist of straight lines only.,look like Latin capital letters
+234,color,Characters colored red in the image are characters that are commonly used in the English alphabet.,look like Latin capital letters
+234,leftright,Characters on the right side in the image are characters that are part of the Latin alphabet.,look like Latin capital letters
+235,circle,Characters inside the circle in the image are characters that are uppercase letters.,look like Latin alphabet letters
+235,color,Characters colored red in the image are characters that have a straight vertical line.,look like Latin alphabet letters
+235,leftright,Characters on the right side in the image are characters that are commonly used in the Latin alphabet.,look like Latin alphabet letters
+236,circle,Characters inside the circle in the image are characters that contain a closed loop.,have an approximate circle
+236,color,Characters colored red in the image are characters that contain a closed loop or circle.,have an approximate circle
+236,leftright,Characters on the right side in the image are characters that are circular or have a circular shape.,have an approximate circle
+237,circle,Characters inside the circle in the image are characters that contain at least one curved line.,have curved lines only
+237,color,Characters colored red in the image are characters that contain a loop.,have curved lines only
+237,leftright,Characters on the right side in the image are characters that have at least one curved line.,have curved lines only
+238,circle,Characters inside the circle in the image are characters that have at least one enclosed area.,have horizontal or vertical line of symmetry
+238,color,Characters colored red in the image are characters that contain at least one enclosed area.,have horizontal or vertical line of symmetry
+238,leftright,Characters on the right side in the image are characters that have at least one enclosed area.,have horizontal or vertical line of symmetry
+239,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain two enclosed spaces
+239,color,Characters colored red in the image are characters that contain a closed loop.,contain two enclosed spaces
+239,leftright,Characters on the right side in the image are characters that contain a closed loop.,contain two enclosed spaces
+23,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"can be drawn by two strokes, lifting pen once, never retracing any segment"
+23,color,Characters colored red in the image are characters that contain at least one horizontal line.,"can be drawn by two strokes, lifting pen once, never retracing any segment"
+23,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,"can be drawn by two strokes, lifting pen once, never retracing any segment"
+240,circle,Characters inside the circle in the image are characters that have at least one enclosed area.,"contain an enclosed space, loop, or shape"
+240,color,Characters colored red in the image are characters that contain at least one enclosed loop.,"contain an enclosed space, loop, or shape"
+240,leftright,Characters on the right side in the image are characters that contain at least one closed loop.,"contain an enclosed space, loop, or shape"
+241,circle,Characters inside the circle in the image are characters that have a vertical line with a small horizontal line or hook at the top.,have a horizontal line above a downward s-shaped curve followed by a complex structure
+241,color,Characters colored red in the image are characters that contain a horizontal line with a small vertical line extending downwards from the middle of the horizontal line.,have a horizontal line above a downward s-shaped curve followed by a complex structure
+241,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a horizontal line above a downward s-shaped curve followed by a complex structure
+242,circle,Characters inside the circle in the image are characters that contain a circular or oval shape.,can be written with a single continuous stroke without retracing or lifting the pen
+242,color,Characters colored red in the image are characters that have a loop or circular shape.,can be written with a single continuous stroke without retracing or lifting the pen
+242,leftright,Characters on the right side in the image are characters that are symmetrical along a vertical axis.,can be written with a single continuous stroke without retracing or lifting the pen
+243,circle,Characters inside the circle in the image are characters that contain a vertical line.,have two circles and a line that are not connected to any other elements
+243,color,Characters colored red in the image are characters that contain two horizontal lines with a wavy line between them.,have two circles and a line that are not connected to any other elements
+243,leftright,Characters on the right side in the image are characters that contain a horizontal line with two vertical lines extending downwards.,have two circles and a line that are not connected to any other elements
+244,circle,Characters inside the circle in the image are characters that have a vertical line.,"contain more than one loop or enclosure, or have two or more holes"
+244,color,Characters colored red in the image are characters that contain two horizontal lines at the top.,"contain more than one loop or enclosure, or have two or more holes"
+244,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,"contain more than one loop or enclosure, or have two or more holes"
+245,circle,Characters inside the circle in the image are characters that do not have a vertical line at the top.,do not have an overhead horizontal straight line
+245,color,Characters colored red in the image are characters that have a horizontal line with two vertical lines extending downwards.,do not have an overhead horizontal straight line
+245,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,do not have an overhead horizontal straight line
+246,circle,Characters inside the circle in the image are characters that do not have a vertical line extending above the main body of the character.,contain one or more closed shapes
+246,color,Characters colored red in the image are characters that contain a horizontal line at the top.,contain one or more closed shapes
+246,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain one or more closed shapes
+247,circle,Characters inside the circle in the image are characters that have a vertical line on the right side.,have a straight horizontal and vertical line that meet at the top right to form a corner
+247,color,Characters colored red in the image are characters that have a vertical line on the right side.,have a straight horizontal and vertical line that meet at the top right to form a corner
+247,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a straight horizontal and vertical line that meet at the top right to form a corner
+248,circle,Characters inside the circle in the image are characters that do not have a horizontal line at the top.,have a right angle
+248,color,Characters colored red in the image are characters that have a vertical line on the right side.,have a right angle
+248,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a right angle
+249,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,include a closed loop with a small black dot or knot or have a filled-in blot or tail
+249,color,Characters colored red in the image are characters that have a horizontal line at the top.,include a closed loop with a small black dot or knot or have a filled-in blot or tail
+249,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,include a closed loop with a small black dot or knot or have a filled-in blot or tail
+24,circle,Characters inside the circle in the image are characters that contain a curved line.,can be created in one continuous stroke of the pen but without retracing
+24,color,Characters colored red in the image are characters that contain a curved line.,can be created in one continuous stroke of the pen but without retracing
+24,leftright,Characters on the right side in the image are characters that contain at least one curved line.,can be created in one continuous stroke of the pen but without retracing
+250,circle,Characters inside the circle in the image are characters that have a vertical line.,have a large vertical straight line and a small downward curve attached at the top right
+250,color,Characters colored red in the image are characters that have a small loop or circle attached to a straight line.,have a large vertical straight line and a small downward curve attached at the top right
+250,leftright,Characters on the right side in the image are characters that have a vertical line on the right side.,have a large vertical straight line and a small downward curve attached at the top right
+251,circle,Characters inside the circle in the image are characters that contain at least one diagonal line.,have a sharp angle at the bottom like a V
+251,color,"Characters colored red in the image are characters that contain a ""V"" shape.",have a sharp angle at the bottom like a V
+251,leftright,"Characters on the right side in the image are characters that contain a ""V"" shape.",have a sharp angle at the bottom like a V
+252,circle,Characters inside the circle in the image are characters that contain a vertical line.,consist of a single vertical straight line
+252,color,Characters colored red in the image are characters that consist of a single vertical line.,consist of a single vertical straight line
+252,leftright,Characters on the right side in the image are characters that consist of only straight vertical lines.,consist of a single vertical straight line
+253,circle,Characters inside the circle in the image are characters that contain at least one straight vertical line.,are made from only straight lines and have no curved/round parts
+253,color,Characters colored red in the image are characters that contain at least one right angle.,are made from only straight lines and have no curved/round parts
+253,leftright,Characters on the right side in the image are characters that contain at least one straight vertical line.,are made from only straight lines and have no curved/round parts
+254,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have a capital T shape
+254,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,have a capital T shape
+254,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a capital T shape
+255,circle,Characters inside the circle in the image are characters that contain a curved line.,"have a bottom that resembles buttocks, testicles, breasts, or a combination of these"
+255,color,Characters colored red in the image are characters that contain a loop or circular shape.,"have a bottom that resembles buttocks, testicles, breasts, or a combination of these"
+255,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have a bottom that resembles buttocks, testicles, breasts, or a combination of these"
+256,circle,Characters inside the circle in the image are characters that contain a curved line.,have a bottom that is curved or rounded
+256,color,Characters colored red in the image are characters that contain a loop or circular shape.,have a bottom that is curved or rounded
+256,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,have a bottom that is curved or rounded
+257,circle,Characters inside the circle in the image are characters that contain a closed loop.,have two fully enclosed spaces
+257,color,Characters colored red in the image are characters that contain a closed loop.,have two fully enclosed spaces
+257,leftright,Characters on the right side in the image are characters that contain a circle.,have two fully enclosed spaces
+258,circle,Characters inside the circle in the image are characters that contain a closed loop.,contain at least one closed area or a fully contained shape of any type
+258,color,Characters colored red in the image are characters that contain a closed loop.,contain at least one closed area or a fully contained shape of any type
+258,leftright,Characters on the right side in the image are characters that contain a closed loop.,contain at least one closed area or a fully contained shape of any type
+259,circle,Characters inside the circle in the image are characters that contain at least one curved line.,"contain symmetry, either horizontally, vertically, or through an axis"
+259,color,Characters colored red in the image are characters that contain a closed loop or circle.,"contain symmetry, either horizontally, vertically, or through an axis"
+259,leftright,Characters on the right side in the image are characters that contain at least one triangle.,"contain symmetry, either horizontally, vertically, or through an axis"
+25,circle,Characters inside the circle in the image are characters that do not contain a vertical line.,are made with a single continuous line or shape with no disconnected parts
+25,color,Characters colored red in the image are characters that contain a curved line.,are made with a single continuous line or shape with no disconnected parts
+25,leftright,Characters on the right side in the image are characters that do not contain any horizontal lines.,are made with a single continuous line or shape with no disconnected parts
+260,circle,Characters inside the circle in the image are characters that contain at least one straight vertical line.,"consist of only straight lines, with no curved lines or curls"
+260,color,Characters colored red in the image are characters that contain at least one right angle.,"consist of only straight lines, with no curved lines or curls"
+260,leftright,Characters on the right side in the image are characters that contain at least one straight vertical line.,"consist of only straight lines, with no curved lines or curls"
+261,circle,Characters inside the circle in the image are characters that contain a closed loop.,"resemble variations on a V, with rounded or angled strokes and optional appendages"
+261,color,"Characters colored red in the image are characters that contain a ""V"" shape.","resemble variations on a V, with rounded or angled strokes and optional appendages"
+261,leftright,"Characters on the right side in the image are characters that contain a ""V"" shape.","resemble variations on a V, with rounded or angled strokes and optional appendages"
+262,circle,Characters inside the circle in the image are characters that contain a curve or a loop.,have two waves like a variation on a W or omega or inverted M
+262,color,Characters colored red in the image are characters that contain a wavy or zigzag line.,have two waves like a variation on a W or omega or inverted M
+262,leftright,Characters on the right side in the image are characters that contain a wavy line.,have two waves like a variation on a W or omega or inverted M
+263,circle,Characters inside the circle in the image are characters that contain at least one straight vertical line.,"are composed of only straight lines, with no curves or rounded parts"
+263,color,Characters colored red in the image are characters that contain a right angle.,"are composed of only straight lines, with no curves or rounded parts"
+263,leftright,Characters on the right side in the image are characters that contain a horizontal line at the bottom.,"are composed of only straight lines, with no curves or rounded parts"
+264,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have square or boxy shapes with at least two right angles
+264,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,have square or boxy shapes with at least two right angles
+264,leftright,Characters on the right side in the image are characters that have a horizontal line at the bottom.,have square or boxy shapes with at least two right angles
+265,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have parallel lines
+265,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,have parallel lines
+265,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have parallel lines
+266,circle,Characters inside the circle in the image are characters that contain at least one straight vertical line.,contain at least one straight vertical line
+266,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,contain at least one straight vertical line
+266,leftright,Characters on the right side in the image are characters that contain a vertical line.,contain at least one straight vertical line
+267,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,contain at least one straight horizontal line
+267,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,contain at least one straight horizontal line
+267,leftright,Characters on the right side in the image are characters that contain a horizontal line.,contain at least one straight horizontal line
+268,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"have a flat bottom, not counting a tailed droplet"
+268,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,"have a flat bottom, not counting a tailed droplet"
+268,leftright,Characters on the right side in the image are characters that contain a horizontal line.,"have a flat bottom, not counting a tailed droplet"
+269,circle,Characters inside the circle in the image are characters that are symmetrical along the vertical axis.,have rotational symmetry
+269,color,Characters colored red in the image are characters that contain a horizontal line.,have rotational symmetry
+269,leftright,Characters on the right side in the image are characters that contain a vertical line.,have rotational symmetry
+26,circle,Characters inside the circle in the image are characters that have a vertical line.,have an ascender that extends above the standard height of most letters in this alphabet
+26,color,Characters colored red in the image are characters that contain a vertical line on the right side.,have an ascender that extends above the standard height of most letters in this alphabet
+26,leftright,Characters on the right side in the image are characters that have a small loop or hook at the end of one of their strokes.,have an ascender that extends above the standard height of most letters in this alphabet
+270,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,"have loops, including at least one loop crossing itself, and possibly a closed loop or loops of string"
+270,color,Characters colored red in the image are characters that contain a loop or circular shape.,"have loops, including at least one loop crossing itself, and possibly a closed loop or loops of string"
+270,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have loops, including at least one loop crossing itself, and possibly a closed loop or loops of string"
+271,circle,Characters inside the circle in the image are characters that contain a closed loop.,are round or oval-shaped but may have a single connected line
+271,color,Characters colored red in the image are characters that contain a circle.,are round or oval-shaped but may have a single connected line
+271,leftright,Characters on the right side in the image are characters that contain a circular or oval shape.,are round or oval-shaped but may have a single connected line
+272,circle,Characters inside the circle in the image are characters that are symmetrical along the vertical axis.,have a horizontal line of symmetry
+272,color,Characters colored red in the image are characters that contain a horizontal line.,have a horizontal line of symmetry
+272,leftright,Characters on the right side in the image are characters that are symmetrical along a vertical axis.,have a horizontal line of symmetry
+273,circle,Characters inside the circle in the image are characters that contain a closed loop.,have exactly one enclosed space
+273,color,Characters colored red in the image are characters that contain a loop or circular shape.,have exactly one enclosed space
+273,leftright,Characters on the right side in the image are characters that contain a closed loop.,have exactly one enclosed space
+274,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,have enclosed spaces
+274,color,Characters colored red in the image are characters that contain a loop or circular shape.,have enclosed spaces
+274,leftright,Characters on the right side in the image are characters that contain at least one closed loop.,have enclosed spaces
+275,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,can be drawn with a single stroke
+275,color,Characters colored red in the image are characters that contain a spiral or loop.,can be drawn with a single stroke
+275,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,can be drawn with a single stroke
+276,circle,Characters inside the circle in the image are characters that contain at least one straight line.,have a curved top line like a hat
+276,color,Characters colored red in the image are characters that contain a horizontal line.,have a curved top line like a hat
+276,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have a curved top line like a hat
+277,circle,Characters inside the circle in the image are characters that contain a single enclosed loop.,"do not exceed the average size of other characters and contain a small, closed, non-crossed loop"
+277,color,Characters colored red in the image are characters that have a small loop at the bottom right.,"do not exceed the average size of other characters and contain a small, closed, non-crossed loop"
+277,leftright,Characters on the right side in the image are characters that contain a loop.,"do not exceed the average size of other characters and contain a small, closed, non-crossed loop"
+278,circle,Characters inside the circle in the image are characters that contain a loop.,"have a small loop attached to the bottom of the character, often with an extension that goes up to the right"
+278,color,Characters colored red in the image are characters that have a loop or circular shape at the bottom.,"have a small loop attached to the bottom of the character, often with an extension that goes up to the right"
+278,leftright,Characters on the right side in the image are characters that contain a loop.,"have a small loop attached to the bottom of the character, often with an extension that goes up to the right"
+279,circle,Characters inside the circle in the image are characters that contain a loop.,"have a narrow, elongated U shape on the right side of the character"
+279,color,Characters colored red in the image are characters that contain a loop or circle at the bottom.,"have a narrow, elongated U shape on the right side of the character"
+279,leftright,Characters on the right side in the image are characters that have a loop or circular shape at the top.,"have a narrow, elongated U shape on the right side of the character"
+27,circle,Characters inside the circle in the image are characters that have a horizontal line.,"are reflections of another characters, symmetrical about a vertical axis"
+27,color,Characters colored red in the image are characters that contain a loop or enclosed area.,"are reflections of another characters, symmetrical about a vertical axis"
+27,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,"are reflections of another characters, symmetrical about a vertical axis"
+280,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,"are primarily composed of an elongated, closed oval shape"
+280,color,Characters colored red in the image are characters that contain an enclosed oval shape.,"are primarily composed of an elongated, closed oval shape"
+280,leftright,Characters on the right side in the image are characters that contain a loop.,"are primarily composed of an elongated, closed oval shape"
+281,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,"have one or more enclosed sections, loops, and hollow areas"
+281,color,Characters colored red in the image are characters that contain at least one loop.,"have one or more enclosed sections, loops, and hollow areas"
+281,leftright,Characters on the right side in the image are characters that contain at least one loop.,"have one or more enclosed sections, loops, and hollow areas"
+282,circle,Characters inside the circle in the image are characters that contain a circumflex accent (ˆ).,have a caret accent or circumflex
+282,color,Characters colored red in the image are characters that have a small loop or circle at the top.,have a caret accent or circumflex
+282,leftright,Characters on the right side in the image are characters that contain a small circle or dot above a curved line.,have a caret accent or circumflex
+283,circle,Characters inside the circle in the image are characters that contain a check mark or tick symbol.,have a roof-like shape on top
+283,color,Characters colored red in the image are characters that contain a check mark shape.,have a roof-like shape on top
+283,leftright,Characters on the right side in the image are characters that contain a check mark shape.,have a roof-like shape on top
+284,circle,Characters inside the circle in the image are characters that contain a loop.,have two closed surfaces or loops
+284,color,Characters colored red in the image are characters that contain a loop.,have two closed surfaces or loops
+284,leftright,Characters on the right side in the image are characters that contain a loop.,have two closed surfaces or loops
+285,circle,"Characters inside the circle in the image are characters that contain the letter ""w"".",contain a W shape
+285,color,Characters colored red in the image are characters that contain a loop.,contain a W shape
+285,leftright,"Characters on the right side in the image are characters that contain a ""W"" shape.",contain a W shape
+286,circle,Characters inside the circle in the image are characters that contain a check mark shape.,include shapes of V or W
+286,color,Characters colored red in the image are characters that contain a check mark shape.,include shapes of V or W
+286,leftright,Characters on the right side in the image are characters that contain a check mark shape.,include shapes of V or W
+287,circle,Characters inside the circle in the image are characters that contain a loop.,contain a hook-like shape at the bottom-right corner
+287,color,Characters colored red in the image are characters that contain a loop.,contain a hook-like shape at the bottom-right corner
+287,leftright,Characters on the right side in the image are characters that contain a loop.,contain a hook-like shape at the bottom-right corner
+288,circle,Characters inside the circle in the image are characters that contain at least one curved line.,"contain an enclosed shape, space or loop"
+288,color,Characters colored red in the image are characters that contain a loop.,"contain an enclosed shape, space or loop"
+288,leftright,Characters on the right side in the image are characters that contain a loop.,"contain an enclosed shape, space or loop"
+289,circle,Characters inside the circle in the image are characters that contain a curved line.,have crossing lines and 4-way junctions
+289,color,Characters colored red in the image are characters that contain a loop.,have crossing lines and 4-way junctions
+289,leftright,Characters on the right side in the image are characters that contain a loop.,have crossing lines and 4-way junctions
+28,circle,Characters inside the circle in the image are characters that contain a horizontal line.,contain a small closed circular loop
+28,color,Characters colored red in the image are characters that contain a small loop or circle.,contain a small closed circular loop
+28,leftright,Characters on the right side in the image are characters that contain a diagonal line.,contain a small closed circular loop
+290,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,"have 2 short segments at the top and bottom of symmetrical vertical characters, like OH or its mirror image"
+290,color,Characters colored red in the image are characters that contain a vertical line in the middle.,"have 2 short segments at the top and bottom of symmetrical vertical characters, like OH or its mirror image"
+290,leftright,Characters on the right side in the image are characters that contain a vertical line on the right side.,"have 2 short segments at the top and bottom of symmetrical vertical characters, like OH or its mirror image"
+291,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have a flag-like mark in the top-right corner
+291,color,Characters colored red in the image are characters that contain a small horizontal line extending from the top right corner.,have a flag-like mark in the top-right corner
+291,leftright,Characters on the right side in the image are characters that contain a horizontal line with a small vertical line extending upwards from it.,have a flag-like mark in the top-right corner
+292,circle,Characters inside the circle in the image are characters that contain diagonal lines.,"contain diagonal lines and acute angles, but no flags"
+292,color,Characters colored red in the image are characters that contain diagonal lines.,"contain diagonal lines and acute angles, but no flags"
+292,leftright,Characters on the right side in the image are characters that contain diagonal lines.,"contain diagonal lines and acute angles, but no flags"
+293,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,are variations of the letter E in different orientations and with embellishments
+293,color,Characters colored red in the image are characters that contain three horizontal lines.,are variations of the letter E in different orientations and with embellishments
+293,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,are variations of the letter E in different orientations and with embellishments
+294,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have flagged and unflagged pairs
+294,color,Characters colored red in the image are characters that contain a vertical line.,have flagged and unflagged pairs
+294,leftright,Characters on the right side in the image are characters that contain a horizontal line with a small vertical line attached to it.,have flagged and unflagged pairs
+295,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have a full length internal horizontal line
+295,color,Characters colored red in the image are characters that contain at least one horizontal line.,have a full length internal horizontal line
+295,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have a full length internal horizontal line
+296,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have 180-degree rotational symmetry
+296,color,Characters colored red in the image are characters that contain at least one diagonal line.,have 180-degree rotational symmetry
+296,leftright,Characters on the right side in the image are characters that contain at least one enclosed area.,have 180-degree rotational symmetry
+297,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have a solid base line composed of one continuous horizontal line
+297,color,Characters colored red in the image are characters that contain a diagonal line.,have a solid base line composed of one continuous horizontal line
+297,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have a solid base line composed of one continuous horizontal line
+298,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,contain at least one enclosed rectangle
+298,color,Characters colored red in the image are characters that contain at least one vertical line.,contain at least one enclosed rectangle
+298,leftright,Characters on the right side in the image are characters that contain a vertical line.,contain at least one enclosed rectangle
+299,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,have exactly one enclosed space
+299,color,Characters colored red in the image are characters that contain at least one enclosed shape.,have exactly one enclosed space
+299,leftright,Characters on the right side in the image are characters that contain a vertical line.,have exactly one enclosed space
+29,circle,Characters inside the circle in the image are characters that have a horizontal line.,are horizontally or vertically symmetrical about an axis
+29,color,Characters colored red in the image are characters that contain a closed loop or circle.,are horizontally or vertically symmetrical about an axis
+29,leftright,Characters on the right side in the image are characters that contain a closed loop or circle.,are horizontally or vertically symmetrical about an axis
+300,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,contain at least one enclosed space or shape
+300,color,Characters colored red in the image are characters that contain a vertical line.,contain at least one enclosed space or shape
+300,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,contain at least one enclosed space or shape
+301,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,have an open area facing up
+301,color,Characters colored red in the image are characters that contain at least one vertical line.,have an open area facing up
+301,leftright,Characters on the right side in the image are characters that contain at least one vertical line.,have an open area facing up
+302,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,have vertical symmetry
+302,color,Characters colored red in the image are characters that contain at least one enclosed area.,have vertical symmetry
+302,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have vertical symmetry
+303,circle,Characters inside the circle in the image are characters that contain a vertical line.,have a central open U-body
+303,color,Characters colored red in the image are characters that contain a vertical line.,have a central open U-body
+303,leftright,Characters on the right side in the image are characters that contain a vertical line.,have a central open U-body
+304,circle,Characters inside the circle in the image are characters that have a vertical line.,have a horizontal line at the bottom
+304,color,Characters colored red in the image are characters that contain a loop.,have a horizontal line at the bottom
+304,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have a horizontal line at the bottom
+305,circle,Characters inside the circle in the image are characters that contain a vertical line.,"have no enclosed elements, whitespace, shapes, enclosures, or loops"
+305,color,Characters colored red in the image are characters that have a straight vertical line.,"have no enclosed elements, whitespace, shapes, enclosures, or loops"
+305,leftright,Characters on the right side in the image are characters that contain a horizontal line.,"have no enclosed elements, whitespace, shapes, enclosures, or loops"
+306,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,have a closed loop in a triangular shape
+306,color,Characters colored red in the image are characters that contain a small circle or dot.,have a closed loop in a triangular shape
+306,leftright,Characters on the right side in the image are characters that have a vertical line with a small circle or loop at the top.,have a closed loop in a triangular shape
+307,circle,Characters inside the circle in the image are characters that contain a vertical line.,are lines without circles at the end
+307,color,Characters colored red in the image are characters that contain a straight vertical line.,are lines without circles at the end
+307,leftright,Characters on the right side in the image are characters that have a straight vertical line.,are lines without circles at the end
+308,circle,Characters inside the circle in the image are characters that contain a loop.,contain at least one right angle
+308,color,Characters colored red in the image are characters that contain a loop or a circular shape.,contain at least one right angle
+308,leftright,Characters on the right side in the image are characters that contain a loop.,contain at least one right angle
+309,circle,Characters inside the circle in the image are characters that contain a loop.,have a loop in the bottom left
+309,color,Characters colored red in the image are characters that contain a spiral or loop.,have a loop in the bottom left
+309,leftright,Characters on the right side in the image are characters that contain a small loop or curl.,have a loop in the bottom left
+30,circle,Characters inside the circle in the image are characters that have a closed loop or circle.,resemble the letter e or E
+30,color,Characters colored red in the image are characters that contain a closed loop.,resemble the letter e or E
+30,leftright,Characters on the right side in the image are characters that have a horizontal line through them.,resemble the letter e or E
+310,circle,Characters inside the circle in the image are characters that contain a loop.,"are like a stylized 3, either frontward or backward"
+310,color,Characters colored red in the image are characters that contain a spiral or loop.,"are like a stylized 3, either frontward or backward"
+310,leftright,Characters on the right side in the image are characters that contain a loop or spiral.,"are like a stylized 3, either frontward or backward"
+311,circle,Characters inside the circle in the image are characters that contain a loop.,"have two closed, non-crossing loops"
+311,color,Characters colored red in the image are characters that contain a spiral or loop.,"have two closed, non-crossing loops"
+311,leftright,Characters on the right side in the image are characters that contain a loop or curl.,"have two closed, non-crossing loops"
+312,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,contain two closed loops or circles
+312,color,Characters colored red in the image are characters that contain a loop or spiral.,contain two closed loops or circles
+312,leftright,Characters on the right side in the image are characters that contain a loop or spiral.,contain two closed loops or circles
+313,circle,Characters inside the circle in the image are characters that have a loop or circular shape.,have a closed loop at top
+313,color,Characters colored red in the image are characters that contain a loop or spiral.,have a closed loop at top
+313,leftright,Characters on the right side in the image are characters that contain a loop or spiral.,have a closed loop at top
+314,circle,Characters inside the circle in the image are characters that have a vertical line on the right side.,contain two or more separate elements
+314,color,Characters colored red in the image are characters that have a small circle or dot below them.,contain two or more separate elements
+314,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain two or more separate elements
+315,circle,Characters inside the circle in the image are characters that have a vertical line.,feature a loop that crosses itself
+315,color,Characters colored red in the image are characters that have a horizontal line at the top.,feature a loop that crosses itself
+315,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,feature a loop that crosses itself
+316,circle,Characters inside the circle in the image are characters that contain a vertical line.,contact the upper line in two points
+316,color,Characters colored red in the image are characters that have a vertical line on the right side.,contact the upper line in two points
+316,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contact the upper line in two points
+317,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,have a closed loop or knot
+317,color,Characters colored red in the image are characters that have a loop or circular shape.,have a closed loop or knot
+317,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a closed loop or knot
+318,circle,Characters inside the circle in the image are characters that contain a vertical line.,"contain at least one triangle, two vertical lines, and a horizontal line"
+318,color,Characters colored red in the image are characters that have a horizontal line at the top with vertical lines extending downwards.,"contain at least one triangle, two vertical lines, and a horizontal line"
+318,leftright,Characters on the right side in the image are characters that have a horizontal line at the top and a vertical line extending downwards from the middle of the horizontal line.,"contain at least one triangle, two vertical lines, and a horizontal line"
+319,circle,Characters inside the circle in the image are characters that contain a vertical line.,contain a triangle or a triangular shape
+319,color,Characters colored red in the image are characters that have a horizontal line at the top with vertical lines extending downward from it.,contain a triangle or a triangular shape
+319,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,contain a triangle or a triangular shape
+31,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,have a rounded bottom that extends the full width of the characters
+31,color,Characters colored red in the image are characters that contain a horizontal line.,have a rounded bottom that extends the full width of the characters
+31,leftright,Characters on the right side in the image are characters that have a curved or rounded shape.,have a rounded bottom that extends the full width of the characters
+320,circle,Characters inside the circle in the image are characters that contain a vertical line.,"contain a left-hand vertical line, as well as a right-hand horizontal line"
+320,color,Characters colored red in the image are characters that have a horizontal line at the top.,"contain a left-hand vertical line, as well as a right-hand horizontal line"
+320,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,"contain a left-hand vertical line, as well as a right-hand horizontal line"
+321,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,contain a full length diagonal line bottom left to top right
+321,color,Characters colored red in the image are characters that have a horizontal line at the top.,contain a full length diagonal line bottom left to top right
+321,leftright,Characters on the right side in the image are characters that have a diagonal line extending from the top left to the bottom right.,contain a full length diagonal line bottom left to top right
+322,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,are connected to the top horizontal line at the right side of the letter
+322,color,Characters colored red in the image are characters that have a horizontal line at the top.,are connected to the top horizontal line at the right side of the letter
+322,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,are connected to the top horizontal line at the right side of the letter
+323,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,contain two long vertical parallel lines which frame a character on the left and right sides
+323,color,"Characters colored red in the image are characters that contain two intersecting diagonal lines forming an ""X"" shape.",contain two long vertical parallel lines which frame a character on the left and right sides
+323,leftright,"Characters on the right side in the image are characters that contain an ""X"" shape.",contain two long vertical parallel lines which frame a character on the left and right sides
+324,circle,"Characters inside the circle in the image are characters that contain an ""X"" shape.",contain at least one triangular shape
+324,color,Characters colored red in the image are characters that contain a diamond shape.,contain at least one triangular shape
+324,leftright,"Characters on the right side in the image are characters that contain an ""X"" shape.",contain at least one triangular shape
+325,circle,Characters inside the circle in the image are characters that contain a vertical line.,have a dot on a line
+325,color,Characters colored red in the image are characters that contain a vertical line with a small circle or dot at one end.,have a dot on a line
+325,leftright,Characters on the right side in the image are characters that contain a vertical line with a dot on top.,have a dot on a line
+326,circle,Characters inside the circle in the image are characters that contain a single dot.,are small compared to the rest
+326,color,Characters colored red in the image are characters that contain a small filled circle.,are small compared to the rest
+326,leftright,Characters on the right side in the image are characters that contain a single dot.,are small compared to the rest
+327,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right"
+327,color,Characters colored red in the image are characters that contain two parallel vertical lines connected by a horizontal line.,"are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right"
+327,leftright,Characters on the right side in the image are characters that have a flag-like shape.,"are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right"
+328,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,contain at least one enclosed region
+328,color,"Characters colored red in the image are characters that contain an ""X"" shape.",contain at least one enclosed region
+328,leftright,"Characters on the right side in the image are characters that contain an ""X"" shape.",contain at least one enclosed region
+329,circle,Characters inside the circle in the image are characters that contain a vertical line.,are split symmetrically by a horizontal axis
+329,color,"Characters colored red in the image are characters that contain an ""X"" shape.",are split symmetrically by a horizontal axis
+329,leftright,"Characters on the right side in the image are characters that contain an ""X"" shape.",are split symmetrically by a horizontal axis
+32,circle,Characters inside the circle in the image are characters that have a horizontal line.,have a horizontal line that extends the full width of the characters
+32,color,Characters colored red in the image are characters that contain a horizontal line.,have a horizontal line that extends the full width of the characters
+32,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a horizontal line that extends the full width of the characters
+330,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"have curved roots to the right, including the same N-shaped glyph"
+330,color,Characters colored red in the image are characters that contain a vertical line enclosed within a semi-circle or partial rectangle.,"have curved roots to the right, including the same N-shaped glyph"
+330,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,"have curved roots to the right, including the same N-shaped glyph"
+331,circle,Characters inside the circle in the image are characters that contain a vertical line.,"have separate dots, containing a dot or more"
+331,color,Characters colored red in the image are characters that contain a vertical line intersecting a curved line.,"have separate dots, containing a dot or more"
+331,leftright,Characters on the right side in the image are characters that contain a vertical line on the left side.,"have separate dots, containing a dot or more"
+332,circle,Characters inside the circle in the image are characters that contain a diagonal line.,contain multiple disconnected parts
+332,color,Characters colored red in the image are characters that contain a closed loop or enclosed area.,contain multiple disconnected parts
+332,leftright,Characters on the right side in the image are characters that contain a vertical line on the left side.,contain multiple disconnected parts
+333,circle,Characters inside the circle in the image are characters that contain a vertical line.,"are pairs, with one containing a dot"
+333,color,Characters colored red in the image are characters that contain a vertical line intersecting with a curved line.,"are pairs, with one containing a dot"
+333,leftright,Characters on the right side in the image are characters that contain a curved line.,"are pairs, with one containing a dot"
+334,circle,Characters inside the circle in the image are characters that contain at least one enclosed area.,have at least one curved line
+334,color,Characters colored red in the image are characters that contain a vertical line with a curve or curves attached to it.,have at least one curved line
+334,leftright,Characters on the right side in the image are characters that contain a vertical line with a horizontal line intersecting it.,have at least one curved line
+335,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,are located to the right of the vertical line or dot
+335,color,Characters colored red in the image are characters that contain a vertical line and an arc.,are located to the right of the vertical line or dot
+335,leftright,Characters on the right side in the image are characters that contain at least one curved line.,are located to the right of the vertical line or dot
+33,circle,Characters inside the circle in the image are characters that contain a vertical line.,have at least one vertical straight line
+33,color,Characters colored red in the image are characters that contain a horizontal line.,have at least one vertical straight line
+33,leftright,Characters on the right side in the image are characters that have a vertical line on the left side.,have at least one vertical straight line
+34,circle,Characters inside the circle in the image are characters that contain a loop.,"contain a closed or enclosed shape, such as a loop or inner chamber"
+34,color,Characters colored red in the image are characters that contain a loop or enclosed area.,"contain a closed or enclosed shape, such as a loop or inner chamber"
+34,leftright,Characters on the right side in the image are characters that have a horizontal line.,"contain a closed or enclosed shape, such as a loop or inner chamber"
+35,circle,Characters inside the circle in the image are characters that contain exactly three horizontal lines.,have small solid diamond dots on a horizontal line
+35,color,Characters colored red in the image are characters that contain diamond shapes.,have small solid diamond dots on a horizontal line
+35,leftright,Characters on the right side in the image are characters that contain an arrow shape.,have small solid diamond dots on a horizontal line
+36,circle,Characters inside the circle in the image are characters that contain exactly five vertical lines.,contain diagonal lines bisected by a horizontal line
+36,color,Characters colored red in the image are characters that contain diagonal lines.,contain diagonal lines bisected by a horizontal line
+36,leftright,Characters on the right side in the image are characters that contain diagonal lines.,contain diagonal lines bisected by a horizontal line
+37,circle,Characters inside the circle in the image are characters that contain exactly six straight lines.,contain at least one diagonal line
+37,color,Characters colored red in the image are characters that contain diagonal lines.,contain at least one diagonal line
+37,leftright,Characters on the right side in the image are characters that contain diagonal lines.,contain at least one diagonal line
+38,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have vertical lines extending above a horizontal line
+38,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,have vertical lines extending above a horizontal line
+38,leftright,Characters on the right side in the image are characters that consist of vertical lines only.,have vertical lines extending above a horizontal line
+39,circle,Characters inside the circle in the image are characters that contain exactly four vertical lines.,have parallel vertical lines or bars
+39,color,Characters colored red in the image are characters that contain multiple parallel horizontal lines.,have parallel vertical lines or bars
+39,leftright,Characters on the right side in the image are characters that contain multiple parallel horizontal lines.,have parallel vertical lines or bars
+40,circle,Characters inside the circle in the image are characters that contain exactly three vertical lines.,have a downward vertical line or lines
+40,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,have a downward vertical line or lines
+40,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,have a downward vertical line or lines
+41,circle,Characters inside the circle in the image are characters that contain multiple vertical lines.,have vertical lines and right angles
+41,color,Characters colored red in the image are characters that contain horizontal lines.,have vertical lines and right angles
+41,leftright,Characters on the right side in the image are characters that contain multiple parallel horizontal lines.,have vertical lines and right angles
+42,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have zigzag tails or zigzag lines
+42,color,Characters colored red in the image are characters that have a tilde (~) symbol.,have zigzag tails or zigzag lines
+42,leftright,Characters on the right side in the image are characters that have a tilde (~) shape.,have zigzag tails or zigzag lines
+43,circle,Characters inside the circle in the image are characters that are numbers.,are upright digits resembling Arabic numerals
+43,color,Characters colored red in the image are characters that are numerical digits.,are upright digits resembling Arabic numerals
+43,leftright,Characters on the right side in the image are numeric digits.,are upright digits resembling Arabic numerals
+44,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,have two or more enclosed spaces or loops
+44,color,Characters colored red in the image are characters that contain a circle or circular shape.,have two or more enclosed spaces or loops
+44,leftright,Characters on the right side in the image are characters that contain a circle.,have two or more enclosed spaces or loops
+45,circle,Characters inside the circle in the image are characters that have a curved shape.,"are based on a circle open to the right, resembling a C or G"
+45,color,Characters colored red in the image are characters that have a small horizontal line or stroke at the bottom.,"are based on a circle open to the right, resembling a C or G"
+45,leftright,Characters on the right side in the image are characters that contain a curve or arc.,"are based on a circle open to the right, resembling a C or G"
+46,circle,"Characters inside the circle in the image are characters that contain the letter ""S"".","resemble the letter S, with possible added features"
+46,color,"Characters colored red in the image are characters that have a shape resembling the letter ""S"".","resemble the letter S, with possible added features"
+46,leftright,Characters on the right side in the image are characters that have a horizontal line in the middle.,"resemble the letter S, with possible added features"
+47,circle,Characters inside the circle in the image are characters that contain a closed loop or circle.,"have a large oval shape resembling the letter O, possibly with additional features"
+47,color,Characters colored red in the image are characters that contain a circle.,"have a large oval shape resembling the letter O, possibly with additional features"
+47,leftright,Characters on the right side in the image are characters that contain a circle.,"have a large oval shape resembling the letter O, possibly with additional features"
+48,circle,Characters inside the circle in the image are characters that contain a circular or oval shape.,have a perfect circle or oval
+48,color,Characters colored red in the image are characters that contain a small circle or dot.,have a perfect circle or oval
+48,leftright,Characters on the right side in the image are characters that contain at least one circular or oval shape.,have a perfect circle or oval
+49,circle,Characters inside the circle in the image are characters that consist of straight lines only.,are made up of only straight lines
+49,color,Characters colored red in the image are characters that are also used in the English alphabet.,are made up of only straight lines
+49,leftright,Characters on the right side in the image are characters that consist only of straight lines.,are made up of only straight lines
+50,circle,Characters inside the circle in the image are characters that contain at least one circular or oval shape.,"have at least one enclosed space, loop, or region"
+50,color,Characters colored red in the image are characters that have a loop or circular shape.,"have at least one enclosed space, loop, or region"
+50,leftright,Characters on the right side in the image are characters that contain at least one closed loop.,"have at least one enclosed space, loop, or region"
+51,circle,Characters inside the circle in the image are characters that have a single round dot.,contain a short vertical line above a small horizontal line with a curved bend to the right
+51,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,contain a short vertical line above a small horizontal line with a curved bend to the right
+51,leftright,Characters on the right side in the image are characters that contain a horizontal line.,contain a short vertical line above a small horizontal line with a curved bend to the right
+52,circle,Characters inside the circle in the image are characters that contain a vertical line.,have crossed lines
+52,color,Characters colored red in the image are characters that contain a horizontal line.,have crossed lines
+52,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have crossed lines
+53,circle,Characters inside the circle in the image are characters that contain at least one straight line.,have two round dots
+53,color,Characters colored red in the image are characters that contain a vertical line with a horizontal line intersecting it.,have two round dots
+53,leftright,Characters on the right side in the image are characters that contain a horizontal line.,have two round dots
+54,circle,Characters inside the circle in the image are characters that contain a curved line.,have one dot
+54,color,Characters colored red in the image are characters that contain a small circle or dot.,have one dot
+54,leftright,Characters on the right side in the image are characters that contain at least one curved line.,have one dot
+55,circle,Characters inside the circle in the image are characters that have at least one dot.,have one or more dots
+55,color,Characters colored red in the image are characters that contain at least one small filled circle.,have one or more dots
+55,leftright,Characters on the right side in the image are characters that contain a small circle.,have one or more dots
+56,circle,Characters inside the circle in the image are characters that contain a horizontal line.,contain a zigzag pattern
+56,color,Characters colored red in the image are characters that contain a zigzag or lightning bolt shape.,contain a zigzag pattern
+56,leftright,Characters on the right side in the image are characters that contain a diagonal line.,contain a zigzag pattern
+57,circle,Characters inside the circle in the image are characters that contain a loop.,contain a small loop
+57,color,Characters colored red in the image are characters that contain a loop.,contain a small loop
+57,leftright,Characters on the right side in the image are characters that have a small loop or circle attached to a line.,contain a small loop
+58,circle,Characters inside the circle in the image are characters that contain at least one straight line.,have an acute angle or diagonal line
+58,color,Characters colored red in the image are characters that contain at least one sharp angle.,have an acute angle or diagonal line
+58,leftright,Characters on the right side in the image are characters that contain at least one straight line.,have an acute angle or diagonal line
+59,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,are round and do not contain any straight lines
+59,color,Characters colored red in the image are characters that contain at least one closed loop.,are round and do not contain any straight lines
+59,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,are round and do not contain any straight lines
+5,circle,Characters inside the circle in the image are characters that contain a loop.,have a left-side loop shaped like a lower case e
+5,color,Characters colored red in the image are characters that contain a loop.,have a left-side loop shaped like a lower case e
+5,leftright,Characters on the right side in the image are characters that contain a loop.,have a left-side loop shaped like a lower case e
+60,circle,Characters inside the circle in the image are characters that contain a horizontal line.,contain a small horizontal bar in the center
+60,color,Characters colored red in the image are characters that contain at least one horizontal line.,contain a small horizontal bar in the center
+60,leftright,Characters on the right side in the image are characters that contain a horizontal line.,contain a small horizontal bar in the center
+61,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"are composed of mostly straight lines, with slight corner rounding allowed but no curved lines"
+61,color,Characters colored red in the image are characters that contain at least one horizontal line.,"are composed of mostly straight lines, with slight corner rounding allowed but no curved lines"
+61,leftright,Characters on the right side in the image are characters that contain at least one straight horizontal line.,"are composed of mostly straight lines, with slight corner rounding allowed but no curved lines"
+62,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,have a flat bottom
+62,color,Characters colored red in the image are characters that contain at least one horizontal line.,have a flat bottom
+62,leftright,Characters on the right side in the image are characters that contain at least one straight vertical line.,have a flat bottom
+63,circle,Characters inside the circle in the image are characters that have at least one horizontal line.,have a horizontal line at the bottom
+63,color,Characters colored red in the image are characters that contain at least one horizontal line.,have a horizontal line at the bottom
+63,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,have a horizontal line at the bottom
+64,circle,Characters inside the circle in the image are characters that contain a wavy or zigzag line.,have overlapping lines or parts that do not touch
+64,color,Characters colored red in the image are characters that contain two connected wavy lines.,have overlapping lines or parts that do not touch
+64,leftright,"Characters on the right side in the image are characters that contain at least one ""V"" shape.",have overlapping lines or parts that do not touch
+65,circle,Characters inside the circle in the image are characters that contain a single dot.,have a downward-pointing triangle or V shape
+65,color,"Characters colored red in the image are characters that contain a ""V"" shape.",have a downward-pointing triangle or V shape
+65,leftright,"Characters on the right side in the image are characters that consist of a ""V"" shape.",have a downward-pointing triangle or V shape
+66,circle,Characters inside the circle in the image are characters that contain a loop or a curve.,contain a U shape on a diagonal or a hook shape
+66,color,Characters colored red in the image are characters that contain a dot.,contain a U shape on a diagonal or a hook shape
+66,leftright,Characters on the right side in the image are characters that contain a loop.,contain a U shape on a diagonal or a hook shape
+67,circle,Characters inside the circle in the image are characters that have straight lines.,have vertical symmetry
+67,color,Characters colored red in the image are characters that contain at least one vertical line.,have vertical symmetry
+67,leftright,Characters on the right side in the image are characters that have straight vertical lines.,have vertical symmetry
+68,circle,Characters inside the circle in the image are characters that consist of straight lines only.,contain only straight lines
+68,color,Characters colored red in the image are characters that contain at least one straight vertical line.,contain only straight lines
+68,leftright,Characters on the right side in the image are characters that contain at least one straight vertical line.,contain only straight lines
+69,circle,Characters inside the circle in the image are characters that have at least one horizontal line.,have horizontal straight lines
+69,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,have horizontal straight lines
+69,leftright,Characters on the right side in the image are characters that have at least one horizontal line.,have horizontal straight lines
+6,circle,Characters inside the circle in the image are characters that contain a loop.,have fully enclosed spaces or closed loops
+6,color,Characters colored red in the image are characters that contain a loop or circular shape.,have fully enclosed spaces or closed loops
+6,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,have fully enclosed spaces or closed loops
+70,circle,Characters inside the circle in the image are characters that have straight lines only.,can be written in one stroke
+70,color,Characters colored red in the image are characters that have a curved line.,can be written in one stroke
+70,leftright,Characters on the right side in the image are characters that do not contain any curves.,can be written in one stroke
+71,circle,Characters inside the circle in the image are characters that do not contain any curves.,have a vertical straight line on the left side
+71,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,have a vertical straight line on the left side
+71,leftright,Characters on the right side in the image are characters that have a horizontal line at the bottom.,have a vertical straight line on the left side
+72,circle,Characters inside the circle in the image are characters that contain a horizontal line.,do not have any enclosed shapes or spaces
+72,color,Characters colored red in the image are characters that contain a horizontal line.,do not have any enclosed shapes or spaces
+72,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,do not have any enclosed shapes or spaces
+73,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"have a full-height straight line on the right side, ending in a vertical line perpendicular to a horizontal line at the base of the character"
+73,color,Characters colored red in the image are characters that contain a loop or circular shape.,"have a full-height straight line on the right side, ending in a vertical line perpendicular to a horizontal line at the base of the character"
+73,leftright,Characters on the right side in the image are characters that contain a vertical line.,"have a full-height straight line on the right side, ending in a vertical line perpendicular to a horizontal line at the base of the character"
+74,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have a small vertical line at the base
+74,color,Characters colored red in the image are characters that contain a horizontal line.,have a small vertical line at the base
+74,leftright,Characters on the right side in the image are characters that have a horizontal line at the bottom.,have a small vertical line at the base
+75,circle,Characters inside the circle in the image are characters that contain a horizontal line.,start with a 6 shape
+75,color,Characters colored red in the image are characters that contain a horizontal line at the top.,start with a 6 shape
+75,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,start with a 6 shape
+76,circle,Characters inside the circle in the image are characters that contain a circle or an oval shape.,have vertically symetrical
+76,color,Characters colored red in the image are characters that contain a circle.,have vertically symetrical
+76,leftright,Characters on the right side in the image are characters that are perfectly symmetrical along a vertical axis.,have vertically symetrical
+77,circle,Characters inside the circle in the image are characters that have a horizontal line at the top.,"contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath"
+77,color,Characters colored red in the image are characters that have a horizontal line at the top.,"contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath"
+77,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,"contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath"
+78,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have a 2 or bass clef shape on the left side
+78,color,Characters colored red in the image are characters that have a horizontal line at the bottom.,have a 2 or bass clef shape on the left side
+78,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,have a 2 or bass clef shape on the left side
+79,circle,Characters inside the circle in the image are characters that contain a horizontal line.,contain a closed U shape
+79,color,Characters colored red in the image are characters that contain a circle.,contain a closed U shape
+79,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,contain a closed U shape
+7,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"a long, horizontal, serpentine curve at the bottom ending on the right side"
+7,color,Characters colored red in the image are characters that contain a wavy or zigzag line.,"a long, horizontal, serpentine curve at the bottom ending on the right side"
+7,leftright,Characters on the right side in the image are characters that contain three dots.,"a long, horizontal, serpentine curve at the bottom ending on the right side"
+80,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"contain two or more separate, unconnected elements"
+80,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,"contain two or more separate, unconnected elements"
+80,leftright,Characters on the right side in the image are characters that contain a dot above them.,"contain two or more separate, unconnected elements"
+81,circle,Characters inside the circle in the image are characters that contain a circular or oval shape.,do not contain any right angles
+81,color,Characters colored red in the image are characters that contain a circular or oval shape.,do not contain any right angles
+81,leftright,Characters on the right side in the image are characters that have a horizontal line at the top.,do not contain any right angles
+82,circle,Characters inside the circle in the image are characters that contain a horizontal line.,start at the top left with a small or very small spiral-like approach
+82,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,start at the top left with a small or very small spiral-like approach
+82,leftright,Characters on the right side in the image are characters that have a vertical line on the left side.,start at the top left with a small or very small spiral-like approach
+83,circle,Characters inside the circle in the image are characters that contain a loop.,"have a large arc of a circle outlining the character, slanted down to the right"
+83,color,Characters colored red in the image are characters that contain a loop or circular shape.,"have a large arc of a circle outlining the character, slanted down to the right"
+83,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have a large arc of a circle outlining the character, slanted down to the right"
+84,circle,Characters inside the circle in the image are characters that contain a horizontal line.,"contain two or more closed loop structures, described as holes or enclosed areas"
+84,color,Characters colored red in the image are characters that contain a horizontal line.,"contain two or more closed loop structures, described as holes or enclosed areas"
+84,leftright,Characters on the right side in the image are characters that contain a horizontal line at the top.,"contain two or more closed loop structures, described as holes or enclosed areas"
+85,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,contain variations of T shapes in any orientation
+85,color,Characters colored red in the image are characters that contain at least one horizontal line.,contain variations of T shapes in any orientation
+85,leftright,Characters on the right side in the image are characters that contain at least one horizontal line.,contain variations of T shapes in any orientation
+86,circle,Characters inside the circle in the image are characters that contain at least one vertical line.,contain two long vertical lines or sticks
+86,color,Characters colored red in the image are characters that contain two vertical parallel lines.,contain two long vertical lines or sticks
+86,leftright,Characters on the right side in the image are characters that contain at least one vertical line with a small horizontal line attached to it.,contain two long vertical lines or sticks
+87,circle,Characters inside the circle in the image are characters that contain at least one vertical line.,contain one or more long vertical lines or sticks
+87,color,Characters colored red in the image are characters that contain at least one vertical line with a small horizontal line intersecting it.,contain one or more long vertical lines or sticks
+87,leftright,Characters on the right side in the image are characters that contain at least one vertical line.,contain one or more long vertical lines or sticks
+88,circle,Characters inside the circle in the image are characters that contain a circle or an oval shape.,contain a circular element
+88,color,Characters colored red in the image are characters that contain a circle.,contain a circular element
+88,leftright,Characters on the right side in the image are characters that contain a circle.,contain a circular element
+89,circle,Characters inside the circle in the image are characters that contain at least one horizontal line.,"contain one or more curved, roof-like elements"
+89,color,Characters colored red in the image are characters that contain at least one horizontal line at the top.,"contain one or more curved, roof-like elements"
+89,leftright,Characters on the right side in the image are characters that contain at least one diagonal line.,"contain one or more curved, roof-like elements"
+8,circle,Characters inside the circle in the image are characters that contain a wavy or zigzag line.,resemble the number three or its mirror image or have stacked or mirrored c shapes
+8,color,Characters colored red in the image are characters that contain a small loop or circle.,resemble the number three or its mirror image or have stacked or mirrored c shapes
+8,leftright,Characters on the right side in the image are characters that contain three dots.,resemble the number three or its mirror image or have stacked or mirrored c shapes
+90,circle,Characters inside the circle in the image are characters that contain double consonants.,"have two or three separate, unconnected elements"
+90,color,Characters colored red in the image are characters that contain a horizontal line with a small vertical line attached to it.,"have two or three separate, unconnected elements"
+90,leftright,Characters on the right side in the image are characters that contain double consonants.,"have two or three separate, unconnected elements"
+91,circle,Characters inside the circle in the image are characters that contain double consonants.,are composed of two identical elements placed next to each other
+91,color,Characters colored red in the image are characters that contain a double consonant.,are composed of two identical elements placed next to each other
+91,leftright,Characters on the right side in the image are characters that are doubled or have a repeated element.,are composed of two identical elements placed next to each other
+92,circle,Characters inside the circle in the image are characters that contain a horizontal line.,have a single right angle
+92,color,Characters colored red in the image are characters that contain a horizontal line at the bottom.,have a single right angle
+92,leftright,Characters on the right side in the image are characters that consist of only straight lines.,have a single right angle
+93,circle,Characters inside the circle in the image are characters that contain a horizontal line.,contain an acute angle
+93,color,Characters colored red in the image are characters that contain at least one sharp angle.,contain an acute angle
+93,leftright,Characters on the right side in the image are characters that contain at least one straight vertical line.,contain an acute angle
+94,circle,Characters inside the circle in the image are characters that contain a loop.,contain an angled line or shape in the middle and a curve on the right
+94,color,Characters colored red in the image are characters that contain a loop or enclosed area.,contain an angled line or shape in the middle and a curve on the right
+94,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,contain an angled line or shape in the middle and a curve on the right
+95,circle,Characters inside the circle in the image are characters that contain a loop or circular shape.,"have a closed or enclosed part, such as a loop or hole"
+95,color,Characters colored red in the image are characters that contain a loop or circular shape.,"have a closed or enclosed part, such as a loop or hole"
+95,leftright,Characters on the right side in the image are characters that contain a loop or circular shape.,"have a closed or enclosed part, such as a loop or hole"
+96,circle,Characters inside the circle in the image are characters that contain a diacritical mark (such as an accent or tilde) above them.,include a variation of the letter m
+96,color,Characters colored red in the image are characters that contain a curved line.,include a variation of the letter m
+96,leftright,Characters on the right side in the image are characters that have a diacritical mark above them.,include a variation of the letter m
+97,circle,Characters inside the circle in the image are characters that have a vertical line.,are composed of at least one L shape
+97,color,Characters colored red in the image are characters that have a vertical line on the right side.,are composed of at least one L shape
+97,leftright,Characters on the right side in the image are characters that have a vertical line.,are composed of at least one L shape
+98,circle,Characters inside the circle in the image are characters that have a vertical line.,"have a right turn at the bottom of a vertical line, like an L or reversed J"
+98,color,Characters colored red in the image are characters that have a small loop or circle at the top.,"have a right turn at the bottom of a vertical line, like an L or reversed J"
+98,leftright,Characters on the right side in the image are characters that contain a vertical line.,"have a right turn at the bottom of a vertical line, like an L or reversed J"
+99,circle,Characters inside the circle in the image are characters that have a vertical line.,"are predominantly made up of one or two straight lines, with some characters having a narrow curve at the base and some resembling a crowbar"
+99,color,Characters colored red in the image are characters that have a vertical line.,"are predominantly made up of one or two straight lines, with some characters having a narrow curve at the base and some resembling a crowbar"
+99,leftright,Characters on the right side in the image are characters that contain a vertical line.,"are predominantly made up of one or two straight lines, with some characters having a narrow curve at the base and some resembling a crowbar"
+9,circle,Characters inside the circle in the image are characters that contain at least one loop.,are reflections of one another
+9,color,Characters colored red in the image are characters that contain a curved line extending to the right.,are reflections of one another
+9,leftright,Characters on the right side in the image are characters that contain a vertical line.,are reflections of one another

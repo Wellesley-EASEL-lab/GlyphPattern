@@ -1,0 +1,2 @@
+dataset_construction/GlyphPattern/four_choice/data-00000-of-00001.arrow filter=lfs diff=lfs merge=lfs -text
+dataset_construction/GlyphPattern/gt_descriptions/data-00000-of-00001.arrow filter=lfs diff=lfs merge=lfs -text

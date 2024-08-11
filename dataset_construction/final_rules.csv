@@ -1,0 +1,319 @@
+ID,script,description,RuleBinary,Class
+5,Avestan,have a left-side loop shaped like a lower case e,000000000000000000000000000000110100000000000000001001,specific
+6,Avestan,have fully enclosed spaces or closed loops,000000000000000010000010010101110100000011000010001101,enclosed
+7,Avestan,"a long, horizontal, serpentine curve at the bottom ending on the right side",000000000100000000100000100001000000000000000000000000,none
+8,Avestan,resemble the number three or its mirror image or have stacked or mirrored c shapes,000000110000000000000000000000000010100000000000000000,specific
+9,Avestan,are reflections of one another,000000110000000000000000000000000010101000000000100000,symmetry
+10,Avestan,have a horizontal cross stroke creating 4 quadrants,000001000000000000000000000000000000000100000000000000,none
+11,Avestan,require lifting the pen during drawing,001111000001010000000000000000000000000101101000000010,stroke
+12,Adlam,have roughly the shape of an m and may have reflectional symmetry,00000000000000000000100000100000000000000000000000000010000010000100,none
+13,Adlam,have a horizontal line at the top and bottom and may have reflectional symmetry,00000000000000000100000000000100000000000000000000010000000000010000,none
+14,Adlam,have reflectional symmetry,00000000000100000000000000000000000000000000010000000000000000000100,symmetry
+15,Adlam,have lines that cross each other,00001000000000000100000100010100000000000000000000010001010001010000,cross
+16,Adlam,have at least one enclosed space or loop,00001000010001000001000100010000000001000000000100000100010001000000,enclosed
+17,Adlam,have a vertical line with a right angle at the bottom pointing towards the right,00001010100000000000000000110100100000101010000000000000000011011110,none
+18,Batak,look like symbols for Spotify and WiFi,00000000000000000000000000000000000011,specific
+19,Batak,have three horizontal lines,00000000000000000001000000000000000011,horizontal
+20,Batak,have horizontal symmetry,00000011000000000000000000000100000100,symmetry
+21,Batak,"have vertical symmetry, including with an axis of symmetry",00000111000110000000001001000000000111,symmetry
+22,Batak,have two disconnected elements or strokes,01001000011000010110000001001001101100,stroke
+23,Batak,"can be drawn by two strokes, lifting pen once, never retracing any segment",01101000011000010110000111111001101100,stroke
+24,Batak,can be created in one continuous stroke of the pen but without retracing,10000111100101100000001000000110010000,stroke
+25,Batak,are made with a single continuous line or shape with no disconnected parts,10100111100101100000101110110110010000,stroke
+26,Kayah Li,have an ascender that extends above the standard height of most letters in this alphabet,0000000001001000000100010000,none
+27,Kayah Li,"are reflections of another VARIABLE, symmetrical about a vertical axis",0000000101000000000110000000,symmetry
+28,Kayah Li,contain a small closed circular loop,0000100010000001000000000000,enclosed
+29,Kayah Li,are horizontally or vertically symmetrical about an axis,0001000000000100000000001001,symmetry
+30,Kayah Li,resemble the letter e or E,0100000000010000000000001010,specific
+31,Kayah Li,have a rounded bottom that extends the full width of the VARIABLE,0101000101010100001110101011,none
+32,Kayah Li,have a horizontal line that extends the full width of the VARIABLE,0110010000000010000000000000,horizontal
+33,Kayah Li,have at least one vertical straight line,1010011010000001100000110100,vertical
+34,Kayah Li,"contain a closed or enclosed shape, such as a loop or inner chamber",1110100010010111000001000011,enclosed
+35,Ogham,have small solid diamond dots on a horizontal line,00000000000000011111000000,none
+36,Ogham,contain diagonal lines bisected by a horizontal line,00000000001111100000100000,diagonal
+37,Ogham,contain at least one diagonal line,00000000001111100000110100,diagonal
+38,Ogham,have vertical lines extending above a horizontal line,00000111110000000000000000,vertical
+39,Ogham,have parallel vertical lines or bars,01111011110000000000000010,vertical
+40,Ogham,have a downward vertical line or lines,11111000000000000000000000,vertical
+41,Ogham,have vertical lines and right angles,11111111110000000000001010,vertical
+42,Cherokee,have zigzag tails or zigzag lines,0000000000000000000000000000000000000000000000000000000000000000000000001000000000010,none
+43,Cherokee,are upright digits resembling Arabic numerals,0000000000000000000000000000000000000000000000100000000000000000000000000000001000000,specific
+44,Cherokee,have two or more enclosed spaces or loops,0000000000000000000000000000001000000000000000000100000000001000100000000011000000001,enclosed
+45,Cherokee,"are based on a circle open to the right, resembling a C or G",0000000000000000000000100000000010000000000000000000000000000001000100001100000000010,specific
+46,Cherokee,"resemble the letter S, with possible added features",0000001000000000000000000000000000000000000000000000010000100000000000000000000000000,specific
+47,Cherokee,"have a large oval shape resembling the letter O, possibly with additional features",0000100000000000000000000010001000000100000000000000000000000000000000000001000000000,specific
+48,Cherokee,have a perfect circle or oval,0001100000000100000010000010001000000100000001000000001000000000000000010001001000000,enclosed
+49,Cherokee,are made up of only straight lines,0010000000101000110100010001000000010010000000100000100001000010000010100000000000000,none
+50,Cherokee,"have at least one enclosed space, loop, or region",1101100100100101001010000110001000000100100011110100001000011000111000010011111010001,enclosed
+51,Bamum,contain a short vertical line above a small horizontal line with a curved bend to the right,00000000000000000000000000000000000000000000000000000000000000000000001101100000,none
+52,Bamum,have crossed lines,00000000001000000000000100000010000000000000010000011000010000001100000000000100,cross
+53,Bamum,have two round dots,00000110001100100000101100001000000000000000100000000000000000000000000000000000,none
+54,Bamum,have one dot,00011000010010010010000000110000000001010000000001001000001011000000000000000000,none
+55,Bamum,have one or more dots,00011110011110110010101100111000000001010000100001001000001011000000000000000000,none
+56,Bassa Vah,contain a zigzag pattern,000000000001000100100000000000,none
+57,Bassa Vah,contain a small loop,000000000010000001000010100000,enclosed
+58,Bassa Vah,have an acute angle or diagonal line,000000001101000110100100000010,diagonal
+59,Bassa Vah,are round and do not contain any straight lines,000011100000100001000000011100,none
+60,Bassa Vah,contain a small horizontal bar in the center,001000001000000100001000000001,none
+61,Bassa Vah,"are composed of mostly straight lines, with slight corner rounding allowed but no curved lines",001000001101001110111100000010,none
+62,Bassa Vah,have a flat bottom,101000000000000110111000000000,none
+63,Bassa Vah,have a horizontal line at the bottom,101100000000000110111000000000,horizontal
+64,Buginese,have overlapping lines or parts that do not touch,00000000000110100110000,none
+65,Buginese,have a downward-pointing triangle or V shape,00000010010000000000000,none
+66,Buginese,contain a U shape on a diagonal or a hook shape,01001101000110000000000,none
+67,Gothic,have vertical symmetry,000000001100100010001101101,symmetry
+68,Gothic,contain only straight lines,001000100101010010001111001,none
+69,Gothic,have horizontal straight lines,001010100000000010001010010,horizontal
+70,Gothic,can be written in one stroke,011001100100111110010000000,stroke
+71,Grantha,have a vertical straight line on the left side,0000000000000000000010100000000100000010000000,vertical
+72,Grantha,do not have any enclosed shapes or spaces,0000000000000010000000100000001100000101000000,enclosed
+73,Grantha,"have a full-height straight line on the right side, ending in a vertical line perpendicular to a horizontal line at the base of the character",0000000000000101010000000000000010100100010000,none
+74,Grantha,have a small vertical line at the base,0000000000110000100000100000010000000000000000,vertical
+75,Grantha,start with a 6 shape,0000000111110101000000000010000011110000110111,specific
+76,Grantha,have vertically symetrical,0000001000000000000000010000000000000000000000,symmetry
+77,Grantha,"contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath",0000110000000000011000000000010000000000000000,specific
+78,Grantha,have a 2 or bass clef shape on the left side,0000110000000000011000001100010000001000000000,specific
+79,Grantha,contain a closed U shape,0001000100000000000000000000000000000010001000,specific
+80,Grantha,"contain two or more separate, unconnected elements",0001010001010000000000000000000000000000000000,stroke
+81,Grantha,do not contain any right angles,0010101000000010000100011100101000011001100000,none
+82,Grantha,start at the top left with a small or very small spiral-like approach,0010111000000000111101001100010000001000000000,none
+83,Grantha,"have a large arc of a circle outlining the character, slanted down to the right",0100000000000000000001000000000000000001000000,none
+84,Grantha,"contain two or more closed loop structures, described as holes or enclosed areas",1101011111011000001001000111000001000000000100,enclosed
+85,Hangul,contain variations of T shapes in any orientation,0000000000000000000000000001111111111000,specific
+86,Hangul,contain two long vertical lines or sticks,0000000000000000000010101010010000100000,vertical
+87,Hangul,contain one or more long vertical lines or sticks,0000000000000000000111111110111001110011,vertical
+88,Hangul,contain a circular element,0000000000010000001000000000000000000000,none
+89,Hangul,"contain one or more curved, roof-like elements",0000000001101110000000000000000000000000,none
+90,Hangul,"have two or three separate, unconnected elements",0100100010100110011000001010111001110010,stroke
+91,Hangul,are composed of two identical elements placed next to each other,0100100010100100000000000000000000000000,none
+92,Hangul,have a single right angle,1010000000000000000000000000000000000000,none
+93,Khudawadi,contain an acute angle,00000000000000000001000001000010000010100000000,none
+94,Khudawadi,contain an angled line or shape in the middle and a curve on the right,00000000000010100000000010000000000100000000001,none
+95,Khudawadi,"have a closed or enclosed part, such as a loop or hole",00111100010001101111100100010101100001100001100,enclosed
+96,Khudawadi,include a variation of the letter m,11000011110000000000000000000000000000000000000,specific
+97,Lao,are composed of at least one L shape,00000000000000000000000000001100000,specific
+98,Lao,"have a right turn at the bottom of a vertical line, like an L or reversed J",00000000000000000000000000001111100,specific
+99,Lao,"are predominantly made up of one or two straight lines, with some characters having a narrow curve at the base and some resembling a crowbar",00000000000000000000000000001111101,none
+100,Lao,contain a closed loop or enclosed space,00000000000000000000001010000000000,enclosed
+101,Lao,are shaped like the letter S or have an S influence,00000000000000000001000001010000000,specific
+102,Lao,are symmetrical around a vertical axis,00000000000100010000000000000000000,symmetry
+103,Lao,represent the letter U or W ,00000000001111111100000000000000000,specific
+104,Lao,have a base shape of M or W or resemble an M or W,00000001000001111000000000000000000,specific
+105,Lao,are larger than most others or extend beyond the central square,00001000100010101010000000010011111,none
+106,Lao,"are shaped like an approximate B, 3, or E shape, which may be flipped",00100100000000000010000000000000000,specific
+107,Lao,resemble a lowercase N or have an N shape,10000000100000000000000000000000000,specific
+108,Lao,require multiple strokes of the pen to be written,10000000101000000100000100000100000,stroke
+109,Linear B,resemble a phallus or penis,00000000000000000100000000000000000000000000000000000000000000010000000000,specific
+110,Linear B,have circular shapes or contain circles,00000000000000100000000000000000000100000000000000000000000000000000000000,enclosed
+111,Linear B,are composed of three or more separate pieces that do not touch,00000001000100010000000010011000000101000000100001000000001011001000010101,stroke
+112,Linear B,"have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character",00000010000000010000000000000000000000000000000000000000000000000000000000,none
+113,Linear B,have horizontal symmetry,00000100001000100000000000001110000100000100000011000000000000000000000010,symmetry
+114,Linear B,"have separated or disconnected parts, with spaces or breaks between the different elements",00010011100100010010000010011000000111100000101001100001101011001000010101,stroke
+115,Linear B,are hidden under a curved arc or dome shape spanning the entire length of the VARIABLE,01000000000000000000000000000001000000000000000000100000000000000000000000,none
+116,Linear B,have multiple loops or enclosed areas,01000000001000101000000000000000001000000000000000001000000000111000000000,enclosed
+117,Linear B,are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles,10000101001000000000000000000100100001000100100101010100000000000000000000,none
+118,Meetei Mayek,"have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself",00000001000000100000010110000000100,enclosed
+119,Meetei Mayek,"have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character",00000100000000000100000000000001000,none
+120,Meetei Mayek,have concave sides and are bounded by opposing curved lines on the left and right,00001010000100000000000000000010000,none
+121,Meetei Mayek,do not have a top horizontal line or flat line on the top,01000001000000000000100000000000100,none
+122,Meetei Mayek,can be written in one stroke without lifting the pen or retracing,01000001000000000000011000000000100,stroke
+123,Meetei Mayek,have vertical and horizontal symmetry,01001010001010000000010000000010010,symmetry
+124,Meetei Mayek,contain straight lines only,10000000000000000000000000010100010,none
+125,Meetei Mayek,"have a straight horizontal stroke at the bottom or a flat bottom, or are used in font encoding",10000000010000000000100000010000010,none
+126,Meetei Mayek,have crossed lines,10010001000000100000010110000100100,cross
+127,Meetei Mayek,have an enclosed space/loop,10010011010000100100110110010100110,enclosed
+128,Meetei Mayek,have parallel vertical lines or multiple vertical lines,10011000010000000110000000010100010,vertical
+129,Meetei Mayek,have at least one vertical line or right angle,10111000011000000110100011111110010,none
+130,Meroitic Cursive,have exactly one closed end,000001000000001000000000,enclosed
+131,Meroitic Cursive,contain a closed loop or enclosed space,000001000010001000000100,enclosed
+132,Meroitic Cursive,have more than one distinct part,100010000000000101111000,stroke
+146,Mro,have dots,0000000000000001010000000001000,none
+147,Mro,do not have a mirrored or rotated version,0000000000101001011111101111101,mirror
+148,Mro,have a flat top or are capped by a horizontal straight line,0000000111010000000010000000000,none
+149,Mro,cannot be drawn in a single stroke or without going over part of an existing line,0000100000011001010011001001001,stroke
+150,Mro,enclose at least one space completely and may contain one or more closed loops or curves,0001000000000000011110000000110,enclosed
+151,Mro,have reflectional symmetry on any axis,1000110101011101000000010100000,symmetry
+152,Mro,"can be placed in pairs of horizontal mirror images, with one letter being the same as the other reversed left to right",1110001101000000100000010000000,mirror
+153,Mro,"are made with a single stroke, without backtracking or looping",1110011111100110100000010110000,stroke
+154,Nabataean,resemble the letter p,0000000000000000000000000110000,specific
+155,Nabataean,"have a complete downward loop and are closed at the top, like an irregular U-shaped curve",0000001000000000001000000000000,none
+156,Nabataean,are either 7s or have a small horizontal line at the top and a vertical stroke,0000010000000010000010000001000,specific
+157,Nabataean,are a straight vertical line with no base or hook at the bottom,0000010011000010000010000001100,vertical
+158,Nabataean,contain a closed loop or enclosed space in the character or graph,0100001000000000001000101010000,enclosed
+159,Nabataean,contain crossing lines or a four-way intersection,1000000000000000000000100000000,cross
+160,Nabataean,contain multiple lines or require lifting the pen or backtracking to write the character,1000101100100000000100010100111,stroke
+161,Ol Chiki,resemble letters in the Latin alphabet or Western alphabet,010010101000110000100000001000,specific
+162,Ol Chiki,contain only curved lines without any straight lines; may look like eyes,011000000100000000010000010010,none
+163,Ol Chiki,have a curved bottom,111100000101000011001101110010,none
+164,Ol Chiki,resemble a letter 'w' or have two sharp elbows on the floor,000000000000100000000000000001,specific
+165,Ol Chiki,contain non-joined segments or separated shapes,000100000000000001000000000010,stroke
+166,Ol Chiki,contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment,100001000000000000000000000000,none
+167,Ol Chiki,"have at least one fully enclosed shape, including closed loops, enclosed spaces, and fully or partially closed figures",110011100000010010000101110001,enclosed
+168,Osmanya,have at least one bridge,000001000000000110010000011001,none
+169,Osmanya,have straight lines and no curves,000100010000000000000000000000,none
+170,Phoenician,contain a w-squiggle,0000000000001000010010,specific
+171,Phoenician,"are made of one stroke with one acute angle, resembling a 7 or a rotation of it",0010000000010000000000,specific
+172,Phoenician,have a triangle shape at the top connected to a descending line,0101000000000000000100,none
+173,Phoenician,have a rough triangle pointing lower-left,1101000000000000000100,none
+174,Phoenician,"contain at least one enclosed shape, such as a circle or triangle, that can be coloured in",1101000110000001001100,enclosed
+175,Shavian,"have two parts touching the floor, with straight or curved lines ending at the same level at the base",000000000100000000000000000000000000010010101101,none
+176,Shavian,are made of only one straight line,000000001000000000100010000000000000000000000000,none
+177,Shavian,exceed the average size of the character set in height or width,111111111111111111110000000000000000000000000001,none
+178,Shavian,have a vertical loop-shaped cross,000000000100000000010000000000000000000000000000,none
+179,Shavian,are composed of three lines forming two acute angles,000000000000000000000000000000001000000000000001,none
+180,Shavian,contain a horizontal line and a descending curve from one end of the line,000000000000000000000000000000000111000000000000,none
+181,Shavian,contain a vertical symmetry axis,000000000100000000010010000100000000110000000000,symmetry
+182,Shavian,contain an enclosed space or loop,000000000100000000010000000000000000100000000000,enclosed
+183,Soyombo,contain a square shape with a diagonal line and two enclosed spaces,00000000000000000000000000011000000000000,none
+184,Soyombo,contain a hook shape,00000000000000000001000000000000000001101,none
+185,Soyombo,contain a circle or circles,00000000000000000100000001000000000100000,enclosed
+186,Soyombo,have two parallel vertical straight lines with small filled-in triangles connected to the left vertical line,00000000000111110000000000000000000000000,none
+187,Soyombo,"contain something like a diamond, rhomboid or square shape in the middle",00000011111000000000000000111000000000000,none
+188,Soyombo,contain diagonal lines,00000011111000000000000000111000010011110,diagonal
+189,Soyombo,have no curves and consist of only straight lines and triangles,00000111111111010000000000111000000010000,none
+190,Soyombo,have a right vertical that does not touch the top triangle and a short side-bar with a diagonal top,01111100000000000000000000000000000000011,none
+191,Soyombo,have a horizontal line connecting two or more vertical legs and contain an H-like shape,01111100000000010000100000000000000000001,specific
+192,Soyombo,have a top triangle that is not independent and is linked to the character below at the bottom point,01111100000111110011000000000000000000111,none
+193,Soyombo,contain two separate inner elements and a variety of other decorations,10000000000000000000001011000100110000000,none
+194,Soyombo,contain a horizontal Nike swoosh shape or similar variation,10000000000000000000001011000110111000000,specific
+195,Soyombo,"contain elements that are not connected to the main character, including separate elements, floating bits, and detached elements",10000000000000000100001111000111111100000,stroke
+196,Psalter Pahlavi,have a closed loop,000100000101001001,enclosed
+197,Psalter Pahlavi,resemble an L (right-side up and upside down),011001000000100000,specific
+198,Psalter Pahlavi,consist of one smooth line with a single change of direction,011001001000100000,none
+199,Psalter Pahlavi,have one end pointing upwards,011011000011100001,none
+200,Psalter Pahlavi,have duplicated elements in succession,100000000000010010,none
+201,Warang Citi,have two closed loops or enclosed areas,0000000000000100000000000000000000000000100000000000000000000000,enclosed
+202,Warang Citi,"have no ends, are topologically equivalent to a circle, or have a single enclosed area",0000000010000000000001010000000000010000000000000010000000000000,none
+203,Warang Citi,have one or more closed loops or enclosed areas,0000000010001100000001110000000000010101100000011110000110000100,enclosed
+204,Warang Citi,are symmetrical around a horizontal axis,0000001000000010000001010000000000000000010000000010000000000000,symmetry
+205,Warang Citi,are symmetrical around a vertical axis,1000000010000100000001011000000000010000000000000011000100001000,symmetry
+206,Warang Citi,"have an axis of symmetry, either vertical or horizontal",1000001010000110000001011000000000010000010000000011000100001000,symmetry
+207,Tagbanwa,"contain a closed loop, enclosed space, or fully enclosed space",0000000000110000,enclosed
+208,Tagbanwa,have a hook shape on the right side,0000011000001000,none
+209,Tagbanwa,can be drawn with one continuous line without lifting the pen or backtracking,0010000000101011,stroke
+210,Tagbanwa,contain a wavy or zigzag line,0010101000000101,none
+211,Tagbanwa,have a vertical line or zigzag,0010101010000000,none
+212,Nyiakeng Puachue Hmong,"include a vertical ellipse, capsules, a long O, a curved line that is closed like a rounded vertical rectangle",000000000000000000000000000000100000000010010,none
+213,Nyiakeng Puachue Hmong,"look like the number 3 or upside down 3, with or without serifs",000000000000000001000000000000000000000100001,specific
+214,Nyiakeng Puachue Hmong,contain an elongated closed vertical oval,010000000000000000000000000000100000000010010,none
+215,Nyiakeng Puachue Hmong,contain an enclosed space or a loop,010000010000000000000000100000100000000010010,enclosed
+216,Nyiakeng Puachue Hmong,have a vertical line on the right side and everything happening on the left,011111101011101000100010011110010000100010000,none
+217,Nyiakeng Puachue Hmong,have a horizontal line at the top,100000000100000000000001001100100000000100010,horizontal
+218,Nyiakeng Puachue Hmong,"have a loop at the bottom, which may be referred to as a hook",100010001101100011110000000101010010011100001,none
+219,Multani,"are made of distinct parallel lines, resembling combs or claws",0000000001000000101000000000000000000,none
+220,Multani,"have both a loop and a cross, with a dangly loop or a loop in the shape of a knot or gamma",0000000001010000000000000000001000000,none
+221,Multani,have at least one completely enclosed space or closed loop,0000000001010010010000000000011000000,enclosed
+222,Multani,represent a series of disconnected or separate elements in a symbol or character,0000001001000000001000000000000000000,stroke
+223,Multani,have a horizontal line or bar at the top,0000010000000100000000100000000000000,horizontal
+224,Multani,have one or more straight lines,0000010001000100100000110000000101000,none
+225,Multani,have a small flat loop at the bottom,0000100000011000000000000000000000000,none
+226,Multani,include a 3-shaped element or the number 3 in any orientation,0010000100101000000101000011000011011,specific
+227,Multani,"have a large, open, vertical circle curve on the left side",0110000000000110000000000000000000000,none
+228,Multani,have a downward curve that resembles a bridge with two feet,1001000000000000000000000000100000000,none
+229,Pau Cin Hau,have crossed lines,0000000000000000000011000010001000010,cross
+230,Pau Cin Hau,have only straight lines and no curves,0000000001000110010000001001010100000,none
+231,Pau Cin Hau,have a diagonal straight line,0000000001110100010000001001000100000,diagonal
+232,Pau Cin Hau,have 180° rotation symmetry,0000011000000000000000000001000100000,symmetry
+233,Pau Cin Hau,have vertical symmetry,0001000000000000000001001001010101001,symmetry
+234,Pau Cin Hau,look like Latin capital letters,0010100000000010010000001000010100101,specific
+235,Pau Cin Hau,look like Latin alphabet letters,0010100000010010010100001100010100101,specific
+236,Pau Cin Hau,have an approximate circle,0101000000000000000000000000000000001,none
+237,Pau Cin Hau,have curved lines only,0111000010001001000001110000100011011,none
+238,Pau Cin Hau,have horizontal or vertical line of symmetry,0111100000101001100001001001010101001,symmetry
+239,Pau Cin Hau,contain two enclosed spaces,1101100000000001000000000000000000000,enclosed
+240,Pau Cin Hau,"contain an enclosed space, loop, or shape",1101100010010001100011001100101000111,enclosed
+241,Pracalit,have a horizontal line above a downward s-shaped curve followed by a complex structure,00000000000000000001000001000000000010000010010100000,none
+242,Pracalit,can be written with a single continuous stroke without retracing or lifting the pen,00000000111000001000000000010000000000000000000000000,stroke
+243,Pracalit,have two circles and a line that are not connected to any other elements,00110000000000000000000000000000000000000000000000000,none
+244,Pracalit,"contain more than one loop or enclosure, or have two or more holes",00110000000000000000010000000000000000000010000000100,enclosed
+245,Pracalit,do not have an overhead horizontal straight line,00110000111111001000000010010010101000000000000001000,horizontal
+246,Pracalit,contain one or more closed shapes,00110011000000110111110100010100101001110111000011110,enclosed
+247,Pracalit,have a straight horizontal and vertical line that meet at the top right to form a corner,11000011000000010100100100000000000101010101101010110,none
+248,Pracalit,have a right angle,11000011000000110100110100000000000101010111101010110,none
+249,Pracalit,include a closed loop with a small black dot or knot or have a filled-in blot or tail,11110000111100000000000011001000010110000110000000000,none
+250,Old Permic,have a large vertical straight line and a small downward curve attached at the top right,00000000000000000000000000000001000010,none
+251,Old Permic,have a sharp angle at the bottom like a V,00000000000110000000000000100110010000,none
+252,Old Permic,consist of a single vertical straight line,00000000100000000000010000000000000000,vertical
+253,Old Permic,are made from only straight lines and have no curved/round parts,00000001110010010000111110000100010000,none
+254,Old Permic,have a capital T shape,00100000000000000000000001000000000100,specific
+255,Old Permic,"have a bottom that resembles buttocks, testicles, breasts, or a combination of these",01000000000000000011000000000000000000,specific
+256,Old Permic,have a bottom that is curved or rounded,01000000000000000011000000000000000000,none
+257,Old Permic,have two fully enclosed spaces,01000010000000000000001000000000000000,enclosed
+258,Old Permic,contain at least one closed area or a fully contained shape of any type,01000011000001000001001001000100010000,enclosed
+259,Old Permic,"contain symmetry, either horizontally, vertically, or through an axis",01010001100000000011011000000100010100,symmetry
+260,Old Permic,"consist of only straight lines, with no curved lines or curls",00000001110010010000111110000100010000,none
+261,Mandaic,"resemble variations on a V, with rounded or angled strokes and optional appendages",0000000000100100110000010,specific
+262,Mandaic,have two waves like a variation on a W or omega or inverted M,0000100000000000010000000,specific
+263,Mandaic,"are composed of only straight lines, with no curves or rounded parts",0001001000010000000100000,none
+264,Mandaic,have square or boxy shapes with at least two right angles,0101000000001000001100000,none
+265,Mandaic,have parallel lines,0101000010001001001100000,none
+266,Mandaic,contain at least one straight vertical line,0101001000011000001101000,vertical
+267,Mandaic,contain at least one straight horizontal line,0111000010011001001100110,horizontal
+268,Mandaic,"have a flat bottom, not counting a tailed droplet",0111010111010001001100100,none
+269,Lepcha,have rotational symmetry,000000000000100000000000000010100001,symmetry
+270,Lepcha,"have loops, including at least one loop crossing itself, and possibly a closed loop or loops of string",000000001001000000000110100000000010,none
+271,Lepcha,are round or oval-shaped but may have a single connected line,000000100000000000010001000000010000,none
+272,Lepcha,have a horizontal line of symmetry,000000100000100000000000001000100000,symmetry
+273,Lepcha,have exactly one enclosed space,000000111001000011110111100001000000,enclosed
+274,Lepcha,have enclosed spaces,000010111001000011110111100001010011,enclosed
+275,Lepcha,can be drawn with a single stroke,001000001001010000010000000000000010,stroke
+276,Lepcha,have a curved top line like a hat,110001000100101111000111000100000000,none
+277,New Tai Lue,"do not exceed the average size of other characters and contain a small, closed, non-crossed loop",0000000000000000000000000000000000000000000000000000000000000000000011,none
+278,New Tai Lue,"have a small loop attached to the bottom of the character, often with an extension that goes up to the right",0000000000000000000000000000000000000000000000000000000000011111110000,none
+279,New Tai Lue,"have a narrow, elongated U shape on the right side of the character",0000000000000000000000000000000000000000000000000000011101100000000000,none
+280,New Tai Lue,"are primarily composed of an elongated, closed oval shape",0000000000000000000000000000000000000000000010000001000001100000000000,none
+281,New Tai Lue,"have one or more enclosed sections, loops, and hollow areas",0001000010000010001001000101001000000011110010000011000111111111111111,enclosed
+282,New Tai Lue,have a caret accent or circumflex,0100000000000000000000000000000000001100000000000000000000000000000000,none
+283,Tai Viet,have a roof-like shape on top,00000000000000000000000000000010100011000000000000000000,none
+284,Tai Viet,have two closed surfaces or loops,00000000100000000000000000000010100000010000000000000000,enclosed
+285,Tai Viet,contain a W shape,00010000000000000000000000010101000000000000000000000000,specific
+286,Tai Viet,include shapes of V or W,00010000000000000000000000111101010011000000000000000000,specific
+287,Tai Viet,contain a hook-like shape at the bottom-right corner,00100000000001000000000000000001000000000000000000000000,none
+288,Tai Viet,"contain an enclosed shape, space or loop",01001001101010010001000011000010111111110000001100100101,enclosed
+289,Tai Viet,have crossing lines and 4-way junctions,01001001101010110001000011000010111111110000001100100101,cross
+290,Zanabazar Square,"have 2 short segments at the top and bottom of symmetrical vertical characters, like OH or its mirror image",00000000000000000000000000000000000011000,specific
+291,Zanabazar Square,have a flag-like mark in the top-right corner,00000000000000000000000001111000000000000,none
+292,Zanabazar Square,"contain diagonal lines and acute angles, but no flags",00000000001111100000000000000000000000100,none
+293,Zanabazar Square,are variations of the letter E in different orientations and with embellishments,00000000100000000000000000011010100000000,specific
+294,Zanabazar Square,have flagged and unflagged pairs,00000011100000000000000001110000000000000,none
+295,Zanabazar Square,have a full length internal horizontal line,00000100111000011111000000010010010000000,horizontal
+296,Zanabazar Square,have 180-degree rotational symmetry,00000101000110001100001000000000001000100,symmetry
+297,Zanabazar Square,have a solid base line composed of one continuous horizontal line,00000111100111001100111111111010100000000,horizontal
+298,Zanabazar Square,contain at least one enclosed rectangle,00110011000000001000010011100000000011000,none
+299,Zanabazar Square,have exactly one enclosed space,00111010000000100001011111000100000111000,enclosed
+300,Zanabazar Square,contain at least one enclosed space or shape,00111011000100101001011111100100000111000,enclosed
+301,Zanabazar Square,have an open area facing up,10000000000000000000110010000000101011100,none
+302,Zanabazar Square,have vertical symmetry,10000001000100001000101000000000110000000,symmetry
+303,Sora Sompeng,have a central open U-body,0000000000000001010000000,none
+304,Sora Sompeng,have a horizontal line at the bottom,0001000000000000100000000,horizontal
+305,Sora Sompeng,"have no enclosed elements, whitespace, shapes, enclosures, or loops",0001000000000001000000000,enclosed
+306,Sora Sompeng,have a closed loop in a triangular shape,0010000100010000000000000,none
+307,Sora Sompeng,are lines without circles at the end,0011000000000101000000000,none
+308,Sora Sompeng,contain at least one right angle,0011000001100011000100001,none
+309,Sora Sompeng,have a loop in the bottom left,0100010011000000000011001,none
+310,Sora Sompeng,"are like a stylized 3, either frontward or backward",0100011000000010000010011,specific
+311,Sora Sompeng,"have two closed, non-crossing loops",0100100000101000000010000,enclosed
+312,Sora Sompeng,contain two closed loops or circles,0100101010101000000010100,enclosed
+313,Sora Sompeng,have a closed loop at top,0100101110110000011010100,enclosed
+314,Syloti Nagri,contain two or more separate elements,00000000100000000000000010010001,stroke
+315,Syloti Nagri,feature a loop that crosses itself,00000010000000000000011000000000,none
+316,Syloti Nagri,contact the upper line in two points,00010001000000001011001000010010,none
+317,Syloti Nagri,have a closed loop or knot,00010010000000000101011000000000,enclosed
+318,Syloti Nagri,"contain at least one triangle, two vertical lines, and a horizontal line",00100000000000000011000000011000,none
+319,Syloti Nagri,contain a triangle or a triangular shape,00100000000000000011001000011000,none
+320,Syloti Nagri,"contain a left-hand vertical line, as well as a right-hand horizontal line",00100010101010010011000001011010,none
+321,Syloti Nagri,contain a full length diagonal line bottom left to top right,10000000000000000011000000011000,diagonal
+322,Syloti Nagri,are connected to the top horizontal line at the right side of the letter,10001100000001100100110110100001,horizontal
+323,Runic,contain two long vertical parallel lines which frame a character on the left and right sides,000000000000000000000000001100000000000000000000000000110000001000000100000,vertical
+324,Runic,contain at least one triangular shape,000000000000000000000000010000000000100000000000001000010000001000000100010,none
+325,Runic,have a dot on a line,000000000000000000000010000001001010000000000100010000000101000000000000000,none
+326,Runic,are small compared to the rest,000000000000000000100000000000000001000000001110000000000000100000000001000,none
+327,Runic,"are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right",000000001111000000000000000000000000000000000000000000000000000000000000000,specific
+328,Runic,contain at least one enclosed region,000000110000000000000000110100000000100000000000001010010000111100001100010,enclosed
+329,Runic,are split symmetrically by a horizontal axis,000000110000000000100001100011000110100010101000001011000000111001001101100,symmetry
+330,Runic,"have curved roots to the right, including the same N-shaped glyph",001011000000000000000000000000000000000000000000000000000000000000000000000,none
+331,Runic,"have separate dots, containing a dot or more",010010010000000000000100000000000000000000000000000010000000000000000000000,none
+332,Runic,contain multiple disconnected parts,010110010000000000000100000000000001000000000000000010000000000000000000000,stroke
+333,Runic,"are pairs, with one containing a dot",111010110000000000001100000000000000000000000000000000000000000000000000000,none
+334,Runic,have at least one curved line,111011110000000000001110000000000000000000000000000010001000000000000010000,none
+335,Runic,are located to the right of the vertical line or dot,111111111111010001011110010000010000000010000000001111000011000000000000000,none

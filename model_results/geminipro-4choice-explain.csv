@@ -1,0 +1,719 @@
+rule_id,visual,answer,most_frequent_output,correctness
+102,circle,C,**C. Characters that are symmetrical around a vertical axis.**
+
+Here's why:
+
+* **A. Characters that contain a closed U shape.**  While some characters inside the circle have this (like 'ω'),  'υ' does not. This option is incorrect.
+
+* **B. Characters that contain a small closed circular loop.** Only 'ω' inside the circle fits this description. This option is incorrect.
+
+* **C. Characters that are symmetrical around a vertical axis.** Both 'ω' and 'υ' inside the circle are symmetrical if you draw a line down their middle. This option is correct.
+
+* **D. Characters that look like Latin capital letters.** Neither of the characters inside the circle resembles Latin capital letters. This option is incorrect. 
+,False
+114,circle,D,The correct option is **D. Characters that have separated or disconnected parts, with spaces or breaks between the different elements.**
+
+Here's why:
+
+* **A. Characters that contain a cross:**  While some characters inside the circle have cross-like elements, there are also characters outside the circle with crosses. This isn't a consistent rule.
+* **B. Characters that contain diagonal lines and acute angles, but no flags:** Many characters both inside and outside the circle fit this description, making it too broad.
+* **C. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes:**  Again, some characters inside fit this, but it's not a universal rule for all characters within the circle.
+* **D. Characters that have separated or disconnected parts, with spaces or breaks between the different elements.:**  This is the most accurate description. **All** the characters inside the circle have distinct parts that are not connected by a continuous line. Examples include: ሐ, ከ, , etc. Conversely, characters outside the circle are mostly formed with continuous lines.
+
+Therefore, the defining characteristic of characters inside the circle is their **disconnected or separated parts**. 
+,False
+108,leftright,B,**C. Characters that have an open area facing up.**
+
+Here's the breakdown:
+
+* **A. Characters that contain symmetry, either horizontally, vertically, or through an axis.**  While some characters on both sides have symmetry, it's not a consistent rule separating the two groups.
+* **B. Characters that require multiple strokes of the pen to be written.**  Again, this applies to characters on both sides and doesn't define the separation.
+* **C. Characters that have an open area facing up.** This is the key difference. All the characters on the right side ( נ, ע, ן, ㄩ ) have an opening at the top. None of the characters on the left side share this feature.
+* **D. Characters that contain a full-length diagonal line bottom left to top right.** This does not apply to all characters on the right side. 
+
+Therefore, option C is the most accurate description of the characters on the right. 
+,False
+111,circle,A,The correct answer is **D. Characters that have no enclosed elements, whitespace, shapes, enclosures, or loops.**
+
+Here's why:
+
+* **A. Characters that are composed of three or more separate pieces that do not touch.**  This is incorrect. Some characters inside the circle have connected strokes, and some outside have multiple separate pieces.
+* **B. Characters that have a small flat loop at the bottom.** This is incorrect. Some characters inside and outside the circle have loops at the bottom. 
+* **C. Characters that have a large, open, vertical circle curve on the left side.** This is incorrect. No characters inside the circle fit this description, and some characters outside the circle do.
+* **D. Characters that have no enclosed elements, whitespace, shapes, enclosures, or loops.** This is correct. All characters inside the circle are formed with simple, open strokes. There are no fully enclosed spaces or shapes.
+
+Looking at the characters within the circle, we can see they are all made of simple lines without creating any enclosed areas. This is the defining characteristic that separates them from the characters outside the circle. 
+,False
+110,color,A,**D. Characters that have at least one enclosed space, loop, or region.**
+
+Here's why:
+
+* **Option A (Characters that have circular shapes or contain circles):** While the first red character is a circle, the second one is not. This option is too narrow.
+
+* **Option B (Characters that are like a stylized 3, either frontward or backward):**  None of the red characters resemble a '3' shape. 
+
+* **Option C (Characters that contain an enclosed space or a loop):**  This is close, but the first red character is a circle, which is a fully enclosed shape, not just a space within the character. 
+
+* **Option D (Characters that have at least one enclosed space, loop, or region):** This option accurately covers both types of red characters. The first is a fully enclosed region (the circle itself), and the second has an enclosed space within the design. 
+,False
+103,color,D,C. Characters that have at least one curved line.
+
+Here's why:
+
+* **A. Characters that have two circles and a line that are not connected to any other elements.**  This doesn't apply to any of the red characters. 
+* **B. Characters that have at least one vertical line or right angle.**  While some red characters have these, many black characters do too, so this isn't the defining characteristic.
+* **C. Characters that have at least one curved line.** This accurately describes all the red characters and excludes all the black characters.
+* **D. Characters that represent the letter U or W.**  This is close, but some red characters don't resemble U or W. 
+
+**Therefore, the most accurate description is that the red characters are those with at least one curved line.** 
+,False
+114,leftright,A,The answer: **C. Characters that contain a cross.**
+
+Here's why:
+
+* **A. Characters that have separated or disconnected parts, with spaces or breaks between the different elements.**  While some characters on the right have disconnected parts, this isn't a defining characteristic of the group.  Many characters on the left also have separate elements.
+* **B. Characters that contain diagonal lines and acute angles, but no flags.** This applies to some characters on both sides, making it an unreliable distinction.
+* **C. Characters that contain a cross.**  This is the most consistent pattern.  Every character on the right side incorporates a cross shape (+, x, or a variation) as part of its design, while none on the left do. 
+* **D. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes.** Some characters on the right might loosely fit this description, but it's not a universal or defining trait of the group. 
+
+The presence of a cross element is the clearest visual distinction between the characters on the left and right sides of the image. 
+,False
+110,circle,D,The answer is **C. Characters that contain an enclosed space or a loop.**
+
+Here's why:
+
+* **A. Characters that are like a stylized 3, either frontward or backward.**  This is incorrect.  While some characters inside the circle resemble a '3', there are others that don't fit this pattern (e.g., the character resembling a lowercase 'phi').
+
+* **B. Characters that have at least one enclosed space, loop, or region.** This is incorrect because it's too broad.  Many characters outside the circle also have enclosed spaces or loops.
+
+* **D. Characters that have circular shapes or contain circles.** This is incorrect.  None of the characters inside the circle are inherently circular.
+
+* **C. Characters that contain an enclosed space or a loop.** This is the most accurate. All the characters inside the circle have at least one fully enclosed space created by their lines. The characters outside the circle are all open figures or lack a completely enclosed space. 
+,False
+11,circle,A,**C. Characters that have fully enclosed spaces or closed loops.**
+
+Here's why:
+
+* **A. Characters that require lifting the pen during drawing.**  While some characters inside the circle require lifting the pen (like "ح"), many outside the circle also share this characteristic. This is not the defining factor. 
+
+* **B. Characters that exceed the average size of the character set in height or width.** The size of the characters doesn't seem to be the determining factor for inclusion within the circle.
+
+* **C. Characters that have fully enclosed spaces or closed loops.** This option accurately describes the characters inside the circle. Each one has at least one fully closed space:
+    * "ح" - two closed spaces 
+    * "ج" - one closed space
+    * "ه" - one closed space
+    * "ف" - one closed space
+    * "ص" - one closed space
+    * "غ" - one closed space
+
+* **D. Characters that have a rounded bottom that extends the full width of the character.** Some characters inside (like "ص") and outside (like "س") the circle have rounded bottoms, so this is not a unique characteristic of the group within the circle. 
+
+Therefore, the characters inside the circle are grouped by their common feature of having fully enclosed spaces or closed loops. 
+,False
+113,color,A,The correct answer is **B. Characters that have enclosed spaces.**
+
+Here's why:
+
+* **A. Characters that have horizontal symmetry.**  While some red characters have horizontal symmetry (like the square and the circle), many do not (like the "B" and the "E" shapes).
+* **B. Characters that have enclosed spaces.** All the red characters (the square, the circle, the "B" shapes, and the "E" shapes) have at least one completely enclosed space. 
+* **C. Characters that are upright digits resembling Arabic numerals.**  None of the red characters are Arabic numerals.
+* **D. Characters that can be created in one continuous stroke of the pen but without retracing.**  While some red characters fit this description, others, like the "B" shapes, would require lifting the pen.
+
+Therefore, the most accurate description of the red characters is that they all **have enclosed spaces.** 
+,False
+116,circle,C,C. Characters that have multiple loops or enclosed areas.
+
+Here's the breakdown:
+
+* **A. Characters that exceed the average size...**:  While some inside are large,  'A' and 'ᛃ' outside are also quite big. This isn't consistent.
+* **B. Characters that contain a 2 shape...**: The circled 'ᚡ' breaks this rule, it has no '2' element.
+* **C. Characters that have multiple loops or enclosed areas**:  Every character in the circle (ᚡ, ⊕, 𐑄, 日, ᚫ, ᛚ) has at least two distinct enclosed spaces. This is the pattern.
+* **D. Characters that are made up of only horizontal and vertical lines...**:  The circled character 'ᚫ' has a curve, immediately disproving this.
+
+**Therefore, C is the only rule that accurately describes all the characters within the circle.** 
+,False
+101,circle,B,D,False
+105,leftright,D,**B. Characters that have a vertical straight line on the left side.**
+
+**Reasoning:**
+
+* **A. Characters that have a horizontal line above a downward s-shaped curve followed by a complex structure.**  This describes some characters on the left, but not all characters on the right fit this description.
+* **B. Characters that have a vertical straight line on the left side.** This accurately describes all the characters on the right side of the image.
+* **C. Characters that are based on a circle open to the right, resembling a C or G.** This describes some characters on the left, and doesn't apply to the right side. 
+* **D. Characters that are larger than most others or extend beyond the central square.**  There's no significant size difference between characters on either side.
+
+**Therefore, option B is the most accurate description of the characters on the right side.** 
+,False
+112,leftright,D,**D. Characters that have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character.**
+
+Here's why:
+
+* **The characters on the right both share a distinct feature: a horizontal line with small wavy or zigzag lines above it, resembling angry eyebrows.**
+
+Let's analyze the other options:
+
+* **A. Characters that have an acute angle or diagonal line:** Many characters on both sides of the image have acute angles or diagonal lines. This is not a distinguishing feature of the right side.
+* **B. Characters that contain an elongated closed vertical oval:**  There are no characters on either side that perfectly fit this description.
+* **C. Characters that contain two enclosed spaces:** Some characters on both sides fit this, but it's not unique to the right side. 
+
+**Therefore, the most accurate description for the characters on the right side is option D.** 
+,False
+10,circle,D,The answer is **C. Characters that contain a closed loop or enclosed space.**
+
+Here's why:
+
+* **A. Characters that have a horizontal line at the top and bottom and may have reflectional symmetry.**  While some characters inside the circle fit this description, the character on the left does not have horizontal lines at the top and bottom.
+
+* **B. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes.** This does not describe either of the characters inside the circle.
+
+* **C. Characters that contain a closed loop or enclosed space.** Both characters within the circle have closed loops. 
+
+* **D. Characters that have a horizontal cross stroke creating 4 quadrants.**  Neither character inside the circle has a horizontal cross stroke. 
+,False
+11,color,C,**D. Characters that have fully enclosed spaces or closed loops.**
+
+Here's why:
+
+* **A. Characters that have a rounded bottom that extends the full width of the character.**  This is not true for all red characters. Some red characters have rounded bottoms (like the third one on the first row), but others don't (like the fifth character on the first row).
+
+* **B. Characters that exceed the average size of the character set in height or width.** While some red characters are larger, there are also large black characters.  Size is not the determining factor.
+
+* **C. Characters that require lifting the pen during drawing.** This applies to many characters, both red and black. It's not unique to the red characters.
+
+* **D. Characters that have fully enclosed spaces or closed loops.**  This is the only consistent pattern. **All** red characters have at least one fully enclosed space, while none of the black characters do. 
+,False
+100,circle,C,The correct answer is **C. Characters that contain a closed loop or enclosed space.**
+
+Let's break down why:
+
+* **A. Characters that are similar to an F...**  None of the characters in the circle fit this description.
+* **B. Characters that are composed of three or more separate pieces...** None of the characters in the circle are made of disconnected pieces.
+* **C. Characters that contain a closed loop or enclosed space.** This is the correct answer. The characters 'a', 'd', 'g', 'o', and 'q' all have closed loops. 
+* **D. Characters that are a straight vertical line with no base or hook...** None of the characters in the circle fit this description. 
+
+Let me know if you'd like to try another visual reasoning puzzle! 
+,False
+107,circle,C,**C. Characters that resemble a lowercase N or have an N shape.**
+
+Here's why:
+
+
+
+* **A. Characters that have vertical symmetry.**  Many characters outside the circle (like 'U', 'n', and 'Ω') have vertical symmetry, while some inside do not. This option is incorrect. 
+
+* **B. Characters that have no curves and consist of only straight lines and triangles.** The character 'l' inside the circle contradicts this rule. This option is incorrect.
+
+* **C. Characters that resemble a lowercase N or have an N shape.** All characters inside the circle ( 'n', 'N', 'и') fit this description. This option is correct.
+
+* **D. Characters that resemble the letter S, with possible added features.** This doesn't apply to any of the characters inside the circle. This option is incorrect. 
+,False
+113,circle,C,D. Characters that have enclosed spaces.
+
+Here's the reasoning:
+
+* **A. Characters that are upright digits resembling Arabic numerals.**  There are no Arabic numerals in the circle.
+* **B. Characters that can be created in one continuous stroke of the pen but without retracing.** Some characters inside (like the plus sign "+") fit this, but some don't (like the character resembling a "B"). There are also characters outside the circle that could be drawn in one stroke. 
+* **C. Characters that have horizontal symmetry.** Some characters inside and outside the circle have horizontal symmetry, so this is not the defining feature.
+* **D. Characters that have enclosed spaces.** All characters inside the circle have at least one enclosed space, while none of the characters outside the circle do. This is the consistent pattern. 
+,False
+120,leftright,A,**C. Characters that have a large vertical straight line and a small downward curve attached at the top right.**
+
+**Reasoning:**
+
+* **A. Characters that have concave sides and are bounded by opposing curved lines on the left and right.**  This describes some characters on the *left* side, but not the characters on the right.
+* **B. Characters that consist of one smooth line with a single change of direction.** This doesn't describe the characters on the right, which have sharp corners.
+* **C. Characters that have a large vertical straight line and a small downward curve attached at the top right.** This accurately describes the characters on the right side of the image.
+* **D. Characters that are composed of only straight lines, with no curves or rounded parts.**  The characters on the right have a small curve, so this option is incorrect. 
+,False
+110,leftright,B,The answer is **B. Characters that have circular shapes or contain circles.**
+
+Here's why:
+
+* **A. Characters that are like a stylized 3, either frontward or backward.**  While some characters might resemble a '3', this isn't a consistent rule for the right side.
+* **B. Characters that have circular shapes or contain circles.**  The two characters on the right both prominently feature circles.
+* **C. Characters that contain an enclosed space or a loop.** This applies to many characters on both sides, making it not a unique identifier for the right side.
+* **D. Characters that have at least one enclosed space, loop, or region.**  Similar to option C, this is too broad and applies to many characters on both sides. 
+
+Therefore, the most accurate description of the characters on the right is that they **have circular shapes or contain circles.** 
+,False
+116,leftright,D,The correct answer is **D**. Here's why:
+
+* **A. Characters that exceed the average size of the character set in height or width.**  There's no clear size difference between the groups. Some characters on both sides are taller or wider than others.
+
+* **B. Characters that contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath.** While some characters resemble a "2", this rule is not consistently applied to all characters on the right side.
+
+* **C. Characters that are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles.** This describes some characters on both sides, so it's not a distinguishing feature of the right side.
+
+* **D. Characters that have multiple loops or enclosed areas.** This is the most accurate description. All characters on the right side have at least two distinct enclosed spaces or loops. None of the characters on the left side share this characteristic. 
+,False
+108,color,A,C. Characters that have an open area facing up.
+
+Here's why:
+
+* **A. Characters that require multiple strokes of the pen to be written.**  We c
+an't be sure how these characters are written, so this option can't be confirmed.
+* **B. Characters that contain symmetry, either horizontally, vertically, or through an axis.**  Some red characters are symmetrical (like the first one), but others aren't (like the third from the right on the first row).
+* **C. Characters that have an open area facing up.** All red characters have an opening at the top, while all black characters are either closed or open at the bottom. This is the consistent pattern. 
+* **D. Characters that contain a full-length diagonal line bottom left to top right.** Some characters have this line, but some don't.  This isn't consistent for all red characters. 
+
+Therefore, the most accurate answer is **C**. 
+,False
+117,color,C,**D. Characters that have at least one enclosed space or loop.**
+
+Here's why:
+
+* **A. Characters that do not have an overhead horizontal straight line.**  This is incorrect. Some red characters have an overhead line (like the first one), and many black characters lack one.
+* **B. Characters that are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right.** This is incorrect. While some red characters share similarities with an "F", this description doesn't fit all red characters, and some black characters also fit this description.
+* **C. Characters that are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles.** This is incorrect. Some red characters have curves (like the "D" shaped one).
+* **D. Characters that have at least one enclosed space or loop.** This is the **correct** answer. Every red character forms at least one closed space or loop. Looking at the black characters, none of them create an enclosed area. 
+
+Let me know if you'd like to try another visual pattern puzzle! 
+,False
+116,color,A,D. Characters that contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath.
+
+Here's why:
+
+* **A. Characters that have multiple loops or enclosed areas.**  While some red characters have loops (like the first one), others do not (like the tenth one). This option isn't consistent.
+
+* **B. Characters that are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles.** This doesn't apply to most red characters, which often have curves.
+
+* **C. Characters that exceed the average size of the character set in height or width.** Some red characters are large, but others are comparable in size to black characters. Size isn't a defining factor.
+
+* **D. Characters that contain a 2 shape, with variations such as a long straight line at the bottom or marks on top or underneath.** This option consistently applies to all red characters. They all incorporate a "2" shape, even with additions or variations in orientation. 
+,False
+111,leftright,B,B. Characters that are composed of three or more separate pieces that do not touch. 
+
+Here's why:
+
+* **A. Characters that have a large, open, vertical circle curve on the left side.**  This describes some characters on the *left* side of the image, not the right.
+* **B. Characters that are composed of three or more separate pieces that do not touch.**  This accurately describes the characters on the right side. They are all formed by distinct, unconnected strokes.
+* **C. Characters that have a small flat loop at the bottom.** This feature is present in some characters on both the left and right sides, so it's not a distinguishing characteristic of the right side.
+* **D. Characters that have no enclosed elements, whitespace, shapes, enclosures, or loops.** This describes neither set of characters. Both sides have characters with enclosed spaces and loops. 
+,False
+101,color,C,C 
+,True
+118,circle,D,D. Characters that have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself.
+
+Here's why:
+
+* **Option A:**  While some characters inside the circle have curves, this rule isn't consistent. For example, the character at the top of the circle doesn't fit this description.
+* **Option B:**  None of the characters inside the circle match this description. This rule seems to target characters outside the circle.
+* **Option C:** This applies to some characters inside and outside the circle. It's not a unique identifier for characters within the circle.
+* **Option D:** This rule accurately describes all the characters inside the circle. They all have a closed loop or a circular element. Some loops are simple, while others are more complex, formed by lines crossing over themselves.
+
+Therefore, the most accurate description of the characters inside the circle is **D**. 
+,False
+104,leftright,B,B. Characters that have a base shape of M or W or resemble an M or W.
+
+Here's why:
+
+* **A. Characters that have a flat bottom, not counting a tailed droplet.**  This doesn't hold true. Some characters on the left have flat bottoms (e.g., the third character in the first row), and some on the right don't (e.g., the first character on the right).
+* **B. Characters that have a base shape of M or W or resemble an M or W.**  This accurately describes the characters on the right. They all have a base that either is or visually resembles an M or W shape. 
+* **C. Characters that are based on a circle open to the right, resembling a C or G.** This applies to some characters on the *left* side, not the right.
+* **D. Characters that contain a closed or enclosed shape, such as a loop or inner chamber.** While some characters on both sides have enclosed shapes, it's not a defining characteristic of the characters on the right. 
+,False
+103,leftright,C,C. Characters that represent the letter U or W. 
+
+Let's analyze each option:
+
+* **A. Characters that have two circles and a line that are not connected to any other elements.**  This description doesn't match any of the characters on the right side. 
+
+* **B. Characters that have at least one vertical line or right angle.**  While this is true for some characters on the right, it's also true for many on the left. This rule doesn't separate the groups effectively.
+
+* **C. Characters that represent the letter U or W.** This accurately describes all the characters on the right side. They are all different styles or orientations of the letters "U" and "W".
+
+* **D. Characters that have at least one curved line.**  This is true for all the characters on the right, but it's also true for some on the left side. This doesn't create a clear distinction.
+
+**Therefore, option C is the most accurate and consistent rule for identifying the characters on the right side of the image.** 
+,False
+100,leftright,B,The correct answer is **B. Characters that contain a closed loop or enclosed space.**
+
+The characters on the right side of the image ( ສ and  ອ ) are the only ones that have closed loops. 
+,False
+104,circle,A,B. Characters that contain a closed or enclosed shape, such as a loop or inner chamber.
+
+Here's why:
+
+* **Option A (M or W shape):**  While some characters inside the circle resemble M or W, there are characters outside the circle that also fit this description. This option isn't consistently applied.
+
+* **Option B (Closed/Enclosed Shape):** All characters within the circle (ω, ω, ∂, ω) have a closed loop or inner chamber.  None of the characters outside the circle have this feature.
+
+* **Option C (Flat Bottom):**  Some characters both inside and outside the circle have flat bottoms, making this an unreliable distinction.
+
+* **Option D (C or G resemblance):** The characters inside the circle don't resemble C or G. Some characters outside the circle do, so this option is incorrect. 
+,False
+108,circle,C,D. Characters that have an open area facing up.
+
+Here's why:
+
+* **A. Characters that contain symmetry, either horizontally, vertically, or through an axis.**  While some characters inside the circle are symmetrical (like 'n'), others are not (like 'u'). This rule doesn't consistently apply.
+
+* **B. Characters that contain a full length diagonal line bottom left to top right.** None of the characters inside the circle have this feature.
+
+* **C. Characters that require multiple strokes of the pen to be written.**  Some inside (like 'n') require multiple strokes, while others (like 'u') don't. This isn't consistent.
+
+* **D. Characters that have an open area facing up.**  All characters inside the circle ('n', 'u', 'u', 'u', 'n', 'u') have an open top. This rule holds true for all characters within the circle. 
+,False
+103,circle,D,B. Characters that have at least one curved line.
+
+Here's why:
+
+* **A. Characters that have two circles and a line that are not connected to any other elements.**  This describes none of the characters in the image.
+* **B. Characters that have at least one curved line.** This accurately describes all the characters within the circle. 
+* **C. Characters that have at least one vertical line or right angle.** Many characters outside the circle also fit this description (like 'n', 'u' outside the circle).
+* **D. Characters that represent the letter U or W.**  While 'u' is inside the circle, 'w' is not. Additionally, there are other characters within the circle. 
+
+Therefore, the most accurate description of the characters inside the circle is that they all **have at least one curved line.** 
+,False
+10,leftright,B,The answer is **C**. Here's why:
+
+* **A. Characters that have a horizontal line at the top and bottom and may have reflectional symmetry.**  While some characters on the right have horizontal lines, this isn't a consistent feature, and many on the left side also share this characteristic.
+* **B. Characters that have a horizontal cross stroke creating 4 quadrants.**  None of the characters on the right side have a horizontal cross stroke.
+* **C. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes.**  This accurately describes the characters on the right. They all have a shape that is similar to a '3', a reversed '3', or stacked/mirrored 'c' forms. 
+* **D. Characters that contain a closed loop or enclosed space.** This applies to many characters on both sides and isn't a unique characteristic of the characters on the right. 
+
+Therefore, option **C** is the most specific and accurate description of the characters on the right side of the image. 
+,False
+117,circle,C,C. Characters that are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles.
+
+Here's why:
+
+* **A. Characters that do not have an overhead horizontal straight line.**  Incorrect. Some characters inside the circle have horizontal lines (e.g., 'E', 'H').
+* **B. Characters that have at least one enclosed space or loop.** Incorrect. Some characters inside have enclosed spaces ('B', 'D'), but others don't.
+* **C. Characters that are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles.**  **Correct.**  All characters within the circle exclusively use horizontal and vertical lines. There are no curved or diagonal lines.
+* **D. Characters that are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right.** Incorrect. This describes a specific subset of characters and doesn't apply to all within the circle. 
+
+**Therefore, the most accurate description of the characters inside the circle is option C.** 
+,False
+113,leftright,D,D. Characters that have horizontal symmetry.
+
+Here's why:
+
+A. **Characters that have enclosed spaces.**  Many characters on both sides have enclosed spaces, so this isn't the defining characteristic.
+
+B. **Characters that are upright digits resembling Arabic numerals.** This only describes the character "B" on the right side, not the others.
+
+C. **Characters that can be created in one continuous stroke of the pen but without retracing.** While some characters on both sides fit this description, it's not consistent across all characters on the right.
+
+D. **Characters that have horizontal symmetry.** All characters on the right side (E, B, +, etc.) can be folded in half horizontally with the top and bottom halves matching. This characteristic is not present in the characters on the left side. 
+,False
+109,leftright,A,None,False
+112,circle,D,**B. Characters that contain an elongated closed vertical oval.**
+
+Here's why:
+
+* **A. Characters that have an acute angle or diagonal line.**  Many characters outside the circle have these features, so this isn't the defining characteristic.
+* **B. Characters that contain an elongated closed vertical oval.** The two characters inside the circle both have this specific shape within them. 
+* **C. Characters that contain two enclosed spaces.** There are characters outside the circle with two enclosed spaces (like the one resembling a "B" with a dot above it), making this rule inaccurate.
+* **D. Characters that have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character.**  While some characters have features resembling this description, they are not exclusively inside the circle. 
+
+Therefore, the most accurate description is **B**. 
+,False
+10,color,B,**D. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes.**
+
+Here's why:
+
+* **Option A (Closed loops):** While the red characters do have closed loops, many other black characters also have them (like 'و', 'ق', 'غ'). So this isn't the defining characteristic.
+* **Option B (Horizontal cross stroke):** Neither of the red characters have a horizontal cross stroke creating four quadrants. 
+* **Option C (Horizontal lines at top and bottom):**  This doesn't apply to the red characters. They don't have consistent horizontal lines at the top and bottom.
+* **Option D (Resemble three or mirrored three):** This fits both red characters. They are stylized versions of the number 'three' or its mirror image. 
+
+**Therefore, the most accurate description of the red characters is that they resemble the number three or its mirror image.** 
+,False
+102,color,A,B. Characters that contain a closed U shape. 
+
+Here's why:
+
+* **A. Characters that are symmetrical around a vertical axis.**  While some red characters have vertical symmetry (like the Latin 'U'), others do not (like the 'w' shapes). 
+* **B. Characters that contain a closed U shape.** Both red characters clearly contain a closed U shape as part of their structure.
+* **C. Characters that contain a small closed circular loop.** None of the red characters have a closed circular loop.
+* **D. Characters that look like Latin capital letters.** Only one of the red characters looks like a Latin capital letter ('U'). 
+
+Therefore, the most accurate description is that the red characters contain a closed U shape. 
+,False
+121,circle,B,D. Characters that contain an enclosed space, loop, or shape.
+
+Here's why:
+
+* **A. Characters that contain something like a diamond, rhomboid or square shape in the middle.**  This is incorrect. Some characters inside the circle do have these shapes (like the one at the top), but others don't. 
+* **B. Characters that do not have a top horizontal line or flat line on the top.** This is incorrect. The character at the bottom of the circle has a curved top, not a horizontal line.
+* **C. Characters that contain one or more long vertical lines or sticks.** This is incorrect. Some characters outside the circle have long vertical lines.
+* **D. Characters that contain an enclosed space, loop, or shape.** This is the correct answer. Every character within the circle has a fully enclosed space, while the characters outside do not. 
+,False
+109,color,A,None,False
+117,leftright,A,B. Characters that have at least one enclosed space or loop.
+
+Here's why:
+
+* **A. Characters that are made up of only horizontal and vertical lines with no curves or diagonal lines and only right angles.**  This is incorrect. Many characters on the right side have curves or diagonal lines (e.g., "日", "B").
+
+* **B. Characters that have at least one enclosed space or loop.** This is the correct answer. Every character on the right side has at least one enclosed space or loop.
+
+* **C. Characters that are similar to an F, with a vertical segment on the right side and two small oblique segments descending to the right.** This is incorrect.  While some characters on the right side might share similarities with an "F", this description doesn't fit all of them.
+
+* **D. Characters that do not have an overhead horizontal straight line.** This is incorrect. Some characters on the right side do have an overhead horizontal line (e.g., "B", "E"). 
+,False
+121,color,A,C. Characters that contain an enclosed space, loop, or shape.
+
+Here's why:
+
+* **A. Characters that do not have a top horizontal line or flat line on the top.**  This is incorrect. Some red characters have top lines (e.g., the first red character).
+* **B. Characters that contain something like a diamond, rhomboid or square shape in the middle.**  This is incorrect. Some red characters don't have these shapes (e.g., the first red character), and some non-red characters do (e.g., the fourth character in the first row).
+* **C. Characters that contain an enclosed space, loop, or shape.** This is **correct**. All red characters have a completely enclosed area within their strokes.
+* **D. Characters that contain one or more long vertical lines or sticks.** This is incorrect.  While some red characters have vertical lines, some non-red characters also do, and some red characters do not (e.g., the first red character). 
+
+**Therefore, the most accurate description of the red characters is that they contain an enclosed space, loop, or shape.** 
+,False
+104,color,B,B. Characters that have a base shape of M or W or resemble an M or W.
+
+Here's why:
+
+* **A. Characters that are based on a circle open to the right, resembling a C or G.**  This is incorrect. While some red characters have curved elements, they are not the defining feature.
+
+* **B. Characters that have a base shape of M or W or resemble an M or W.** This is **correct**. All the red characters have a distinct M or W shape as their base structure.
+
+* **C. Characters that contain a closed or enclosed shape, such as a loop or inner chamber.** This is incorrect. Some red characters are open, and some black characters have closed shapes. 
+
+* **D. Characters that have a flat bottom, not counting a tailed droplet.** This is incorrect. Several black characters have flat bottoms, and not all red characters do. 
+,False
+115,color,A,A.
+
+* **A:** This is the correct option. All the characters in red have a curved arc or dome shape that goes over them, covering their entire length. 
+* **B:**  None of the red characters contain an elongated closed vertical oval.
+* **C:** None of the red characters contain a w-squiggle.
+* **D:** While some red characters have diagonal lines as part of their structure, it is not the defining characteristic of all red characters. 
+,False
+109,circle,D,None,False
+106,circle,D,D. Characters that are shaped like an approximate B, 3, or E shape, which may be flipped.
+
+**Reasoning:**
+
+* **A. Characters that are connected to the top horizontal line at the right side of the letter.**  This rule doesn't fit, as some characters outside the circle (like 'n') follow this, and some inside (like 'ε') don't.
+* **B. Characters that have a large, open, vertical circle curve on the left side.** This only applies to a few characters and doesn't encompass all those inside the circle.
+* **C. Characters that contain two or more separate elements.**  Some characters inside (like 'ε') and outside (like 'j') both have separate elements, making this rule inconsistent.
+* **D. Characters that are shaped like an approximate B, 3, or E shape, which may be flipped.**  This is the **correct rule**. All characters inside the circle ('ε', 'ȝ', 'ə') can be seen as variations of B, 3, or E shapes if flipped or slightly rotated.  The characters outside don't fit this pattern. 
+
+Therefore, option D accurately describes the characters within the circle. 
+,False
+105,color,A,C. Characters that have a horizontal line above a downward s-shaped curve followed by a complex structure.
+
+Here's why:
+
+* **A. Characters that are larger than most others or extend beyond the central square.**  This is incorrect. Some red characters are smaller than others, and some fit within a standard character space.
+* **B. Characters that are based on a circle open to the right, resembling a C or G.** This is incorrect. While some red characters might have a curved element, it's not their defining feature, and there are black characters with similar curves.
+* **C. Characters that have a horizontal line above a downward s-shaped curve followed by a complex structure.** This is correct! All the red characters share this distinct pattern: a horizontal line on top, a downward "s" shape, and then additional strokes. 
+* **D. Characters that have a vertical straight line on the left side.** This is incorrect. Many black characters have a vertical line on the left, and not all red characters do.
+
+The key is to identify a pattern **unique** to all red characters and not present in the black ones. Option C accurately describes this unique visual pattern. 
+,False
+112,color,D,D. Characters that have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character.
+
+Let's analyze each option:
+
+* **A. Characters that have an acute angle or diagonal line.**  Many characters have acute angles or diagonal lines, but aren't colored red. This option is too broad.
+* **B. Characters that contain an elongated closed vertical oval.** Some characters have oval-like shapes, but not all are colored red, and the red characters don't exclusively have this feature.
+* **C. Characters that contain two enclosed spaces.**  Several characters have two enclosed spaces and aren't red. This isn't a defining characteristic of the red characters. 
+* **D. Characters that have angry eyebrows, indicated by small wavy or zigzag lines above a horizontal line on the top of the character.** This accurately describes the two red characters. They both have a horizontal line at the top with small wavy lines above, resembling angry eyebrows.
+
+Therefore, the most accurate option is **D**. 
+,False
+119,leftright,A,C. Characters that have a flat bottom, not counting a tailed droplet. 
+
+Here's why:
+
+* **A. Characters that have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character.**  This describes some characters on the *left* side of the image but none on the right. 
+* **B. Characters that contain diagonal lines.** Both sides contain characters with diagonal lines, so this isn't a distinguishing feature.
+* **C. Characters that have a flat bottom, not counting a tailed droplet.**  All the characters on the *right* side have flat bottoms. On the left side, many characters have curved or pointed bottoms. This is the key difference.
+* **D. Characters that contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment.** This describes a specific character type not found on either side of the image. 
+,False
+106,leftright,B,The correct answer is **B. Characters that are shaped like an approximate B, 3, or E shape, which may be flipped.**
+
+Here's why:
+
+* **A. Characters that are connected to the top horizontal line at the right side of the letter.**  This is not a consistent feature of the characters on the right side.
+
+* **B. Characters that are shaped like an approximate B, 3, or E shape, which may be flipped.** This is the most accurate description. The characters on the right ( ด บ อ ) all share a basic structure resembling a 'B', '3', or 'E', even if slightly stylized or flipped.
+
+* **C. Characters that have a large, open, vertical circle curve on the left side.** This describes some characters on the *left* side, but not the characters on the right.
+
+* **D. Characters that contain two or more separate elements.**  While some characters on both sides have separate elements, this isn't a defining characteristic of just the characters on the right. 
+,False
+120,circle,B,**B. Characters that have concave sides and are bounded by opposing curved lines on the left and right.**
+
+**Explanation:**
+
+* **A. Characters that consist of one smooth line with a single change of direction.**  This is incorrect. While some characters inside and outside the circle have a single change in direction, it's not the defining characteristic of those within the circle.
+
+* **B. Characters that have concave sides and are bounded by opposing curved lines on the left and right.** This is the **correct** answer. All the characters inside the circle share this trait. They have a curved line on the left that creates a concave shape and a mirrored curved line on the right.
+
+* **C. Characters that have a large vertical straight line and a small downward curve attached at the top right.** This is incorrect.  None of the characters inside the circle match this description. 
+
+* **D. Characters that are composed of only straight lines, with no curves or rounded parts.** This is incorrect. All the characters inside the circle have curved lines. 
+,False
+119,color,B,**B. Characters that have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character.**
+
+**Explanation:**
+
+* **A. Characters that contain diagonal lines.**  This is incorrect. Many characters have diagonal lines, but aren't red. 
+* **B. Characters that have a large curve...** This is the correct answer. All the red characters share this distinct curved element.
+* **C. Characters that have a flat bottom, not counting a tailed droplet.** This is incorrect. Some red characters don't have flat bottoms, and some non-red characters do.
+* **D. Characters that contain a closed shape...** This is incorrect. No red characters match this description. 
+
+Therefore, option B is the only one that accurately describes the shared characteristic of all red characters in the image. 
+,False
+114,color,A,**B. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes.**
+
+Here's why:
+
+* **A. Characters that have separated or disconnected parts, with spaces or breaks between the different elements.**  While some red characters have this (like the one resembling a table), many do not. This isn't a consistent rule.
+* **B. Characters that resemble the number three or its mirror image or have stacked or mirrored c shapes.** This fits all the red characters. They either resemble a '3', a mirrored '3', or have 'c' like shapes stacked or mirrored.
+* **C. Characters that contain a cross.**  Only one red character clearly contains a cross, making this rule inaccurate.
+* **D. Characters that contain diagonal lines and acute angles, but no flags.**  Many black characters also fit this description, so it's not a unique identifier for the red ones. 
+
+**Therefore, option B is the most accurate and consistent rule defining the red characters.** 
+,False
+101,leftright,D,D,True
+118,leftright,D,The answer is **D. Characters that have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself.**
+
+Here's why:
+
+* **A. Characters that have parallel vertical lines or multiple vertical lines.**  While some characters on the right have vertical lines, this isn't a defining characteristic shared by all.
+* **B. Characters that have a large, open, vertical circle curve on the left side.** This describes some characters on the *left* side of the image, not the right.
+* **C. Characters that have a full-height straight line on the right side, ending in a vertical line perpendicular to a horizontal line at the base of the character.** This pattern doesn't accurately describe any of the characters on the right.
+
+**D is the most accurate:** Every character on the right side features a closed loop or circle:
+
+* Some loops are simple circles (like the third character).
+* Some are more complex, with lines crossing through (like the first and last characters).
+* The second character's loop is formed by a line bisecting itself. 
+
+Let me know if you have any other image puzzles! 
+,False
+100,color,B,The correct answer is **B. Characters that contain a closed loop or enclosed space.**
+
+The red characters are "อ" and "Ꮽ". Both of these characters have closed loops within them. 
+,False
+105,circle,A,**B. Characters that have a vertical straight line on the left side.**
+
+Here's the reasoning:
+
+* **A. Characters that are larger than most others or extend beyond the central square.**  This is incorrect. Some characters inside the circle are smaller (like 'ട') and don't extend beyond an imaginary central square.
+
+* **B. Characters that have a vertical straight line on the left side.** This is **correct**.  All characters within the circle ('င', 'ယ', 'မ', 'န', 'ပ', 'ல', 'ს') share this feature.
+
+* **C. Characters that are based on a circle open to the right, resembling a C or G.** This is incorrect. While some characters outside the circle might resemble this ('ວ', 'ວ'), the characters inside the circle don't share this characteristic.
+
+* **D. Characters that have a horizontal line above a downward s-shaped curve followed by a complex structure.** This is incorrect.  This description doesn't fit any of the characters inside the circle. 
+,False
+118,color,C,C. Characters that have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself.
+
+**Reasoning:**
+
+* **A. Characters that have a large, open, vertical circle curve on the left side.**  This doesn't apply to all red characters. While some red characters have a curve on the left, it's not a defining characteristic of all.
+* **B. Characters that have a full-height straight line on the right side, ending in a vertical line perpendicular to a horizontal line at the base of the character.** This describes some black characters, not the red ones.
+* **C. Characters that have a closed loop or circular element, which may be crossed over itself in a swirl motion or formed by a line bisecting itself.** This accurately describes all the red characters. They all contain a distinct closed loop or a circular shape. 
+* **D. Characters that have parallel vertical lines or multiple vertical lines.** Some black characters have this feature, but it's not a consistent trait of the red characters.
+
+**Therefore, the most accurate description of the red characters is option C.** 
+,False
+115,leftright,D,D. Characters that are hidden under a curved arc or dome shape spanning the entire length of the character. 
+
+Let's analyze each option:
+
+* **A. Characters that contain a w-squiggle.**  There are characters with w-like shapes on both sides of the image, so this is not the distinguishing feature.
+* **B. Characters that have a diagonal straight line.**  Many characters on both sides have diagonal lines, making this an incorrect criterion.
+* **C. Characters that contain an elongated closed vertical oval.** Some characters on both sides have oval shapes, so this is not unique to the right side.
+* **D. Characters that are hidden under a curved arc or dome shape spanning the entire length of the character.** This option accurately describes the unique characteristic of the characters on the right. They all have a dome or arc shape covering them.
+
+Therefore, option D is the correct answer. 
+,False
+119,circle,D,C. Characters that contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment.
+
+Let's analyze each option:
+
+* **A. Characters that contain diagonal lines.**  Many characters both inside and outside the circle have diagonal lines, so this is not the defining characteristic.
+* **B. Characters that have a flat bottom, not counting a tailed droplet.** Some characters inside the circle have flat bottoms, but some outside do as well. This doesn't accurately define the group.
+* **C. Characters that contain a closed shape with a small hook at the top left (like a small s) followed by a long curve that rises in a slanted right segment.** This accurately describes the two characters inside the circle ("ዂ" and "巴"). They both start with the described "hook" and continue with the specific curve.
+* **D. Characters that have a large curve that descends from the left of the top horizontal line and turns downward to the right, like a large C with the center of gravity in the middle of the character.** While some characters outside the circle might resemble this description, the characters inside do not.
+
+**Therefore, the correct answer is C.** 
+,False
+111,color,D,**C. Characters that have a large, open, vertical circle curve on the left side.**
+
+Here's why:
+
+* **A. Characters that have a small flat loop at the bottom.**  This describes some black characters, not the red ones.
+* **B. Characters that have no enclosed elements, whitespace, shapes, enclosures, or loops.** This describes simple characters like 'T', not the red ones.
+* **D. Characters that are composed of three or more separate pieces that do not touch.** This doesn't accurately describe any of the red characters. 
+
+Looking at the red characters, they all share a common element: a large, open curve resembling a vertically stretched 'C' or parenthesis on their left side. This is the defining characteristic that sets them apart. 
+,False
+11,leftright,A,D. Characters that have fully enclosed spaces or closed loops.
+
+Here's why:
+
+* **A. Characters that require lifting the pen during drawing.**  This isn't a consistent rule for the characters on the right. Some, like the first character on the top row, might require lifting the pen, while others don't. 
+
+* **B. Characters that have a rounded bottom that extends the full width of the character.** This description doesn't fit any of the characters on the right side.
+
+* **C. Characters that exceed the average size of the character set in height or width.** While some characters on the right might be slightly larger, size isn't the defining characteristic that separates them.
+
+* **D. Characters that have fully enclosed spaces or closed loops.**  This is the correct answer.  All characters on the right side have at least one fully enclosed space, while none of the characters on the left do. 
+,False
+107,leftright,B,B. Characters that resemble a lowercase N or have an N shape. 
+
+Here's why:
+
+* **A. Characters that have no curves and consist of only straight lines and triangles.**  This doesn't fit the characters on the right, which have curves.
+* **B. Characters that resemble a lowercase N or have an N shape.**  The characters on the right clearly resemble lowercase "n" shapes with slight variations. 
+* **C. Characters that resemble the letter S, with possible added features.** This describes some characters on the *left* side, not the right.
+* **D. Characters that have vertical symmetry.** Neither set of characters consistently exhibits vertical symmetry. 
+,False
+107,color,A,**C. Characters that resemble the letter S, with possible added features.**
+
+**Explanation:**
+
+* **A. Characters that resemble a lowercase N or have an N shape.**  While the first red character might resemble a lowercase 'n', the second one does not. This option is too broad and doesn't fit both red characters.
+
+* **B. Characters that have vertical symmetry.** Neither of the red characters have vertical symmetry.
+
+* **D. Characters that have no curves and consist of only straight lines and triangles.** Both red characters have curves, eliminating this option. 
+
+* **C. Characters that resemble the letter S, with possible added features.** This is the most accurate option. Both red characters are based on an 'S' shape. The first one is a slightly distorted 'S,' and the second one is an 'S' with an additional stroke. 
+,False
+102,leftright,D,**B. Characters that contain a closed U shape.**
+
+Here's why:
+
+* **A. Characters that contain a small closed circular loop.**  While some characters on both sides have loops, it's not a defining characteristic of the right side.
+* **B. Characters that contain a closed U shape.** The characters "u" and "w" on the right side both clearly contain a closed U shape. None of the characters on the left side do.
+* **C. Characters that look like Latin capital letters.** None of the characters perfectly resemble Latin capital letters.
+* **D. Characters that are symmetrical around a vertical axis.** Some characters on both sides might have some symmetry, but it's not a defining feature of the right side. 
+,False
+115,circle,D,D. Characters that are hidden under a curved arc or dome shape spanning the entire length of the character.
+
+Here's why:
+
+* **A. Characters that contain an elongated closed vertical oval.**  While some characters inside and outside the circle have oval shapes, it's not a consistent rule defining the grouping.
+* **B. Characters that contain a w-squiggle.**  There are characters with squiggles both inside and outside the circle, making this rule inaccurate.
+* **C. Characters that have a diagonal straight line.** Similar to options A and B, diagonal lines are present in characters both inside and outside the circle.
+* **D. Characters that are hidden under a curved arc or dome shape spanning the entire length of the character.** This option accurately describes the pattern. All characters inside the circle have a dome-like shape over them, while those outside do not. 
+,False
+120,color,A,A. 
+
+* **A. Characters that have concave sides and are bounded by opposing curved lines on the left and right.**  This accurately describes the red characters. They have an "M" shape with concave dips and are formed by curves that mirror each other.
+* **B. Characters that have a large vertical straight line and a small downward curve attached at the top right.** This describes some black characters but not the red ones.
+* **C. Characters that consist of one smooth line with a single change of direction.** This describes some black characters but not the red ones. The red characters have multiple changes in direction.
+* **D. Characters that are composed of only straight lines, with no curves or rounded parts.** This describes some black characters, but the red characters are defined by their curves. 
+,False
+106,color,D,**D. Characters that are shaped like an approximate B, 3, or E shape, which may be flipped.**
+
+Here's why:
+
+* **A. Characters that have a large, open, vertical circle curve on the left side.**  While the first red character fits this description, the second one does not. 
+* **B. Characters that contain two or more separate elements.** Neither of the red characters are made up of separate elements.
+* **C. Characters that are connected to the top horizontal line at the right side of the letter.**  Neither of the red characters are connected to a horizontal line.
+* **D. Characters that are shaped like an approximate B, 3, or E shape, which may be flipped.**  This is the correct option. The first red character resembles a flipped 'E' and the second resembles a flipped '3'. 
+
+Let me know if you need further explanation! 
+,False
