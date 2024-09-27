@@ -8,23 +8,22 @@ Note: You might need to install a variety of fonts in the system in order to run
 
 
 ## Running Experiments
-Our code for running experiments rely on batched_lm_generation(https://github.com/arjunguha/batched_lm_generation), which supports resumption.
+Our code for running experiments rely on prl_ml(https://github.com/nuprl/prl_ml), which supports resumption.
 
-Keep batch-size as 1 for all experiments, as batching is not possible.
+Keep batch-size as 1 for all experiments, as batching is not possible for those models.
 
-To run the experiments, first clone the batched_lm_generation repository.Then drag the files in run_model directory into batched_lm_generation/batched_lm_generation directory.
+To run the experiments, first clone the prl_ml repository. Then drag all the files in run_model directory into prl_ml/batched_lm_generation directory. cd into the repository to run the generations with the commands below.
 
 ### Multiple Choice
-For each model, run the code file with the model name.
+For each model, run the code file named by the model name.
 argument --fewshot-prompt: choose from '1shot', '3shot', '5shot', None(leave empty for zero-shot)
 
 1. GPT-4o
 eg. Run GPT-4o using gpt4o_vision.py few-shot with three examples.
-
+    
     ```bash
-    python3 -m batched_lm_generation.gpt4o_vision \
-        --dataset GlyphPattern \
-        --dataset-split four_choice \
+    python3 -m prl_ml.batched_lm_generation.gpt4o_vision \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir gpt4o-4choice-zeroshot \
         --model-name gpt-4o \
         --temperature 0 \
@@ -32,7 +31,6 @@ eg. Run GPT-4o using gpt4o_vision.py few-shot with three examples.
         --completion-limit 1 \
         --max-tokens 10 \
         --prompt-keys prompt,images \
-        --fewshot-prompt 3shot \
         --extra-columns file_name,answer
     ```
 
@@ -41,8 +39,7 @@ eg. Run Gemini1.5Pro using geminipro_vision.py few-shot with five examples.
 
     ```bash
     python3 -m batched_lm_generation.geminipro_vision \
-        --dataset GlyphPattern \
-        --dataset-split four_choice \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir geminipro-4choice-zeroshot \
         --model-name gemini-1.5-pro \
         --temperature 0 \
@@ -60,8 +57,7 @@ eg.Run Idefics2 from HuggingFaceM4/idefics2-8b few shot with one example:
 
     ```bash
     python3 -m batched_lm_generation.idefics_vision \
-        --dataset GlyphPattern \
-        --dataset-split four_choice \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir Idefics2-4choice-zeroshot \
         --model-name HuggingFaceM4/idefics2-8b \
         --temperature 0 \
@@ -77,8 +73,7 @@ eg.Run Idefics3 from HuggingFaceM4/Idefics3-8B-Llama3 zero shot:
 
     ```bash
     python3 -m batched_lm_generation.idefics_vision \
-        --dataset GlyphPattern \
-        --dataset-split four_choice \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir Idefics2-4choice-zeroshot \
         --model-name HuggingFaceM4/idefics2-8b \
         --temperature 0 \
@@ -92,8 +87,7 @@ eg.Run Idefics3 from HuggingFaceM4/Idefics3-8B-Llama3 zero shot:
 eg. Run LlavaNext from llava-hf/llava-v1.6-mistral-7b-hf Zero-shot
     ```bash
     python3 -m batched_lm_generation.llavanext_vision \
-        --dataset GlyphPattern \
-        --dataset-split four_choice \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir llavanext-4choice-zeroshot \
         --model-name llava-hf/llava-v1.6-mistral-7b-hf \
         --temperature 0 \
@@ -107,8 +101,7 @@ eg. Run LlavaNext from llava-hf/llava-v1.6-mistral-7b-hf Zero-shot
 Run InstructBlip from Salesforce/instructblip-vicuna-7b, only zero-shot is supported.
     ```bash
     python3 -m batched_lm_generation.instructblip_vision \
-        --dataset GlyphPattern \
-        --dataset-split four_choice \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir instructblip-4choice-zeroshot \
         --model-name Salesforce/instructblip-vicuna-7b \
         --temperature 0 \
@@ -125,8 +118,7 @@ Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
 1. GPT-4o
     ```bash
     python3 -m batched_lm_generation.gpt4o_freeresponse \
-        --dataset GlyphPattern \
-        --dataset-split gt_descriptions \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/gt_descriptions" \
         --output-dir gpt4o-free \
         --model-name gpt-4o \
         --temperature 0 \
@@ -140,8 +132,7 @@ Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
 2. Gemini1.5Pro
     ```bash
     python3 -m batched_lm_generation.geminipro_freeresponse \
-        --dataset GlyphPattern \
-        --dataset-split gt_descriptions \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/gt_descriptions" \
         --output-dir geminipro-free-leftright \
         --model-name gemini-1.5-pro \
         --temperature 0 \

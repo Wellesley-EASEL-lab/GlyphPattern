@@ -30,54 +30,6 @@ class GPTModel(GeneratorBase):
         key = os.getenv("OPENAI_API_KEY")
         self.client = OpenAI(api_key=key)
 
-    """
-    # Each prompt is a tuple with a text prompt and an image.
-    def batch_generate(
-        self,
-        prompts: List[Tuple[str, Image.Image]],
-        top_p: float,
-        temperature: float,
-        max_tokens: int,
-        stop: List[str],
-    ) -> List[str]:
-        generated_texts = []
-        for item in prompts:
-            text = item[0]
-            image = item[1]
-            # text = item[0].split('?\n')[1]
-            # image = create_empty_image()
-            base64_image = encode_image(image)
-            response = self.client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "text", "text": text},
-                            {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": f"data:image/jpeg;base64,{base64_image}",
-                                },
-                            },
-                        ],
-                    },
-                ],
-                temperature=temperature,
-                max_tokens=max_tokens,
-                top_p=top_p,
-                n=1,
-                frequency_penalty=0,
-                presence_penalty=0,
-                stop=stop,
-            )
-            answer = response.choices[0].message.content
-            generated_texts.append(answer)
-        return generated_texts
-    
-
-    """
-    # This is for few-shot multiple choice
     def batch_generate(
         self,
         prompts: List[Tuple[str, Image.Image]],

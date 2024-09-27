@@ -9,13 +9,15 @@ from datasets import load_dataset
 def f_image(input_string: str,model_name: str,) -> str:
     model_name = model_name.lower()
     if model_name == 'idefics3' or model_name == 'idefics2':
-        print(input_string)
         input_string = input_string.rsplit('Assistant:',1)[1]
         if 'Answer:' in input_string:
             input_string = input_string.split('Answer:')[1]
     elif model_name == 'llavanext':
         input_string = input_string.rsplit('[/INST]',1)[1]
         input_string = input_string.split('<\\s>')[0]
+    elif model_name == 'gpt-4o':
+        if 'Statement' in input_string:
+            input_string = input_string.split()[1]
     input_string = input_string.strip().lstrip()
     input_string = input_string.strip('.')
     return input_string
@@ -34,13 +36,9 @@ def check_answers_image(p: Path, f: Callable[[str], str],model_name: str) -> dic
 
 def run_image(result_dir, model_name):
     model_output = check_answers_image(Path(result_dir), f_image, model_name)
-    print("model_output", model_output)
     for file_name, (output, answer) in model_output.items():
         rule_id, visual = file_name.split('_')
         output = output.split('.')[0]
-        # print('answer:', answer)
-        # print('output:', output)
-        # print(f'data {file_name}:{answer == output}')
         
         # Write to CSV
         csv_file = f'{result_dir}.csv'

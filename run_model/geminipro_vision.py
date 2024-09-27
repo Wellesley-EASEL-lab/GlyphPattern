@@ -23,7 +23,6 @@ class GeminiModel(GeneratorBase):
         self.model = genai.GenerativeModel(model_name="gemini-1.5-pro-001",system_instruction='Reply with only the letter of the correct option.')
 
 
-    # This is for few-shot multiple choice
     def batch_generate(
         self,
         prompts: List[Tuple[str, Image.Image]],
@@ -41,7 +40,7 @@ class GeminiModel(GeneratorBase):
             text = item[0]
             question_type = question_type_dict[text.split('?\n')[0]]
             few_shot_messages = []
-            #filter out the ones that have questiontype in file_name
+
             if fewshot_dataset:
                 fewshot_typed = [x for x in fewshot_dataset if question_type in x['file_name']]
                 for example in fewshot_typed:
@@ -56,12 +55,6 @@ class GeminiModel(GeneratorBase):
             few_shot_messages.append(image)
             new_message = f"USER: {text} \nMODEL:"
             few_shot_messages.append(new_message)
-            for message in few_shot_messages:
-                #print the messages that have type str
-                if type(message) == str:
-                    print(message)
-                else:
-                    print('image')
             try:
                 response = self.model.generate_content(few_shot_messages)
                 if hasattr(response, 'text') and response.text is not None:

@@ -27,8 +27,6 @@ class GPTModel(GeneratorBase):
         key = os.getenv("OPENAI_API_KEY")
         self.client = OpenAI(api_key=key)
 
-
-    # This is for few-shot free response
     def batch_generate(
         self,
         prompts: List[Tuple[str, Image.Image]],
