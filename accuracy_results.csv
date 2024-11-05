@@ -74,3 +74,15 @@ llavanext-4choice-fiveshot,leftright,27.67%
 Instructblip-4choice-zeroshot,circle,22.64%
 Instructblip-4choice-zeroshot,color,23.58%
 Instructblip-4choice-zeroshot,leftright,26.10%
+molmo-4choice-zeroshot,circle,39.94%
+molmo-4choice-zeroshot,color,44.03%
+molmo-4choice-zeroshot,leftright,43.71%
+molmod-4choice-zeroshot,circle,41.82%
+molmod-4choice-zeroshot,color,47.17%
+molmod-4choice-zeroshot,leftright,49.06%
+gpt4o_fewshot_cot,circle,40.25%
+gpt4o_fewshot_cot,color,51.89%
+gpt4o_fewshot_cot,leftright,55.03%
+geminipro_fewshot_cot,circle,35.22%
+geminipro_fewshot_cot,color,38.99%
+geminipro_fewshot_cot,leftright,43.71%

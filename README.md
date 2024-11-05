@@ -24,23 +24,39 @@ eg. Run GPT-4o using gpt4o_vision.py few-shot with three examples.
     ```bash
     python3 -m prl_ml.batched_lm_generation.gpt4o_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir gpt4o-4choice-zeroshot \
+        --output-dir gpt4o-4choice-3shot \
         --model-name gpt-4o \
         --temperature 0 \
         --batch-size 1 \
         --completion-limit 1 \
         --max-tokens 10 \
         --prompt-keys prompt,images \
+        --fewshot-prompt 3shot \
         --extra-columns file_name,answer
     ```
 
+eg. cot:
+    ```bash
+    python3 -m prl_ml.batched_lm_generation.gpt4o_vision_cot \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
+        --output-dir gpt4o-4choice-fewshot-cot \
+        --model-name gpt-4o-2024-05-13 \
+        --temperature 0 \
+        --batch-size 1 \
+        --completion-limit 1 \
+        --max-tokens 10 \
+        --prompt-keys prompt,images \
+        --fewshot-prompt 3shot \
+        --extra-columns file_name,answer
+    ```
+    
 2. Gemini 1.5
 eg. Run Gemini1.5Pro using geminipro_vision.py few-shot with five examples.
 
     ```bash
-    python3 -m batched_lm_generation.geminipro_vision \
+    python3 -m prl_ml.batched_lm_generation.geminipro_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir geminipro-4choice-zeroshot \
+        --output-dir geminipro-4choice-5shot \
         --model-name gemini-1.5-pro \
         --temperature 0 \
         --batch-size 1 \
@@ -56,7 +72,7 @@ For Idefics models and other chat models that support AutoModelForVision2Seq Cla
 eg.Run Idefics2 from HuggingFaceM4/idefics2-8b few shot with one example:
 
     ```bash
-    python3 -m batched_lm_generation.idefics_vision \
+    python3 -m prl_ml.batched_lm_generation.idefics_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir Idefics2-4choice-zeroshot \
         --model-name HuggingFaceM4/idefics2-8b \
@@ -72,7 +88,7 @@ eg.Run Idefics2 from HuggingFaceM4/idefics2-8b few shot with one example:
 eg.Run Idefics3 from HuggingFaceM4/Idefics3-8B-Llama3 zero shot:
 
     ```bash
-    python3 -m batched_lm_generation.idefics_vision \
+    python3 -m prl_ml.batched_lm_generation.idefics_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir Idefics2-4choice-zeroshot \
         --model-name HuggingFaceM4/idefics2-8b \
@@ -86,7 +102,7 @@ eg.Run Idefics3 from HuggingFaceM4/Idefics3-8B-Llama3 zero shot:
 5. LlavaNext
 eg. Run LlavaNext from llava-hf/llava-v1.6-mistral-7b-hf Zero-shot
     ```bash
-    python3 -m batched_lm_generation.llavanext_vision \
+    python3 -m prl_ml.batched_lm_generation.llavanext_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir llavanext-4choice-zeroshot \
         --model-name llava-hf/llava-v1.6-mistral-7b-hf \
@@ -100,7 +116,7 @@ eg. Run LlavaNext from llava-hf/llava-v1.6-mistral-7b-hf Zero-shot
 6. InstructBlip
 Run InstructBlip from Salesforce/instructblip-vicuna-7b, only zero-shot is supported.
     ```bash
-    python3 -m batched_lm_generation.instructblip_vision \
+    python3 -m prl_ml.batched_lm_generation.instructblip_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir instructblip-4choice-zeroshot \
         --model-name Salesforce/instructblip-vicuna-7b \
@@ -117,7 +133,7 @@ Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
 
 1. GPT-4o
     ```bash
-    python3 -m batched_lm_generation.gpt4o_freeresponse \
+    python3 -m prl_ml.batched_lm_generation.gpt4o_freeresponse \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/gt_descriptions" \
         --output-dir gpt4o-free \
         --model-name gpt-4o \
@@ -131,7 +147,7 @@ Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
 
 2. Gemini1.5Pro
     ```bash
-    python3 -m batched_lm_generation.geminipro_freeresponse \
+    python3 -m prl_ml.batched_lm_generation.geminipro_freeresponse \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/gt_descriptions" \
         --output-dir geminipro-free-leftright \
         --model-name gemini-1.5-pro \
@@ -140,6 +156,34 @@ Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
         --completion-limit 1 \
         --max-tokens 500 \
         --prompt-keys prompt,images \
+        --extra-columns file_name,answer
+    ```
+
+### Few-shot Chain-Of-Thought
+    ```
+    python3 -m prl_ml.batched_lm_generation.gpt4o_vision_cot \
+        --dataset "path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
+        --output-dir gpt4o-4choice-fewshot-cot \
+        --model-name gpt-4o-2024-05-13 \
+        --temperature 0 \
+        --batch-size 1 \
+        --completion-limit 1 \
+        --max-tokens 1024 \
+        --prompt-keys prompt,images \
+        --fewshot-prompt 3shot \
+        --extra-columns file_name,answer
+    ```
+    ```
+    python3 -m prl_ml.batched_lm_generation.geminipro_vision_cot \
+        --dataset "path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
+        --output-dir geminipro-4choice-fewshot-cot \
+        --model-name gemini-1.5-pro-001 \
+        --temperature 0 \
+        --batch-size 1 \
+        --completion-limit 1 \
+        --max-tokens 1024 \
+        --prompt-keys prompt,images \
+        --fewshot-prompt 3shot \
         --extra-columns file_name,answer
     ```
 
