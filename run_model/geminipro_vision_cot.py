@@ -33,8 +33,7 @@ class GeminiModel(GeneratorBase):
 
     def init_model(self):
         genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-        self.model = genai.GenerativeModel(model_name="gemini-1.5-pro-001",system_instruction="End with Answer: followed by the letter of the correct option")
-
+        self.model = genai.GenerativeModel(model_name="gemini-1.5-pro-001",system_instruction="End with Answer: followed by the letter of the correct option")##Let's think step by step.
 
     def batch_generate(
         self,

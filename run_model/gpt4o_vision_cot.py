@@ -62,7 +62,7 @@ class GPTModel(GeneratorBase):
             few_shot_messages = [
                 {
                     "role": "system",
-                    "content": "End with Answer: followed by the letter of the correct option",
+                    "content": "End with Answer: followed by the letter of the correct option",#Let's think step by step.
                 }]
             
             if fewshot_dataset:
