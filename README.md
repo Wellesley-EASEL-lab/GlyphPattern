@@ -46,7 +46,6 @@ eg. cot:
         --completion-limit 1 \
         --max-tokens 10 \
         --prompt-keys prompt,images \
-        --fewshot-prompt 3shot \
         --extra-columns file_name,answer
     ```
     
@@ -192,12 +191,19 @@ The model results csv files are in model_results directory.
 
 To process the generated results from running experiment above, run the check_answers.py in process_result directory. Replace the result_dir with the model output directory created by running batched_lm_generation.
 
-For example, to check the outputs of running llavanext zero shot multiple choice:
+For example, to check the outputs of running molmod zero shot multiple choice:
     ```bash
         python process_results/check_answers.py \
-        --result_dir llavanext-4choice-zeroshot \
-        --model_name llavanext
+        --result_dir molmod-4choice-zeroshot \
+        --model_name molmod \
+    ```
+To check the outputs of model results with chain-of-thought:
+    ```bash
+        python process_results/check_answers.py \
+        --result_dir geminipro-4choice-zeroshot-cot \
+        --model_name geminipro \
+        --cot
     ```
 This produces a csv file at where the result directory was.
 
-To calculate accuracy base on visual output, run outputAccuracy.py with the file_path replaced.
+To log accuracy by on visual output, run outputAccuracy.py with the correct file_path.
