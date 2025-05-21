@@ -19,7 +19,8 @@ dataAll <- data %>% mutate(both = paste(Model,ImageStyle,sep="-"))
 ```
 
 ```{r}
-ggplot(data=subset(dataAll,Model!="random"),aes(x=Model,y=Accuracy,fill=both)) + geom_col(position="dodge2",color="white") + theme(text=element_text(size=20)) + xlab("Model") + ylab("Accuracy") + scale_fill_discrete(name = "Presentation",breaks=c("Answers-Only-circle","Answers-Only-color","Answers-Only-leftright"),labels=c("Circle","Color","LeftRight"),type=c("#FFFFF0","#696969","#000000","#f768a1","#DC267F","#980043","#FFB000","#fd8d3c","#fc4e2a","#90EE90","#3CB371","#006400","#b5fbf2","#36e4ce","#0b7265","#b5e0f9","#319fdf","#1769b8","#d7cafb","#9c7cc0","#483D8B")) + geom_hline(yintercept=0.25,linetype = "dashed",color="black") + guides(fill = guide_legend(override.aes = list(color = "black"))) + ylim(0,0.66)
+ggplot(data=subset(dataAll,Model!="random"),aes(x=Model,y=Accuracy,fill=both)) + geom_col(position="dodge2",color="white") + theme(text=element_text(size=20)) + xlab("Model") + ylab("Accuracy") + scale_fill_discrete(name = "Presentation",breaks=c("Answers-Only-circle","Answers-Only-color","Answers-Only-leftright"),labels=c("Circle","Color","LeftRight"),          type=c("#FFFFF0","#696969","#000000","#ffabdf","#f768a1","#DC267F","red","#d11f00","#9e0018","#FFB000","#fd8d3c","#fc4e2a","#f1f392","yellow","#f3d511","#90EE90","#3CB371","#006400","#b5fbf2","#36e4ce","#0b7265","#b5e0f9","#319fdf","#1769b8","#d7cafb","#9c7cc0","#483D8B")) + 
+  geom_hline(yintercept=0.25,linetype = "dashed",color="black") + guides(fill = guide_legend(override.aes = list(color = "black"),position="bottom")) + ylim(0,0.66)
 ggsave("figures/style.pdf",height=4,width=16)
 ```
 
@@ -44,14 +45,16 @@ ggsave("figures/classes.pdf",height=8,width=12)
 ```
 
 ```{r}
-all <- read.csv('all_zeroshot_results.csv',header=TRUE,stringsAsFactors=TRUE)
+all <- read.csv('all_zeroshot_results_updated.csv',header=TRUE,stringsAsFactors=TRUE)
 
 all <- all %>% mutate(gemini = ifelse(correctness_gemini=="False",0,1),
                gpt = ifelse(correctness_gpt=="False",0,1),
                blip = ifelse(correctness_instructblip=="False",0,1),
                llava = ifelse(correctness_llavanext=="False",0,1),
                idefics2 = ifelse(correctness_idefics2=="False",0,1),
-               idefics3 = ifelse(correctness_idefics3=="False",0,1))
+               idefics3 = ifelse(correctness_idefics3=="False",0,1),
+               molmoO = ifelse(molmoo=="False",0,1),
+               molmoD = ifelse(molmod=="False",0,1))
 ```
 
 ```{r}
@@ -116,6 +119,23 @@ idefics3.model <- lmer(idefics3~(visual+length+class+script)+(1|rule_id),data=al
 summary(idefics3.model)
 ```
 
+```{r}
+all$class <- fct_relevel(all$class, "none")
+molmoO.model <- lmer(molmoO~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(molmoO.model)
+```
+
+```{r}
+all$class <- fct_relevel(all$class, "none")
+molmoD.model <- lmer(molmoD~(visual+length+class+script)+(1|rule_id),data=all,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=1e6)))
+```
+
+```{r}
+summary(molmoD.model)
+```
 ```{r}
 cor(all$gemini,all$length)
 cor(all$gpt,all$length)
