@@ -8,17 +8,10 @@ Note: You might need to install a variety of fonts in the system in order to run
 
 
 ## Running Experiments
-Our code for running experiments rely on prl_ml(https://github.com/nuprl/prl_ml), which supports resumption.
-
-Keep batch-size as 1 for all experiments, as batching is not possible for those models.
-
-To run the experiments, first clone the prl_ml repository. Then drag all the files in run_model directory into prl_ml/batched_lm_generation directory. cd into the repository to run the generations with the commands below.
-
-### Multiple Choice
-For each model, run the code file named by the model name.
+The codes for running each model on GlyphPattern are in /run_model directory. For each model, run the code file named by the model name.
 argument --fewshot-prompt: choose from '1shot', '3shot', '5shot', None(leave empty for zero-shot)
 
-1. GPT-4o
+### Multiple Choice
 eg. Run GPT-4o using gpt4o_vision.py few-shot with three examples.
     
     ```bash
@@ -34,44 +27,12 @@ eg. Run GPT-4o using gpt4o_vision.py few-shot with three examples.
         --fewshot-prompt 3shot \
         --extra-columns file_name,answer
     ```
-
-eg. cot:
-    ```bash
-    python3 -m prl_ml.batched_lm_generation.gpt4o_vision_cot \
-        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir gpt4o-4choice-fewshot-cot \
-        --model-name gpt-4o-2024-05-13 \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --max-tokens 10 \
-        --prompt-keys prompt,images \
-        --extra-columns file_name,answer
-    ```
     
-2. Gemini 1.5
-eg. Run Gemini1.5Pro using geminipro_vision.py few-shot with five examples.
-
-    ```bash
-    python3 -m prl_ml.batched_lm_generation.geminipro_vision \
-        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir geminipro-4choice-5shot \
-        --model-name gemini-1.5-pro \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --max-tokens 10 \
-        --prompt-keys prompt,images \
-        --fewshot-prompt 5shot \
-        --extra-columns file_name,answer
-    ```
-
 For Idefics models and other chat models that support AutoModelForVision2Seq Class, run the idefics_vision code file with output-dir and model-name replaced.
-3. Idefics2
 eg.Run Idefics2 from HuggingFaceM4/idefics2-8b few shot with one example:
 
     ```bash
-    python3 -m prl_ml.batched_lm_generation.idefics_vision \
+    python3 -m run_model.idefics_vision \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir Idefics2-4choice-zeroshot \
         --model-name HuggingFaceM4/idefics2-8b \
@@ -83,56 +44,13 @@ eg.Run Idefics2 from HuggingFaceM4/idefics2-8b few shot with one example:
         --extra-columns file_name,answer
     ```
 
-4. Idefics3
-eg.Run Idefics3 from HuggingFaceM4/Idefics3-8B-Llama3 zero shot:
-
-    ```bash
-    python3 -m prl_ml.batched_lm_generation.idefics_vision \
-        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir Idefics2-4choice-zeroshot \
-        --model-name HuggingFaceM4/idefics2-8b \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --prompt-keys prompt,images \
-        --extra-columns file_name,answer
-    ```
-
-5. LlavaNext
-eg. Run LlavaNext from llava-hf/llava-v1.6-mistral-7b-hf Zero-shot
-    ```bash
-    python3 -m prl_ml.batched_lm_generation.llavanext_vision \
-        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir llavanext-4choice-zeroshot \
-        --model-name llava-hf/llava-v1.6-mistral-7b-hf \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --prompt-keys prompt,images \
-        --extra-columns file_name,answer
-    ```
-
-6. InstructBlip
-Run InstructBlip from Salesforce/instructblip-vicuna-7b, only zero-shot is supported.
-    ```bash
-    python3 -m prl_ml.batched_lm_generation.instructblip_vision \
-        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir instructblip-4choice-zeroshot \
-        --model-name Salesforce/instructblip-vicuna-7b \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --prompt-keys prompt,images \
-        --extra-columns file_name,answer
-    ```
-
 ### Few-shot Free Response
 We support few-shot free response for the best two performing models, gpt-4o and gemini 1.5.
 Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
 
-1. GPT-4o
+For example:
     ```bash
-    python3 -m prl_ml.batched_lm_generation.gpt4o_freeresponse \
+    python3 -m run_model.gpt4o_freeresponse \
         --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/gt_descriptions" \
         --output-dir gpt4o-free \
         --model-name gpt-4o \
@@ -144,39 +62,13 @@ Run code files with suffix freeresponse, and use dataset-split gt_descriptions.
         --extra-columns file_name,answer
     ```
 
-2. Gemini1.5Pro
-    ```bash
-    python3 -m prl_ml.batched_lm_generation.geminipro_freeresponse \
-        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/gt_descriptions" \
-        --output-dir geminipro-free-leftright \
-        --model-name gemini-1.5-pro \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --max-tokens 500 \
-        --prompt-keys prompt,images \
-        --extra-columns file_name,answer
-    ```
-
 ### Few-shot Chain-Of-Thought
+For example:
     ```
-    python3 -m prl_ml.batched_lm_generation.gpt4o_vision_cot \
-        --dataset "path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
+    python3 -m run_model.gpt4o_vision_cot \
+        --dataset "disk:path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
         --output-dir gpt4o-4choice-fewshot-cot \
         --model-name gpt-4o-2024-05-13 \
-        --temperature 0 \
-        --batch-size 1 \
-        --completion-limit 1 \
-        --max-tokens 1024 \
-        --prompt-keys prompt,images \
-        --fewshot-prompt 3shot \
-        --extra-columns file_name,answer
-    ```
-    ```
-    python3 -m prl_ml.batched_lm_generation.geminipro_vision_cot \
-        --dataset "path_to_GlyphPattern_repo/dataset_construction/GlyphPattern/four_choice" \
-        --output-dir geminipro-4choice-fewshot-cot \
-        --model-name gemini-1.5-pro-001 \
         --temperature 0 \
         --batch-size 1 \
         --completion-limit 1 \

@@ -6,6 +6,7 @@ import os
 from typing import List, Tuple
 import datasets
 from google.generativeai.types import content_types
+from .glyphpattern_utils import create_fewshot_dataset,glyph_pattern_argparser
 
 class GeminiModel(GeneratorBase):
     model_name: str
@@ -47,14 +48,15 @@ class GeminiModel(GeneratorBase):
             groundtruth = item[0]
             #split at the first 'are' occurance
             question_type = question_type_dict[groundtruth.split(' in the image', 1)[0]]
-            #filter out the ones that have questiontype in file_name
-            fewshot_typed = [x for x in fewshot_dataset if question_type in x['file_name']]
             few_shot_messages = []
-            for example in fewshot_typed:
-                example_text = example['prompt']
-                example_image = example['images']
-                few_shot_messages.append(example_image)
-                few_shot_messages.append(example_text)
+
+            if fewshot_dataset:
+                fewshot_typed = [x for x in fewshot_dataset if question_type in x['file_name']]
+                for example in fewshot_typed:
+                    example_text = example['prompt']
+                    example_image = example['images']
+                    few_shot_messages.append(example_image)
+                    few_shot_messages.append(example_text)
 
             image = item[1]
             few_shot_messages.append(image)
@@ -73,27 +75,18 @@ class GeminiModel(GeneratorBase):
                 generated_texts.append("None")
         return generated_texts 
 
-
-def create_fewshot_dataset(dataset) -> datasets.Dataset:
-    
-    filenames = ['53_color', '210_color', '298_color','53_leftright', '210_leftright','298_leftright','53_circle','210_circle','298_circle']
-
-    fewshot_dataset = dataset.filter(lambda example: example['file_name'] in filenames)
-
-    return fewshot_dataset
-
 def main():
     parser = partial_arg_parser()
     parser.add_argument("--model-name", type=str, required=True)
+    glyph_pattern_argparser(parser)
     args = parser.parse_args()
 
-    EXTRA_ARGS = ["model_name"]
+    EXTRA_ARGS = ["model_name","fewshot_prompt"]
     super_args = {k: v for (k, v) in vars(args).items() if k not in EXTRA_ARGS}
 
     generator = GeminiModel(model_name=args.model_name, stop=["\n\n\n"], **super_args)
-    
     global fewshot_dataset
-    fewshot_dataset = create_fewshot_dataset(generator.actual_dataset)
+    fewshot_dataset =create_fewshot_dataset(generator.actual_dataset,args.fewshot_prompt)
     generator.generate_all()
 
 

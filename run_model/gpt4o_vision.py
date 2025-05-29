@@ -12,10 +12,6 @@ def encode_image(image):
         image.save(output, format="PNG")
         return base64.b64encode(output.getvalue()).decode("utf-8")
 
-def create_empty_image():
-    image = Image.new("RGB", (512,512), (255, 255, 255))  # Create a white image
-    return image
-
 class GPTModel(GeneratorBase):
     model_name: str
     model_kwargs: dict

@@ -19,7 +19,7 @@ class GeminiModel(GeneratorBase):
         self.model = None
 
     def init_model(self):
-        genai.configure(api_key=os.environ["GOOGLE_API_KEY_NEW"])
+        genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
         self.model = genai.GenerativeModel(model_name="gemini-1.5-pro-001",system_instruction='Reply with only the letter of the correct option.')
 
 

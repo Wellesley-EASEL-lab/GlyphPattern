@@ -7,6 +7,8 @@ from openai import OpenAI
 import os
 from typing import List, Tuple
 import datasets
+from .glyphpattern_utils import create_fewshot_dataset,glyph_pattern_argparser
+
 
 def encode_image(image):
     with BytesIO() as output:
@@ -50,8 +52,6 @@ class GPTModel(GeneratorBase):
             #split at the first 'are' occurance
             question_type = question_type_dict[groundtruth.split(' in the image', 1)[0]]
 
-            #filter out the ones that have questiontype in file_name
-            fewshot_typed = [x for x in fewshot_dataset if question_type in x['file_name']]
             system_prompt = system_prompt_dict[question_type]
             few_shot_messages = [
                 {
@@ -59,28 +59,31 @@ class GPTModel(GeneratorBase):
                     "content": system_prompt,
                 }]
             
-            for example in fewshot_typed:
-                example_text = example['prompt']
-                example_image = example['images']
-                example_base64_image = encode_image(example_image)
-                message = {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{example_base64_image}",
-                        },
-                        },
-                    ],
-                }
+            if fewshot_dataset:
+                fewshot_typed = [x for x in fewshot_dataset if question_type in x['file_name']]
+            
+                for example in fewshot_typed:
+                    example_text = example['prompt']
+                    example_image = example['images']
+                    example_base64_image = encode_image(example_image)
+                    message = {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{example_base64_image}",
+                            },
+                            },
+                        ],
+                    }
 
-                few_shot_messages.append(message)
-                assistant_message = {
-                    "role": "assistant",
-                    "content": example_text,
-                }
-                few_shot_messages.append(assistant_message)
+                    few_shot_messages.append(message)
+                    assistant_message = {
+                        "role": "assistant",
+                        "content": example_text,
+                    }
+                    few_shot_messages.append(assistant_message)
 
             image = item[1]
             base64_image = encode_image(image)
@@ -111,27 +114,20 @@ class GPTModel(GeneratorBase):
             answer = response.choices[0].message.content
             generated_texts.append(answer)
         return generated_texts
-    
-def create_fewshot_prompt_contents(dataset) -> datasets.Dataset:
-    filenames = ['53_color', '210_color', '298_color','53_leftright', '210_leftright','298_leftright','53_circle','210_circle','298_circle']
-
-    fewshot_dataset = dataset.filter(lambda example: example['file_name'] in filenames)
-
-    return fewshot_dataset
-
 
 
 def main():
     parser = partial_arg_parser()
     parser.add_argument("--model-name", type=str, required=True)
+    glyph_pattern_argparser(parser)
     args = parser.parse_args()
 
-    EXTRA_ARGS = ["model_name"]
+    EXTRA_ARGS = ["model_name","fewshot_prompt"]
     super_args = {k: v for (k, v) in vars(args).items() if k not in EXTRA_ARGS}
 
     generator = GPTModel(model_name=args.model_name, stop=["\n\n\n"], **super_args)
     global fewshot_dataset
-    fewshot_dataset = generator.create_fewshot_dataset(generator.actual_datase)
+    fewshot_dataset =create_fewshot_dataset(generator.actual_dataset,args.fewshot_prompt)
     generator.generate_all()
 
 
